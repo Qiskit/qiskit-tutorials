@@ -7,9 +7,9 @@ The repository contains Jupyter notebooks demonstrating components of QISKit. Ta
 
 Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood.
 
-## Coming soon
+## Requirements 
 
-This only works with our internal repository which will be made public very soon.  After this update all future development will occur publicly.
+This only works with the [QISKit Python SDK](https://github.com/QISKit/qiskit-api-py). Currently you need to git clone it but in the near future we will provide a pip installation.
 
 ## Other QISKit projects
 
