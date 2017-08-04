@@ -1,11 +1,11 @@
 # QISKit - Jupyter Notebooks
 
 
-The repository contains Jupyter notebooks demonstrating components of the SDK. Take a look at the [index](index.ipynb)  to get started.
+The repository contains Jupyter notebooks demonstrating components of QISKit. Take a look at the [index](index.ipynb) notebook  to get started.
 
 ## Contributors (alphabetically)
 
-Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood
+Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood.
 
 ## Coming soon
 
@@ -21,4 +21,4 @@ This only works with out internal repository which will be made public very soon
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
