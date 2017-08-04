@@ -9,7 +9,7 @@ Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas
 
 ## Coming soon
 
-This only works with out internal repository which will be made public very soon.  After this update all future development will occur publicly.
+This only works with our internal repository which will be made public very soon.  After this update all future development will occur publicly.
 
 ## Other QISKit projects
 
