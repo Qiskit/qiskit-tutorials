@@ -7,17 +7,17 @@ The repository contains Jupyter notebooks demonstrating components of QISKit. Ta
 
 Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood.
 
-## Coming soon
+## Requirements 
 
-This only works with our internal repository which will be made public very soon.  After this update all future development will occur publicly.
+This only works with the [QISKit Python SDK](https://github.com/QISKit/qiskit-sdk-py). Currently you need to git clone it but in the near future we will provide a pip installation.
 
 ## Other QISKit projects
 
-* [OpenQasm](https://github.com/QISKit/qiskit-openqasm) Examples and tools for the OpenQASM intermediate representation.
-* [Python SDK](https://github.com/QISKit/qiskit-sdk-py) Software development kit for working with quantum programs in Python.
+* [ibmqx backend information](https://github.com/QISKit/ibmqx-backend-information) Information about the different IBM Q experience backends.
+* [ibmqx user guide](https://github.com/QISKit/ibmqx-user-guides) The users guides for the IBM Q experience.
+* [OpenQasm](https://github.com/QISKit/openqasm) Examples and tools for the OpenQASM intermediate representation.
 * [Python API](https://github.com/QISKit/qiskit-api-py) API Client to use IBM Q experience in Python.
-* [QX Information](https://github.com/QISKit/qiskit-qx-info) Information about the different IBM Q experience backends.
-* [QX User Guide](https://github.com/QISKit/qiskit-qx-user-guides) The users guides for the IBM Q experience.
+* [Python SDK](https://github.com/QISKit/qiskit-sdk-py) Software development kit for working with quantum programs in Python.
 
 ## License
 
