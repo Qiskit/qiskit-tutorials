@@ -1,13 +1,13 @@
 # QISKit - Jupyter Notebooks
 
 
-The repository contains Jupyter notebooks demonstrating components of QISKit. Take a look at the [index](index.ipynb) notebook  to get started.
+The repository contains Jupyter notebooks demonstrating components of QISKit. Take a look at the [index](index.ipynb) notebook  to get started, or the [index](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb) rendered on [nbviewer](https://nbviewer.jupyter.org/) for better formatting of equations.   
 
 ## Contributors (alphabetically)
 
-Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood.
+Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Takashi Imamichi, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood.
 
-## Requirements 
+## Requirements
 
 This only works with the [QISKit Python SDK](https://github.com/QISKit/qiskit-sdk-py). Currently you need to git clone it but in the near future we will provide a pip installation.
 
