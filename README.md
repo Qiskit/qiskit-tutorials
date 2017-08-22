@@ -5,7 +5,7 @@ The repository contains Jupyter notebooks demonstrating components of QISKit. Ta
 
 ## Contributors (alphabetically)
 
-Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Takashi Imamichi, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood.
+Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Takashi Imamichi, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood, James Wootton.
 
 ## Requirements
 
