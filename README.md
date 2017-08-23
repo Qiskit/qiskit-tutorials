@@ -9,7 +9,11 @@ Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas
 
 ## Requirements
 
+<<<<<<< HEAD
+This only works with the [QISKit Python SDK](https://github.com/QISKit/qiskit-sdk-py). Currently you need to git clone it, but in the near future we will provide a pip installation.
+=======
 This only works with the [QISKit Python SDK](https://github.com/QISKit/qiskit-sdk-py) r0.3. Currently you need to git clone it but in the near future we will provide a pip installation.
+>>>>>>> QISKit/master
 
 ## Other QISKit projects
 
