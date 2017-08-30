@@ -11,4 +11,4 @@
 # limitations under the License.
 # =============================================================================
 run:
-	bash -c "source activate QISKitenv;jupyter notebook"
+	bash -c "source activate qiskitenv;jupyter notebook"
