@@ -55,18 +55,19 @@ Then install jupyter with,
 
 Using ``git`` to clone the SDK repository is the easiest way to
 keep up with the latest changes or to contribute to the
-tutorials. Alternatively it is also possible to just download the
-source files in a ZIP archive.
+tutorials. 
 
 .. code:: sh
 
 					git clone https://github.com/QISKit/qiskit-tutorial.git
 
-For the ZIP file download, select the desired branch from the
-``Branch`` drop-down button on the GitHub page. Usually this would be
-the highest revision branch available or ``master`` if you want the
-latest development version. Select the green ``Clone or download``
-button then ``Download ZIP`` to get the source file archive.
+Alternatively it is also possible to just download the source files in
+a ZIP archive. For the ZIP file download, select the desired branch
+from the ``Branch`` drop-down button on the GitHub page. Usually this
+would be the highest revision branch available or ``master`` if you
+want the latest development version. Select the green ``Clone or
+download`` button then ``Download ZIP`` to get the source file
+archive.
 	 
 4. Explore the tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -136,9 +137,7 @@ Other QISKit projects
 Contributors (alphabetically)
 -----------------------------
 
-Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro,
-Andreas Fuhrer, Jay M. Gambetta, Antonio Mezzacapo, Ramis Movassagh,
-Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood.
+Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Takashi Imamichi, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood, James Wootton
 
 License
 -------
