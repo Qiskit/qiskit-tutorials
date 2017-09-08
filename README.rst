@@ -5,7 +5,7 @@ QISKit - Jupyter Notebooks
 ==========================
 
 This repository contains Jupyter notebooks demonstrating quantum
-computing using QISKit, the open source quantum information science
+computing using QISKit, the open source quantum information software
 developer's toolkit. They provide an excellent way to learn,
 contribute, and collaborate on topics in quantum computing.
 
