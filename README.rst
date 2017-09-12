@@ -1,6 +1,6 @@
 .. image:: images/QISKit-c.gif
 					 :align: center
-
+									 
 QISKit - Jupyter Notebooks
 ==========================
 
@@ -32,6 +32,37 @@ If the SDK has not already been installed, follow the installation
 instructions in the README file in the
 `QISKit SDK repository <https://github.com/QISKit/qiskit-sdk-py>`__.
 
+Briefly, the steps are:
+
+1. install `conda <https://conda.io/docs/index.html>`_
+2. create conda environment for QISKit::
+
+		 conda create -y -n QISKitenv python=3 pip scipy
+
+3. activate the environment
+
+   - MacOS, Linux: ``source activate QISKitenv``
+   - Windows: ``activate QISKitenv``
+
+3. install qiskit::
+		 
+		 pip install qiskit
+
+4. setup API token
+
+	 1. Create an `IBM Quantum
+		 Experience <https://quantumexperience.ng.bluemix.net>`__ account if you haven't already done so
+	 2. Get an API token from the Quantum Experience website under "My Account" > "Personal Access Token"
+	 3. You will insert your API token in a file called Qconfig.py in the qiskit-tutorial directory. The contents of the file should look like,
+
+		 .. code:: python
+
+							 APItoken = 'my token from the Quantum Experience'
+							 config = {'url': 'https://quantumexperience.ng.bluemix.net/api'}
+
+							 if 'APItoken' not in locals():
+							     raise Exception('Please set up your access token. See Qconfig.py.')
+
 2. Install `Jupyter <http://jupyter.readthedocs.io/en/latest/install.html>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -40,9 +71,8 @@ After the previous step you should have a ``QISKitenv`` `conda
 setup. In a terminal window make sure you are in the QISKitenv conda
 environment,
 
-.. code:: sh
-
-					source activate QISKitenv
+   - MacOS, Linux: ``source activate QISKitenv``
+   - Windows: ``activate QISKitenv``
 
 Then install jupyter with,
 
@@ -75,9 +105,8 @@ archive.
 In a terminal window copy or link your Qconfig.py file from step (1)
 into this directory.
 
-.. code:: sh
-
-					cp /path/to/Qconfig.py qiskit-tutorial
+- Linux, macOS: ``cp /path/to/Qconfig.py qiskit-tutorial``
+- Windows: ``copy \path\to\Qconfig.py qiskit-tutorial``
 
 Go to the ``qiskit-tutorial`` directory.
 
@@ -89,7 +118,7 @@ Start Jupyter with the index notebook.
 
 .. code:: sh
 
-					jupyter notebook index.ibpynb
+					jupyter notebook index.ipynb
 	 
 
 Contributing
