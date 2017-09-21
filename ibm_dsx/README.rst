@@ -1,5 +1,3 @@
-ibm\_dsx
-========
 
 Using IBM DSx for your notebooks
 --------------------------------
@@ -16,4 +14,12 @@ web-hosted Jupyter notebook environment for running the Quantum
 programs. It also provides a platform where you can invite fellow
 researchers to collaborate on the notebooks you have developed or simply
 share your work within the community.
+
+Directory Structure
+--------------------
+
++ `apply\_dsx\_patch.ipynb` :
+ The code in this notebook takes each of the Jupyter notebooks under 
+ qiskit-tutorial as input and customizes it for running directly using IBM DSx.
+ The notebooks thus created will be placed under the `ibm\_dsx` folder.
 
