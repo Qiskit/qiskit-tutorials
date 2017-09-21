@@ -18,8 +18,8 @@ share your work within the community.
 Directory Structure
 --------------------
 
-+ `apply\_dsx\_patch.ipynb` :
- The code in this notebook takes each of the Jupyter notebooks under 
- qiskit-tutorial as input and customizes it for running directly using IBM DSx.
- The notebooks thus created will be placed under the `ibm\_dsx` folder.
++ apply\_dsx\_patch.ipynb : 
+ The code in this notebook customizes each of the Jupyter notebooks under 
+ qiskit-tutorial for running directly using IBM DSx. The notebooks thus created 
+ will be placed under the `ibm\_dsx` directory. 
 
