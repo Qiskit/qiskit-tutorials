@@ -148,6 +148,27 @@ include a detailed description of the contribution and a unit test
 the ``contrib`` directory will allow for the notebook to be part of
 the repo while they are being vetted by the community. 
 
+Using IBM DSx for your notebooks
+---------------------------------
+IBM Data Science Experience (DSx) is a platform where you can interactively 
+run your quantum programs, collaborate and share your work with others. 
+
+Among other things, it provides a ready-to-use environment to run Jupyter 
+Python notebooks. For someone just getting started with QISkit, this is an 
+excellent option. You can skip all the installation and environment creation 
+steps on your computer, and instead use this web-hosted Jupyter notebook 
+environment for running the Quantum programs. It also provides a platform 
+where you can invite fellow researchers to collaborate on the notebooks 
+you have developed or simply share your work within the community.
+
+We have customized the example notebooks for you, so that you can 
+directly run those using DSx. To get started, refer to this 
+example: `1_introduction/running_on_IBM_DSX.ipynb`
+
+See this `link
+<https://github.com/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx>`__ 
+that gives step-by-step instructions on setting up an example notebook on DSx. 
+
 Other QISKit projects
 ---------------------
 
@@ -166,7 +187,7 @@ Other QISKit projects
 Contributors (alphabetically)
 -----------------------------
 
-Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Takashi Imamichi, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Kristan Temme, Chris Wood, James Wootton.
+Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Takashi Imamichi, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Ninad Sathaye, Kristan Temme, Chris Wood, James Wootton.
 
 In future updates anyone who contributes to the tutorials can include their name here.
 
