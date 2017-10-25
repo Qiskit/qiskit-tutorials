@@ -1,6 +1,6 @@
 .. image:: images/QISKit-c.gif
-					 :align: center
-									 
+    :align: center
+
 QISKit - Jupyter Notebooks
 ==========================
 
@@ -37,7 +37,7 @@ Briefly, the steps are:
 1. install `conda <https://conda.io/docs/index.html>`_
 2. create conda environment for QISKit::
 
-		 conda create -y -n QISKitenv python=3 pip scipy
+    conda create -y -n QISKitenv python=3 pip scipy
 
 3. activate the environment
 
@@ -45,23 +45,23 @@ Briefly, the steps are:
    - Windows: ``activate QISKitenv``
 
 3. install qiskit::
-		 
-		 pip install qiskit
+
+    pip install qiskit
 
 4. setup API token
 
-	 1. Create an `IBM Quantum
-		 Experience <https://quantumexperience.ng.bluemix.net>`__ account if you haven't already done so
-	 2. Get an API token from the Quantum Experience website under "My Account" > "Personal Access Token"
-	 3. You will insert your API token in a file called Qconfig.py in the qiskit-tutorial directory. The contents of the file should look like,
+    1. Create an `IBM Quantum
+        Experience <https://quantumexperience.ng.bluemix.net>`__ account if you haven't already done so
+    2. Get an API token from the Quantum Experience website under "My Account" > "Personal Access Token"
+    3. You will insert your API token in a file called Qconfig.py in the qiskit-tutorial directory. The contents of the file should look like,
 
-		 .. code:: python
+        .. code:: python
 
-							 APItoken = 'my token from the Quantum Experience'
-							 config = {'url': 'https://quantumexperience.ng.bluemix.net/api'}
+            APItoken = 'my token from the Quantum Experience'
+            config = {'url': 'https://quantumexperience.ng.bluemix.net/api'}
 
-							 if 'APItoken' not in locals():
-							     raise Exception('Please set up your access token. See Qconfig.py.')
+            if 'APItoken' not in locals():
+                raise Exception('Please set up your access token. See Qconfig.py.')
 
 2. Install `Jupyter <http://jupyter.readthedocs.io/en/latest/install.html>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,7 +78,7 @@ Then install jupyter with,
 
 .. code:: sh
 
-					conda install jupyter
+    conda install jupyter
 
 3. Get the tutorials
 ~~~~~~~~~~~~~~~~~~~~
@@ -89,7 +89,7 @@ tutorials.
 
 .. code:: sh
 
-					git clone https://github.com/QISKit/qiskit-tutorial.git
+    git clone https://github.com/QISKit/qiskit-tutorial.git
 
 Alternatively it is also possible to just download the source files in
 a ZIP archive. For the ZIP file download, select the desired branch
@@ -98,7 +98,7 @@ would be the highest revision branch available or ``master`` if you
 want the latest development version. Select the green ``Clone or
 download`` button then ``Download ZIP`` to get the source file
 archive.
-	 
+
 4. Explore the tutorials
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -112,14 +112,14 @@ Go to the ``qiskit-tutorial`` directory.
 
 .. code:: sh
 
-					cd qiskit-tutorial
+    cd qiskit-tutorial
 
 Start Jupyter with the index notebook.
 
 .. code:: sh
 
-					jupyter notebook index.ipynb
-	 
+    jupyter notebook index.ipynb
+
 
 Contributing
 ------------
@@ -146,7 +146,13 @@ change. To help with the review of your change it would be good to
 include a detailed description of the contribution and a unit test
 (e.g. using python's ``unittest`` framework). Notebooks being submitted to
 the ``contrib`` directory will allow for the notebook to be part of
-the repo while they are being vetted by the community. 
+the repo while they are being vetted by the community.
+
+Please note that the notebooks on this repository are intended to be
+compatible with the `latest stable release of QISKit
+<https://pypi.python.org/pypi/qiskit>`__. If you experience problems, please
+revise that the versions of the packages installed on your system match the
+ones specified at the bottom of each tutorial.
 
 Using IBM DSx for your notebooks
 ---------------------------------
@@ -166,7 +172,7 @@ directly run those using DSx. To get started, refer to this
 example: `1_introduction/running_on_IBM_DSX.ipynb`
 
 See this `link
-<https://github.com/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx>`__ 
+<https://github.com/QISKit/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx>`__ 
 that gives step-by-step instructions on setting up an example notebook on DSx. 
 
 Other QISKit projects
