@@ -193,7 +193,7 @@ Other QISKit projects
 Contributors (alphabetically)
 -----------------------------
 
-Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Takashi Imamichi, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Ninad Sathaye, Kristan Temme, Chris Wood, James Wootton.
+Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Takashi Imamichi, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Ninad Sathaye, Kristan Temme, Chris Wood, James Wootton, Russell Rundle, Mark Everitt, Vincent Dwyer.
 
 In future updates anyone who contributes to the tutorials can include their name here.
 
