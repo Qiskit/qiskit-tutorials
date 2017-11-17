@@ -5,3 +5,8 @@
 2_quantum_information/.ipynb_*
 3_qcvv/.ipynb_*
 4_applications/.ipynb_*
+5_games/.ipynb_*
+
+Qconfig.py
+
+__pycache__/
