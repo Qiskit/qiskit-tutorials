@@ -1,4 +1,4 @@
-QISKit==0.3.8
+QISKit==0.3.10
 IBMQuantumExperience>=1.8.13
 numpy>=1.13,<1.14
 scipy>=0.19,<0.20
