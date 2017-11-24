@@ -44,9 +44,17 @@ Briefly, the steps are:
    - MacOS, Linux: ``source activate QISKitenv``
    - Windows: ``activate QISKitenv``
 
-3. install qiskit::
+3. install qiskit:
 
-    pip install qiskit
+   Please note that this is the **master** branch of the tutorials, which is
+   intented to be used with the **master** branch (development version) of the
+   SDK. As a result, you need to clone the SDK repository (and periodically
+   update it) via::
+
+    git clone https://github.com/QISKit/qiskit-sdk-py.git
+
+   If you do not need access to the most recent features, please consider using
+   the ``stable`` version of the tutorials instead.
 
 4. setup API token
 
