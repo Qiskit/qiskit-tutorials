@@ -14,7 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # =============================================================================
-# Author: Diego M. Rodríguez
 """Utils for displaying the versions required by the QISKit tutorials."""
 
 from html import escape
@@ -24,7 +23,7 @@ from pkg_resources import Requirement
 from IPython.core.display import display, HTML
 
 
-def version_information():
+def version_information(sdk_develop=False):
     """Return an HTML table with the contents of requirements.txt"""
     def escaped_operator(operator):
         """Return the HTML-escaped operator."""
@@ -39,6 +38,11 @@ def version_information():
         tds[1] = ', '.join(['{} {}'.format(escaped_operator(operator), target)
                             for operator, target in sorted(requirement.specs,
                                                            reverse=True)])
+
+        # If the version of QISKIT is not specified, show development branch.
+        if sdk_develop and requirement.name == 'QISKit':
+            tds[1] = '(git master branch)'
+
         return '<tr>{}</tr>'.format(''.join(['<td>{}</td>'.format(td) for
                                              td in tds]))
 
@@ -51,10 +55,13 @@ def version_information():
         str_requirements = requirements_file.readlines()
         requirements = [Requirement(i) for i in str_requirements]
 
+    qiskit_branch = '<b>stable</b>'
+    if sdk_develop:
+        qiskit_branch = '<b>development</b>'
     output = ['<h2>Version information</h2>',
-              '<p>Please note that this tutorial is targeted to the stable '
-              'version of QISKit. The following versions of the packages are '
-              'recommended:</p>',
+              '<p>Please note that this tutorial is targeted to the %s '
+              'version of the QISKit SDK. The following versions of the '
+              'packages are recommended:</p>' % qiskit_branch,
               '<table>',
               '<tr><th>Package</th><th colspan="2">Version</th></tr>']
     output.extend([requirement_as_row(req) for req in requirements])

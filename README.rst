@@ -44,14 +44,23 @@ Briefly, the steps are:
    - MacOS, Linux: ``source activate QISKitenv``
    - Windows: ``activate QISKitenv``
 
-3. install qiskit::
+3. install qiskit:
 
-    pip install qiskit
+   Please note that this is the **master** branch of the tutorials, which is
+   intented to be used with the **master** branch (development version) of the
+   SDK. As a result, you need to clone the SDK repository (and periodically
+   update it) via::
+
+    git clone https://github.com/QISKit/qiskit-sdk-py.git
+
+   If you do not need access to the most recent features, please consider using
+   the ``stable`` version of the tutorials instead.
 
 4. setup API token
 
-    1. Create an `IBM Quantum
-        Experience <https://quantumexperience.ng.bluemix.net>`__ account if you haven't already done so
+    1. Create an
+       `IBM Quantum Experience Experience <https://quantumexperience.ng.bluemix.net>`__
+       account if you haven't already done so
     2. Get an API token from the Quantum Experience website under "My Account" > "Personal Access Token"
     3. You will insert your API token in a file called Qconfig.py in the qiskit-tutorial directory. The contents of the file should look like,
 
@@ -135,6 +144,10 @@ Issues can be reported with GitHub `issue reporting
 repo. Select ``New issue`` and fill in a descriptive title and provide
 as much detail as is needed for the issue to be reproduced.
 
+Please check the
+`wiki <https://github.com/QISKit/qiskit-tutorial/wiki/QISKit-Tutorials>`__
+for frequently asked questions and notes about common issues.
+
 Notebooks
 ~~~~~~~~~
 
@@ -148,11 +161,24 @@ include a detailed description of the contribution and a unit test
 the ``contrib`` directory will allow for the notebook to be part of
 the repo while they are being vetted by the community.
 
-Please note that the notebooks on this repository are intended to be
-compatible with the `latest stable release of QISKit
-<https://pypi.python.org/pypi/qiskit>`__. If you experience problems, please
-revise that the versions of the packages installed on your system match the
-ones specified at the bottom of each tutorial.
+Branch convention
+~~~~~~~~~~~~~~~~~
+
+Please note that this repository contains two branches:
+
+- the ``stable`` branch contains tutorials that are meant to be compatible
+  with the `latest stable release of
+  QISKit <https://pypi.python.org/pypi/qiskit>`__.
+- the ``master`` branch contains tutorials that are meant to be compatible
+  with the `latest development version of
+  QISKIT <https://github.com/QISKit/qiskit-sdk-py>`__. Please note that this
+  branch includes features that might still not be ready for production, and
+  requires that you install the SDK using git and keep up to date with the
+  daily updates.
+
+If you experience problems, please revise that the versions of the packages
+installed on your system match the ones specified at the bottom of each
+tutorial.
 
 Using IBM DSx for your notebooks
 ---------------------------------
