@@ -77,8 +77,8 @@ Briefly, the steps are:
            if APItoken is None:
                raise Exception('Please set up your access token. See Qconfig.py.')
 
-        An example ``Qconfig.py`` file has been included in the introduction
-        notebook folder.
+      An example ``Qconfig.py`` file has been included in the introduction
+      notebook folder.
 
 2. Install `Jupyter <http://jupyter.readthedocs.io/en/latest/install.html>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -227,7 +227,9 @@ Other QISKit projects
 Contributors (alphabetically)
 -----------------------------
 
-Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer, Jay M. Gambetta, Takashi Imamichi, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Ninad Sathaye, Kristan Temme, Chris Wood, James Wootton.
+Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer,
+Jay M. Gambetta, Takashi Imamichi, Evan Kepner, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, 
+Ninad Sathaye, Kristan Temme, Chris Wood, James Wootton.
 
 In future updates anyone who contributes to the tutorials can include their name here.
 
