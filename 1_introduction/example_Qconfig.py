@@ -27,9 +27,3 @@ config = {"url": "https://quantumexperience.ng.bluemix.net/api"}
 
 if APItoken is None:
     raise Exception("Please set up your access token. See Qconfig.py.")
-
-if config is None:
-    raise Exception("Please set up your config parameters. See Qconfig.py")
-
-if __name__ == "__main__":
-    pass
