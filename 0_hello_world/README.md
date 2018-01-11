@@ -1,8 +1,8 @@
 # Say Hello to QISKIT!
 
-QISKIT is an open source software development kit designed to create quantum computing programs and execute them on real quantum processors or online/local simulators.
+This is the folder for 'hello world' type examples - simple, relatable, whimsical examples to help someone get their foot in the door of quantum programming with QISKit - quote from James Wootton.
 
-We’d love to see what you can make with the SDK. Here are some ideas to get you started.
+Here are some ideas to get you started.
 
 - **Flip a coin with quantum**. Put one single qubit in superposition, and then measure it's state! Voila, you have your first quantum coin!
 - **Random number generator**. You can put multiple qubits in superposition and then measure their state to get a perfect random number!
