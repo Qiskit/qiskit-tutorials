@@ -46,15 +46,19 @@ Briefly, the steps are:
 
 3. install qiskit:
 
-   Please note that this is the **master** branch of the tutorials, which is
-   intented to be used with the **master** branch (development version) of the
-   SDK. As a result, you need to clone the SDK repository (and periodically
+   Please note that the **master** branch of the tutorials, is intented to be
+   used with the **master** branch (development version) of the SDK. As a
+   result, for using it you need to clone the SDK repository (and periodically
    update it) via::
 
     git clone https://github.com/QISKit/qiskit-sdk-py.git
 
    If you do not need access to the most recent features, please consider using
-   the ``stable`` version of the tutorials instead.
+   the ``stable`` version of the tutorials instead. When using the **stable**
+   branch of the tutorials, the stable version of the SDK can be installed
+   via::
+
+   pip install qiskit
 
 4. setup API token
 
