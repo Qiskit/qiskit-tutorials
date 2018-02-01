@@ -44,9 +44,21 @@ Briefly, the steps are:
    - MacOS, Linux: ``source activate QISKitenv``
    - Windows: ``activate QISKitenv``
 
-3. install qiskit::
+3. install qiskit:
 
-    pip install qiskit
+   Please note that the **master** branch of the tutorials, is intented to be
+   used with the **master** branch (development version) of the SDK. As a
+   result, for using it you need to clone the SDK repository (and periodically
+   update it) via::
+
+    git clone https://github.com/QISKit/qiskit-sdk-py.git
+
+   If you do not need access to the most recent features, please consider using
+   the ``stable`` version of the tutorials instead. When using the **stable**
+   branch of the tutorials, the stable version of the SDK can be installed
+   via::
+
+   pip install qiskit
 
 4. setup API token
 
@@ -63,22 +75,6 @@ Briefly, the steps are:
 
             if 'APItoken' not in locals():
                 raise Exception('Please set up your access token. See Qconfig.py.')
-
-    4. Alternatively, you can set your API token in an environment variable for your
-       shell session and import it into the ``Qconfig.py`` file using ``os``.
-       For example:
-
-       .. code:: python
-
-           import os
-           APItoken = os.getenv('your_API_token_environment_variable')
-           config = {'url': 'https://quantumexperience.ng.bluemix.net/api'}
-
-           if APItoken is None:
-               raise Exception('Please set up your access token. See Qconfig.py.')
-
-      An example ``Qconfig.py`` file has been included in the introduction
-      notebook folder.
 
 2. Install `Jupyter <http://jupyter.readthedocs.io/en/latest/install.html>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -102,7 +98,7 @@ Then install jupyter with,
 
 Using ``git`` to clone the SDK repository is the easiest way to
 keep up with the latest changes or to contribute to the
-tutorials.
+tutorials. 
 
 .. code:: sh
 
@@ -190,24 +186,24 @@ tutorial.
 
 Using IBM DSx for your notebooks
 ---------------------------------
-IBM Data Science Experience (DSx) is a platform where you can interactively
-run your quantum programs, collaborate and share your work with others.
+IBM Data Science Experience (DSx) is a platform where you can interactively 
+run your quantum programs, collaborate and share your work with others. 
 
-Among other things, it provides a ready-to-use environment to run Jupyter
-Python notebooks. For someone just getting started with QISkit, this is an
-excellent option. You can skip all the installation and environment creation
-steps on your computer, and instead use this web-hosted Jupyter notebook
-environment for running the Quantum programs. It also provides a platform
-where you can invite fellow researchers to collaborate on the notebooks
+Among other things, it provides a ready-to-use environment to run Jupyter 
+Python notebooks. For someone just getting started with QISkit, this is an 
+excellent option. You can skip all the installation and environment creation 
+steps on your computer, and instead use this web-hosted Jupyter notebook 
+environment for running the Quantum programs. It also provides a platform 
+where you can invite fellow researchers to collaborate on the notebooks 
 you have developed or simply share your work within the community.
 
-We have customized the example notebooks for you, so that you can
-directly run those using DSx. To get started, refer to this
+We have customized the example notebooks for you, so that you can 
+directly run those using DSx. To get started, refer to this 
 example: `1_introduction/running_on_IBM_DSX.ipynb`
 
 See this `link
-<https://github.com/QISKit/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx>`__
-that gives step-by-step instructions on setting up an example notebook on DSx.
+<https://github.com/QISKit/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx>`__ 
+that gives step-by-step instructions on setting up an example notebook on DSx. 
 
 Other QISKit projects
 ---------------------
@@ -227,9 +223,7 @@ Other QISKit projects
 Contributors (alphabetically)
 -----------------------------
 
-Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Ismael Faro, Andreas Fuhrer,
-Jay M. Gambetta, Takashi Imamichi, Evan Kepner, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, 
-Ninad Sathaye, Kristan Temme, Chris Wood, James Wootton.
+Jerry Chow, Antonio Córcoles, Abigail Cross, Andrew Cross, Vincent Dwyer, Mark Everitt, Ismael Faro, Albert Frisch, Andreas Fuhrer, Jay M. Gambetta, Takashi Imamichi, Ali Javadi, Antonio Mezzacapo, Ramis Movassagh, Anna Phan, Rudy Raymond, Russell Rundle, Ninad Sathaye, Kristan Temme, Todd Tilma, Chris Wood, James Wootton.
 
 In future updates anyone who contributes to the tutorials can include their name here.
 
