@@ -7,7 +7,7 @@ The tutorial notebooks are organised into three parts:
 
 * [**Hello World**](/hello_world): Since quantum computing is so new, we want to find the best *Hello Quantum World* program and welcome submissions here. 
 * [**Reference**](/reference): These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference book for QISKit. They will be kept up to date with QISKit SDK updates. They are organised into various topics:
-  1. [Getting started with QISKit](/tools)
+  1. [Getting started with QISKit](/reference/tools)
     - Getting started
     - Working with backends (including compiling and running)
     - Using different gates
