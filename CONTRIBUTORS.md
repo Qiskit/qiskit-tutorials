@@ -8,7 +8,7 @@
 - Ismael Faro
 - Albert Frisch
 - Andreas Fuhrer
-- Jay Gambetta
+- [Jay Gambetta](https://github.com/jaygambetta)
 - Takashi Imamichi
 - Ali Javadi
 - Antonio Mezzacapo
