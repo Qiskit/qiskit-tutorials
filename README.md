@@ -12,26 +12,26 @@ The tutorial notebooks are organised into three parts:
     - Working with backends (including compiling and running)
     - Using different gates
     - Visualisation of quantum states
-  2. [Introduction to quantum information science](/qis)
-    - Superposition and entanglement
-    - Entanglement revisited
+  2. [Introduction to quantum information science](/reference/qis)
+    - [Superposition and entanglement](/reference/qis/superposition_and_entanglement.ipynb)
+    - [Entanglement revisited](/reference/qis/entanglement_revisited.ipynb)
     - Quantum teleportation and superdense coding
-  3. [Understanding your quantum computer](/qcvv)
+  3. [Understanding your quantum computer](/reference/qcvv)
     - Relaxation and decoherence
     - Quantum tomography
-    - Random Benchmarking # to be written
-  4. [Working an approximate quantum quantum computers](/approximate) # Tony
+    - Random Benchmarking
+  4. [Working an approximate quantum quantum computers](/reference/approximate)
     - Variational Quantum Eigensolver
-    - Small error correcting codes # to be written
-    - Error mitigation # to be written
-  5. [Examples of quantum algorithms](/algorithms)
+    - Small error correcting codes
+    - Error mitigation
+  5. [Examples of quantum algorithms](/reference/algorithms)
     - Phase estimation
     - Deutsch–Jozsa algorithm
     - Bernstein-Vazirani algorithm
     - Simon's algorithm
     - Grover's algorithm
     - Shor's algorithm
-  6. [Having fun with quantum computers](/games)
+  6. [Having fun with quantum computers](/reference/games)
     - Battleships
     - 
     - 
@@ -50,7 +50,6 @@ If you would like to contribute to the tutorials, there are a number of ways to 
 * **Notebooks**: If you would like to contribute a notebook please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant section of the [Appendix](/appendix) section. We will discuss in the [Slack channel](https://qiskit.slack.com/messages/C7SN3T90V) which of these should be in the [Reference](/reference) section.
 
 ## Contributors
-
 A list of contributors can be found [here](CONTRIBUTORS.md).
 
 
