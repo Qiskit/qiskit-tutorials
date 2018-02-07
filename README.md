@@ -15,7 +15,7 @@ The tutorial notebooks are organised into three parts:
   2. [Introduction to quantum information science](/reference/qis)
     - [Superposition and entanglement](/reference/qis/superposition_and_entanglement.ipynb)
     - [Entanglement revisited](/reference/qis/entanglement_revisited.ipynb)
-    - Quantum teleportation and superdense coding
+    - [Quantum teleportation and superdense coding](reference/qis/teleportation_superdensecoding.ipynb)
   3. [Understanding your quantum computer](/reference/qcvv)
     - Relaxation and decoherence
     - Quantum tomography
