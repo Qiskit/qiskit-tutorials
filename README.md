@@ -5,7 +5,7 @@ Welcome to the QISKit tutorials. In this repository, we've put together a collec
 ## Contents
 The tutorial notebooks are organised into three parts:
 
-* [**Hello World**](/hello_world): Since quantum computing is so new, we want to find the best *Hello Quantum World* program and welcome submissions here. 
+* [**Hello World**](/hello_world): Since quantum computing is so new, we want to find the best *Hello Quantum World* program and welcome submissions here.
 * [**Reference**](/reference): These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference book for QISKit. They will be kept up to date with QISKit SDK updates. They are organised into various topics:
   1. [Getting started with QISKit](/reference/tools)
     - Getting started
@@ -25,16 +25,16 @@ The tutorial notebooks are organised into three parts:
     - Small error correcting codes
     - Error mitigation
   5. [Examples of quantum algorithms](/reference/algorithms)
-    - Phase estimation
-    - Deutsch–Jozsa algorithm
-    - Bernstein-Vazirani algorithm
+    - [Deutsch–Jozsa algorithm](reference/algorithms/deustch_josza.ipynb)
+    - [Bernstein-Vazirani algorithm](reference/algorithms/bernstein_vazirani.ipynb)
+    - [Phase estimation](reference/algorithms/iterative_phase_estimation_algorithm.ipynb)
     - Simon's algorithm
     - Grover's algorithm
     - Shor's algorithm
   6. [Having fun with quantum computers](/reference/games)
     - Battleships
-    - 
-    - 
+    -
+    -
 * [**Appendix**](/appendix): This is where the rest of the tutorials are. They are not guaranteed to work with the latest version of the QISKit SDK. They are organised into various topics:
   1. Advanced QISKit features
   2. More on quantum information
@@ -55,4 +55,3 @@ A list of contributors can be found [here](CONTRIBUTORS.md).
 
 ## Licence
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/QISKit/qiskit-tutorial/blob/master/LICENSE) file for details.
-
