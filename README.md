@@ -9,7 +9,6 @@ In this repository, we've put together a collection of Jupyter notebooks aimed a
 
 ## Contents
 ***
-
 We have organised the tutorials into three sections:
 
 ### 1. [Hello World](/hello_world)
@@ -42,9 +41,9 @@ The next set of notebooks shows how you can explore some simple concepts of quan
   * Error mitigation
 
 #### 2.5 [Examples of quantum algorithms](/reference/algorithms)
-  * [Deutsch–Jozsa algorithm](reference/algorithms/deustch_josza.ipynb)
-  * [Bernstein-Vazirani algorithm](reference/algorithms/bernstein_vazirani.ipynb)
-  * [Phase estimation](reference/algorithms/iterative_phase_estimation_algorithm.ipynb)
+  * [Deutsch–Jozsa algorithm](reference/algorithms/deustch_josza.ipynb) - a deterministic quantum algorithm that outperforms the corresponding classical algorithm.
+  * [Bernstein-Vazirani algorithm](reference/algorithms/bernstein_vazirani.ipynb) - a quantum algorithm that outperforms classical probabilistic algorithms.
+  * [Phase estimation](reference/algorithms/iterative_phase_estimation_algorithm.ipynb) - a quantum algorithm to extract eigenvalues of unknown unitary operator.
   * Simon's algorithm
   * Grover's algorithm
   * Shor's algorithm
@@ -89,3 +88,5 @@ An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If yo
 
 ## Licence
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/QISKit/qiskit-tutorial/blob/master/LICENSE) file for details.
+
+
