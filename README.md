@@ -41,7 +41,7 @@ The next set of notebooks shows how you can explore some simple concepts of quan
   * [Quantum process tomography](reference/qcvv/process_tomography.ipynb) - how to perform quantum state reconstruction
   * Random Benchmarking
 
-####  2.4 [Working an approximate quantum quantum computers](reference/approximate)
+####  2.4 [Working an approximate quantum computers](reference/approximate)
   * [Variational Quantum Eigensolver](reference/approximate/quantum_chemistry.ipynb) - how to perform quantum chemistry 
   * Small error correcting codes
   * Error mitigation
@@ -51,7 +51,7 @@ The next set of notebooks shows how you can explore some simple concepts of quan
   * [Bernstein-Vazirani algorithm](reference/algorithms/bernstein_vazirani.ipynb) - a quantum algorithm that outperforms classical probabilistic algorithms.
   * [Phase estimation](reference/algorithms/iterative_phase_estimation_algorithm.ipynb) - a quantum algorithm to extract eigenvalues of unknown unitary operator.
   * Simon's algorithm
-  * Grover's algorithm
+  * [Grover's algorithm](reference/algorithms/grover_algorithm.py) - a python program of Grover search on 3 qubits. 
   * Shor's algorithm
 
 ####  2.6 [Having fun with quantum computers](reference/games)
