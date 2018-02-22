@@ -41,7 +41,7 @@ The next set of notebooks shows how you can explore some simple concepts of quan
   * [Quantum process tomography](reference/qcvv/process_tomography.ipynb) - how to perform quantum state reconstruction
   * Random Benchmarking
 
-####  2.4 [Working an approximate quantum computers](reference/approximate)
+####  2.4 [Working on approximate quantum computers](reference/approximate)
   * [Variational Quantum Eigensolver](reference/approximate/quantum_chemistry.ipynb) - how to perform quantum chemistry 
   * Small error correcting codes
   * Error mitigation
