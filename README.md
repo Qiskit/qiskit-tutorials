@@ -9,7 +9,7 @@ In this repository, we've put together a collection of Jupyter notebooks aimed a
 ## Installation and Setup
 Please refer to [this note](INSTALL.ipynb) for installation and how to submit new tutorials by using github functionalities. 
 
-You can also use a webhosted Jupyter notebook environment with [IBM DSX](https://github.com/QISKit/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx) as shown [here](running_on_IBM_DSX.ipynb).  
+If you do not want to install, you can use a webhosted Jupyter notebook environment with [IBM DSX](https://github.com/QISKit/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx) as shown [here](running_on_IBM_DSX.ipynb).  
 
 
 ## Contents
@@ -60,11 +60,28 @@ The next set of notebooks shows how you can explore some simple concepts of quan
 
 ### 3. [Appendix](appendix)<a id='appendix'></a>
 This is where the rest of the tutorials are. They are not guaranteed to work with the latest version of the QISKit SDK. They are organised into various topics:
-  1. Advanced QISKit features<a id='appendix_tools'></a>
-  2. More on quantum information science<a id='appendix_qis'></a>
-  3. Further quantum algorithms and applications<a id='appendix_algorithms'></a>
-  4. Everything else<a id='appendix_other'></a>
+#### 3.1  [Advanced QISKit features](appendix/advanced_qiskit)<a id='appendix_tools'></a>
 
+  * [Compiling and running a quantum program](appendix/advanced_qiskit/compiling_and_running.ipynb) - how to rewrite circuits to different backends.
+  * [Composer examples](appendix/advanced_qiskit/beginners_guide_composer_examples.ipynb) -  showing the different composer examples from [the Beginners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction).
+  
+#### 3.2  [More on quantum information science](appendix/more_qis)<a id='appendix_qis'></a>
+
+  * [Quantum Fourier Transform (QFT)](appendix/more_qis/fourier_transform.ipynb) - show an example of quantum circuit for QFT.
+  * [Repetition code](appendix/more_qis/repetition_code.ipynb) -  implements the repetition code, which uses multiple qubits to store a bit of information. This is done in a way that detects and corrects any errors that the qubits suffer from, using the techniques of quantum error correction.
+  * [One-Qubit Quantum Random Access Coding](appendix/more_qis/single-qubit_quantum_random_access_coding.ipynb) - encoding and decoding more bits into a single qubit.
+  * [Two-Qubit Quantum Random Access Coding](appendix/more_qis/two-qubit_state_quantum_random_access_coding.ipynb) - encoding and decoding more bits into two qubits. 
+  * [Vaidman Detection Test](appendix/more_qis/vaidman_detection_test.ipynb) - demonstrates interaction free measurement through the Vaidman bomb detection test.
+  * [Wigner Functions](appendix/more_qis/wigner_functions.ipynb) - how to create a quasiprobability distribution 
+  
+#### 3.3  [Further quantum algorithms and applications](appendix/algo_app)<a id='appendix_algorithms'></a>
+
+  * [Classical optimization](appendix/algo_app/classical_optimization.ipynb) - using Variatonal Quantum Eigensolve to solve classical optimization problems
+
+#### 3.4. [Everything else](appendix/etc)<a id='appendix_other'></a>
+
+  * [Quantum Pseudo-Telepathy](appendix/etc/quantum_magic_square.ipynb) - demonstrating winning a game with shared entanglement that cannot be achieved with classical strategies.
+  
 
 ## Contributing
 If you would like to contribute to the tutorials, there are a number of ways to get involved:
