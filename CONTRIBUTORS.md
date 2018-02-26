@@ -14,7 +14,7 @@
 - Antonio Mezzacapo
 - Ramis Movassagh
 - Anna Phan
-- Rudy Raymond
+- [Rudy Raymond](https://github.com/rraymondhp)
 - Russell Rundle
 - Ninad Sathaye
 - Kristan Temme
