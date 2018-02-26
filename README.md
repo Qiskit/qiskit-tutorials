@@ -1,4 +1,6 @@
 
+<img src="images/QISKit-c.gif" alt="Note: In order for images to show up in this jupyter notebook you need to select File => Trusted Notebook" width="250 px" align="left">
+
 # QISKit Tutorials
 ***
 
@@ -24,7 +26,7 @@ We've collected a core reference set of notebooks in this section. These noteboo
 
 #### 2.1 [Getting started with QISKit](reference/tools)
 In this first topic, we introduce you to the basic features of QISKit. More tutorials covering QISKit features can be found in [here](#appendix_tools) and developer documentation can be found [here](https://www.qiskit.org/documentation/).
-  * [Getting started](reference/tools/getting_started.ipynb) - how to use QISKit.
+  * [Write and run your first quantum program](reference/tools/getting_started.ipynb) - how to use QISKit.
   * [Working with different backends](reference/tools/working_with_backends.ipynb) - running a quantum program on different backends.
   * [Using different gates](reference/tools/quantum_gates_and_linear_algebra.ipynb) - list of gates in QISKit and their linear algebra.
   * [Visualisation of quantum states](reference/tools/visualizing_quantum_state.ipynb) -  illustrates the different tools we have for visualizing a quantum state.
