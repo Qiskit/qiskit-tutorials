@@ -25,7 +25,7 @@ We've collected a core reference set of notebooks in this section. These noteboo
 #### 2.1 [Getting started with QISKit](reference/tools)
 In this first topic, we introduce you to the basic features of QISKit. More tutorials covering QISKit features can be found in [here](#appendix_tools) and developer documentation can be found [here](https://www.qiskit.org/documentation/).
   * [Getting started](reference/tools/getting_started.ipynb) - how to use QISKit.
-  * [Working with different backends](reference/tools/working_with_backends.ipynb) - running quantum program on different backends.
+  * [Working with different backends](reference/tools/working_with_backends.ipynb) - running a quantum program on different backends.
   * [Using different gates](reference/tools/quantum_gates_and_linear_algebra.ipynb) - list of gates in QISKit and their linear algebra.
   * [Visualisation of quantum states](reference/tools/visualizing_quantum_state.ipynb) -  illustrates the different tools we have for visualizing a quantum state.
         
@@ -36,9 +36,9 @@ The next set of notebooks shows how you can explore some simple concepts of quan
   * [Quantum teleportation and superdense coding](reference/qis/teleportation_superdensecoding.ipynb) - this tutorial introduces two simple quantum communication protocols, based on the quantum entanglement. 
     
 ####  2.3 [Understanding your quantum computer](reference/qcvv)
-  * [Relaxation and decoherence](reference/qcvv/relaxation_and_decoherence.ipynb) - a simple notebook showing how to measure coherence.
-  * [Quantum state tomography](reference/qcvv/state_tomography.ipynb) - how to identify quantum states
-  * [Quantum process tomography](reference/qcvv/process_tomography.ipynb) - how to perform quantum state reconstruction
+  * [Relaxation and decoherence](reference/qcvv/relaxation_and_decoherence.ipynb) - how to measure coherence times on the real quantum hardware
+  * [Quantum state tomography](reference/qcvv/state_tomography.ipynb) - how to identify a quantum state using state tomography, in which the state is prepared repeatedly and measured in different bases
+  * [Quantum process tomography](reference/qcvv/process_tomography.ipynb) - using quantum process tomography to reconstruct the behavior of a quantum process and measure its fidelity, i.e. how closely it matches the ideal version
   * Random Benchmarking
 
 ####  2.4 [Working on approximate quantum computers](reference/approximate)
@@ -51,11 +51,11 @@ The next set of notebooks shows how you can explore some simple concepts of quan
   * [Bernstein-Vazirani algorithm](reference/algorithms/bernstein_vazirani.ipynb) - a quantum algorithm that outperforms classical probabilistic algorithms.
   * [Phase estimation](reference/algorithms/iterative_phase_estimation_algorithm.ipynb) - a quantum algorithm to extract eigenvalues of unknown unitary operator.
   * Simon's algorithm
-  * [Grover's algorithm](reference/algorithms/grover_algorithm.py) - a python program of Grover search on 3 qubits. 
+  * [Grover's algorithm](reference/algorithms/grover_algorithm.py) - a Python program for running Grover's search on 3 qubits. 
   * Shor's algorithm
 
 ####  2.6 [Having fun with quantum computers](reference/games)
-  * [Battleships](reference/games/battleships_with_partial_NOT_gates.ipynb) - a version of Battleships made to run on ibmqx3. The unique properties of single qubit operations are used to implement the game mechanics, with the destruction of a ship corresponding to rotation from 0 to 1.
+  * [Battleships](reference/games/battleships_with_partial_NOT_gates.ipynb) - a version of Battleships made to run on ibmqx2. The unique properties of single qubit operations are used to implement the game mechanics, with the destruction of a ship corresponding to rotation from 0 to 1.
   * [Which is the counterfeit coin?](reference/games/quantum_counterfeit_coin_problem.ipynb) - can you solve the counterfeit coin riddle? You are given a quantum computer and quantum beam balance, and your task is to find a counterfeit coin hidden in a set of coins. Armed with the knowledge of the Bernstein-Vazirani algorithm, you can easily find the counterfeit coin using the beam balance only once.
 
 ### 3. [Appendix](appendix)<a id='appendix'></a>
@@ -70,7 +70,7 @@ This is where the rest of the tutorials are. They are not guaranteed to work wit
 If you would like to contribute to the tutorials, there are a number of ways to get involved:
 
 * **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/QISKit/qiskit-tutorial/issues) for this repository. Select `New issue` and fill in a descriptive title and provide as much detail as is needed for the issue to be reproduced.
-* **Notebooks**: If you would like to contribute a notebook please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Appendix](/appendix) section. We will discuss in the [Slack channel](https://qiskit.slack.com/messages/C7SN3T90V) which of these should be in the [Reference](/reference) section.
+* **Notebooks**: If you would like to contribute a notebook please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Appendix](appendix) section. We will discuss in the [Slack channel](https://qiskit.slack.com/messages/C7SN3T90V) which of these should be in the [Reference](reference) section.
 
 Note that edits to this ``README`` should be made to the Jupyter notebook file ``(README.ipynb)`` and then the following command run to create the markdown file ``(README.md)`` for GitHub:
 
@@ -79,7 +79,7 @@ Note that edits to this ``README`` should be made to the Jupyter notebook file `
 ## Contributors
 An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If you have contributed to these tutorials, please include your name there.
 
-## Licence
+## License
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/QISKit/qiskit-tutorial/blob/master/LICENSE) file for details.
 
 
