@@ -10,7 +10,7 @@ Welcome to the Quantum Information Software Kit ([QISKit](https://www.qiskit.org
 In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use the [QISKit SDK](https://github.com/QISKit/qiskit-sdk-py) for writing quantum computing programs and executing them on one of several backends (online quantum processors, online simulators, and local simulators). For the online quantum processors, QISKit uses the [QISKit API](https://github.com/QISKit/qiskit-api-py) to connect to the [IBM Q Systems](https://quantumexperience.ng.bluemix.net/qx/experience).
 
 ## Installation and Setup
-Please refer to this [note](INSTALL.md) for installing and setting up the QISKit SDK and tutorials on your own machine.
+Please refer to this [note](INSTALL.md) (which is created from this [notebook](INSTALL.ipynb)) for installing and setting up the QISKit SDK and tutorials on your own machine.
 
 You can also run the tutorials on the [IBM Data Science Experience](https://datascience.ibm.com/) following the instructions in this [note](DSX.md), which is created from this [notebook](DSX.ipynb).
 
@@ -98,9 +98,9 @@ If you would like to contribute to the tutorials, there are a number of ways to 
 * **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/QISKit/qiskit-tutorial/issues) for this repository. Select `New issue` and fill in a descriptive title and provide as much detail as is needed for the issue to be reproduced.
 * **Notebooks**: If you would like to contribute a notebook please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Appendix](appendix) section. We will discuss in the [Slack channel](https://qiskit.slack.com/messages/C7SN3T90V) which of these should be in the [Reference](reference) section.
 
-Note that edits to this ``README`` should be made to the Jupyter notebook file ``(README.ipynb)`` and then the following command run to create the markdown file ``(README.md)`` for GitHub:
+Note that edits to ``README/INSTALL/DSX`` should be made to the corresponding Jupyter notebook file (``README/INSTALL/DSX.ipynb``) and then the following command run to create the markdown file (``README/INSTALL/DSX.md``) for GitHub:
 
-    jupyter nbconvert --to markdown README.ipynb
+    jupyter nbconvert --to markdown <FILENAME>.ipynb
 
 ## Contributors
 An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If you have contributed to these tutorials, please include your name there.

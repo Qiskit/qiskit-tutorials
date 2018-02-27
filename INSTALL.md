@@ -1,3 +1,4 @@
+
 <img src="images/QISKit.gif" >
 
 ***
@@ -104,4 +105,9 @@ Start Jupyter with the README notebook.
 
 ```
 jupyter notebook README.ipynb
+```
+
+
+```python
+
 ```
