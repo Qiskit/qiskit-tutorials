@@ -1,21 +1,22 @@
 
-<img src="images/QISKit.gif" alt="Note: In order for images to show up in this jupyter notebook you need to select File => Trusted Notebook" width="250 px" align="left">
+<img src="images/QISKit.gif">
+
+***
 
 # QISKit Tutorials
-***
 
 Welcome to the Quantum Information Software Kit ([QISKit](https://www.qiskit.org/) for short) tutorials! 
 
 In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use the [QISKit SDK](https://github.com/QISKit/qiskit-sdk-py) for writing quantum computing programs and executing them on one of several backends (online quantum processors, online simulators, and local simulators). For the online quantum processors, QISKit uses the [QISKit API](https://github.com/QISKit/qiskit-api-py) to connect to the [IBM Q Systems](https://quantumexperience.ng.bluemix.net/qx/experience).
 
 ## Installation and Setup
-Please refer to [this note](INSTALL.ipynb) for installation and how to submit new tutorials by using github functionalities. 
+Please refer to this [note](INSTALL.md) (which is created from this [notebook](INSTALL.ipynb)) for installing and setting up the QISKit SDK and tutorials on your own machine.
 
-If you do not want to install, you can use a webhosted Jupyter notebook environment with [IBM DSX](https://github.com/QISKit/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx) as shown [here](running_on_IBM_DSX.ipynb).  
+You can also run the tutorials on the [IBM Data Science Experience](https://datascience.ibm.com/) following the instructions in this [note](DSX.md), which is created from this [notebook](DSX.ipynb).
 
+***
 
 ## Contents
-***
 We have organised the tutorials into three sections:
 
 ### 1. [Hello, Quantum World](hello_world/)
@@ -38,17 +39,20 @@ The next set of notebooks shows how you can explore some simple concepts of quan
   * [Quantum teleportation and superdense coding](reference/qis/teleportation_superdensecoding.ipynb) - this tutorial introduces two simple quantum communication protocols, based on the quantum entanglement. 
     
 ####  2.3 [Understanding your quantum computer](reference/qcvv)
+This set of notebooks decribe a few of the techniques used to characterise, verify and validate quantum systems. 
   * [Relaxation and decoherence](reference/qcvv/relaxation_and_decoherence.ipynb) - how to measure coherence times on the real quantum hardware
   * [Quantum state tomography](reference/qcvv/state_tomography.ipynb) - how to identify a quantum state using state tomography, in which the state is prepared repeatedly and measured in different bases
   * [Quantum process tomography](reference/qcvv/process_tomography.ipynb) - using quantum process tomography to reconstruct the behavior of a quantum process and measure its fidelity, i.e. how closely it matches the ideal version
   * Random Benchmarking
 
 ####  2.4 [Working on approximate quantum computers](reference/approximate)
+Universal fault tolerant quantum computers are still many years away, notebooks in this section describe a few of the things you can do with the approximate quantum computers we have today. Other examples can be found [here](#appendix_algorithms).
   * [Variational Quantum Eigensolver](reference/approximate/quantum_chemistry.ipynb) - how to perform quantum chemistry 
   * Small error correcting codes
   * Error mitigation
 
 #### 2.5 [Examples of quantum algorithms](reference/algorithms)
+This section contains notebooks describing the canonical quantum algorithms. Other quantum algorithms can be found [here](#appendix_algorithms).
   * [Deutsch–Jozsa algorithm](reference/algorithms/deutsch_josza.ipynb) - a deterministic quantum algorithm that outperforms the corresponding classical algorithm.
   * [Bernstein-Vazirani algorithm](reference/algorithms/bernstein_vazirani.ipynb) - a quantum algorithm that outperforms classical probabilistic algorithms.
   * [Phase estimation](reference/algorithms/iterative_phase_estimation_algorithm.ipynb) - a quantum algorithm to extract eigenvalues of unknown unitary operator.
@@ -57,11 +61,13 @@ The next set of notebooks shows how you can explore some simple concepts of quan
   * Shor's algorithm
 
 ####  2.6 [Having fun with quantum computers](reference/games)
+Here we have a few examples of quantum games. Enjoy!
   * [Battleships](reference/games/battleships_with_partial_NOT_gates.ipynb) - a version of Battleships made to run on ibmqx2. The unique properties of single qubit operations are used to implement the game mechanics, with the destruction of a ship corresponding to rotation from 0 to 1.
   * [Which is the counterfeit coin?](reference/games/quantum_counterfeit_coin_problem.ipynb) - can you solve the counterfeit coin riddle? You are given a quantum computer and quantum beam balance, and your task is to find a counterfeit coin hidden in a set of coins. Armed with the knowledge of the Bernstein-Vazirani algorithm, you can easily find the counterfeit coin using the beam balance only once.
 
 ### 3. [Appendix](appendix)<a id='appendix'></a>
 This is where the rest of the tutorials are. They are not guaranteed to work with the latest version of the QISKit SDK. They are organised into various topics:
+
 #### 3.1  [Advanced QISKit features](appendix/advanced_qiskit)<a id='appendix_tools'></a>
 
   * [Compiling and running a quantum program](appendix/advanced_qiskit/compiling_and_running.ipynb) - how to rewrite circuits to different backends.
@@ -84,6 +90,7 @@ This is where the rest of the tutorials are. They are not guaranteed to work wit
 
   * [Quantum Pseudo-Telepathy](appendix/etc/quantum_magic_square.ipynb) - demonstrating winning a game with shared entanglement that cannot be achieved with classical strategies.
   
+***  
 
 ## Contributing
 If you would like to contribute to the tutorials, there are a number of ways to get involved:
@@ -91,9 +98,9 @@ If you would like to contribute to the tutorials, there are a number of ways to 
 * **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/QISKit/qiskit-tutorial/issues) for this repository. Select `New issue` and fill in a descriptive title and provide as much detail as is needed for the issue to be reproduced.
 * **Notebooks**: If you would like to contribute a notebook please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Appendix](appendix) section. We will discuss in the [Slack channel](https://qiskit.slack.com/messages/C7SN3T90V) which of these should be in the [Reference](reference) section.
 
-Note that edits to this ``README`` should be made to the Jupyter notebook file ``(README.ipynb)`` and then the following command run to create the markdown file ``(README.md)`` for GitHub:
+Note that edits to ``README/INSTALL/DSX`` should be made to the corresponding Jupyter notebook file (``README/INSTALL/DSX.ipynb``) and then the following command run to create the markdown file (``README/INSTALL/DSX.md``) for GitHub:
 
-    jupyter nbconvert --to markdown README.ipynb
+    jupyter nbconvert --to markdown <FILENAME>.ipynb
 
 ## Contributors
 An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If you have contributed to these tutorials, please include your name there.
@@ -102,3 +109,8 @@ An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If yo
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/QISKit/qiskit-tutorial/blob/master/LICENSE) file for details.
 
 
+
+
+```python
+
+```
