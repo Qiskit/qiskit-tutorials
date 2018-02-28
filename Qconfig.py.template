@@ -3,7 +3,7 @@
 # access token. Replace "None" below with the quoted token string.
 # Uncomment the APItoken variable, and you will be ready to go.
 
-APItoken = '(your_token)'
+APItoken = 'my token from the Quantum Experience'
 
 config = {
   "url": 'https://quantumexperience.ng.bluemix.net/api'
