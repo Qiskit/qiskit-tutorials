@@ -1,0 +1,9 @@
+name: QISKitenv
+dependencies:
+- python=3
+- pip
+- notebook
+- scipy
+- pip:
+  - IBMQuantumExperience
+  - qiskit
