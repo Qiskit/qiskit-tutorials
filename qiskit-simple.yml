@@ -5,5 +5,4 @@ dependencies:
 - notebook
 - scipy
 - pip:
-  - IBMQuantumExperience
   - qiskit
