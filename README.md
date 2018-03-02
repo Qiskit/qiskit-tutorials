@@ -7,7 +7,7 @@
 
 Welcome to the Quantum Information Software Kit ([QISKit](https://www.qiskit.org/) for short) tutorials! 
 
-In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use the [QISKit SDK](https://github.com/QISKit/qiskit-sdk-py) for writing quantum computing programs and executing them on one of several backends (online quantum processors, online simulators, and local simulators). For the online quantum processors, QISKit uses the [QISKit API](https://github.com/QISKit/qiskit-api-py) to connect to the [IBM Q Systems](https://quantumexperience.ng.bluemix.net/qx/experience).
+In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use the [QISKit](https://github.com/QISKit/qiskit-sdk-py) for writing quantum computing programs and executing them on one of several backends (online quantum processors, online simulators, and local simulators). For the online quantum processors connects to the [IBM Q Systems](https://quantumexperience.ng.bluemix.net/qx/devices).
 
 ## Installation and Setup
 Please refer to this [installation notebook](INSTALL.ipynb) for installing and setting up the QISKit SDK and tutorials on your own machine.
@@ -23,7 +23,7 @@ We have organised the tutorials into three sections:
 Since quantum computing is so new to most users, we want to find the best *Hello Quantum World* program and welcome submissions here. 
 
 ### 2. [Reference](reference/)<a id='reference'></a>
-We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. We will be keeping them up to date with [QISKit SDK](https://github.com/QISKit/qiskit-sdk-py) updates. They are organized into the following topics:
+We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. We will be keeping them up to date with [QISKit](https://github.com/QISKit/qiskit-sdk-py) updates. They are organized into the following topics:
 
 #### 2.1 [Getting started with QISKit](reference/tools)
 In this first topic, we introduce you to the basic features of QISKit. More tutorials covering QISKit features can be found in [here](#appendix_tools) and developer documentation can be found [here](https://www.qiskit.org/documentation/).
