@@ -20,9 +20,9 @@ git clone https://github.com/QISKit/qiskit-tutorial.git
 If you need to install `git` follow the instructions [here](https://help.github.com/articles/set-up-git/).
 
 
-## 2. Install the QISKit SDK
+## 2. Install QISKit
 
-The latest release version of the QISKit SDK should be the one installed.  It can be done using
+The latest release version of the QISKit should be the one installed (not the development branch if you are using `git`).  The latest release can be installed using
 
 ```
 pip install qiskit

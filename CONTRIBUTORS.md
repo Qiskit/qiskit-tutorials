@@ -1,3 +1,9 @@
+<img src="images/QISKit.gif">
+
+***
+
+# The QISKitters 
+
 - Alex Breitweiser
 - Jerry Chow 
 - Antonio Córcoles
