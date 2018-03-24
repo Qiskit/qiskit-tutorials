@@ -9,7 +9,7 @@
 
 **Get the tutorials**<BR>
 
-The easiest way is to [download](https://github.com/QISKit/qiskit-tutorial/archive/stable.zip) the tutorials. Unzip the archive in the directory of your choice.
+The easiest way is to [download](https://github.com/QISKit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice.
 
 The more advance user may choose to use `git`. If you have `git` installed, run
 
