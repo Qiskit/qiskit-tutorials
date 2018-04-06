@@ -28,7 +28,7 @@ The latest release version of the QISKit should be the one installed (not the de
 pip install qiskit
 ```
 
-but we recommend the following:
+**but we recommend the following**:
 
 
 1. **Install [conda](https://conda.io/docs/index.html)**
