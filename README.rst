@@ -92,7 +92,7 @@ you have developed or simply share your work within the community.
 
 We have customized the example notebooks for you, so that you can
 directly run those using DSx. To get started, refer to this
-:example: `1_introduction/running_on_IBM_DSX.ipynb`
+`example <1_introduction/running_on_IBM_DSX.ipynb>`__ .
 
 See this `link
 <https://github.com/QISKit/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx>`__
