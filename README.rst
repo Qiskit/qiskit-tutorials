@@ -22,117 +22,10 @@ The notebooks are organized into several categories
 For further information checkout out the Jupyter notebook index.ipynb
 at the top of this repo.
 
-Installation and setup
+Installation and Setup
 ----------------------
 
-1. Install the `QISKit SDK <https://github.com/QISKit/qiskit-sdk-py>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If the SDK has not already been installed, follow the installation
-instructions in the README file in the
-`QISKit SDK repository <https://github.com/QISKit/qiskit-sdk-py>`__.
-
-Briefly, the steps are:
-
-1. install `conda <https://conda.io/docs/index.html>`_
-2. create conda environment for QISKit::
-
-    conda create -y -n QISKitenv python=3 pip scipy
-
-3. activate the environment
-
-   - MacOS, Linux: ``source activate QISKitenv``
-   - Windows: ``activate QISKitenv``
-
-3. install qiskit:
-
-   Please note that the **master** branch of the tutorials, is intented to be
-   used with the **master** branch (development version) of the SDK. As a
-   result, for using it you need to clone the SDK repository (and periodically
-   update it) via::
-
-    git clone https://github.com/QISKit/qiskit-sdk-py.git
-
-   If you do not need access to the most recent features, please consider using
-   the ``stable`` version of the tutorials instead. When using the **stable**
-   branch of the tutorials, the stable version of the SDK can be installed
-   via::
-
-   pip install qiskit
-
-4. setup API token
-
-    1. Create an
-       `IBM Quantum Experience Experience <https://quantumexperience.ng.bluemix.net>`__
-       account if you haven't already done so
-    2. Get an API token from the Quantum Experience website under "My Account" > "Personal Access Token"
-    3. You will insert your API token in a file called Qconfig.py in the qiskit-tutorial directory. The contents of the file should look like,
-
-        .. code:: python
-
-            APItoken = 'my token from the Quantum Experience'
-            config = {'url': 'https://quantumexperience.ng.bluemix.net/api'}
-
-            if 'APItoken' not in locals():
-                raise Exception('Please set up your access token. See Qconfig.py.')
-
-2. Install `Jupyter <http://jupyter.readthedocs.io/en/latest/install.html>`__
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-After the previous step you should have a ``QISKitenv`` `conda
-<https://conda.io/docs/index.html>`_ environment and your API token
-setup. In a terminal window make sure you are in the QISKitenv conda
-environment,
-
-   - MacOS, Linux: ``source activate QISKitenv``
-   - Windows: ``activate QISKitenv``
-
-Then install jupyter with,
-
-.. code:: sh
-
-    conda install jupyter
-
-3. Get the tutorials
-~~~~~~~~~~~~~~~~~~~~
-
-Using ``git`` to clone the SDK repository is the easiest way to
-keep up with the latest changes or to contribute to the
-tutorials. 
-
-.. code:: sh
-
-    git clone https://github.com/QISKit/qiskit-tutorial.git
-
-Alternatively it is also possible to just download the source files in
-a ZIP archive. For the ZIP file download, select the desired branch
-from the ``Branch`` drop-down button on the GitHub page. Usually this
-would be the highest revision branch available or ``master`` if you
-want the latest development version. Select the green ``Clone or
-download`` button then ``Download ZIP`` to get the source file
-archive.
-
-4. Explore the tutorials
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-In a terminal window copy or link your Qconfig.py file from step (1)
-into this directory.
-
-- Linux, macOS: ``cp /path/to/Qconfig.py qiskit-tutorial``
-- Windows: ``copy \path\to\Qconfig.py qiskit-tutorial``
-
-Go to the ``qiskit-tutorial`` directory.
-
-.. code:: sh
-
-    cd qiskit-tutorial
-
-Start Jupyter with the index notebook.
-
-.. code:: sh
-
-    jupyter notebook index.ipynb
-
+Please refer to the `installation steps detailed here<INSTALL.md>`__.
 
 Contributing
 ------------
@@ -186,24 +79,24 @@ tutorial.
 
 Using IBM DSx for your notebooks
 ---------------------------------
-IBM Data Science Experience (DSx) is a platform where you can interactively 
-run your quantum programs, collaborate and share your work with others. 
+IBM Data Science Experience (DSx) is a platform where you can interactively
+run your quantum programs, collaborate and share your work with others.
 
-Among other things, it provides a ready-to-use environment to run Jupyter 
-Python notebooks. For someone just getting started with QISkit, this is an 
-excellent option. You can skip all the installation and environment creation 
-steps on your computer, and instead use this web-hosted Jupyter notebook 
-environment for running the Quantum programs. It also provides a platform 
-where you can invite fellow researchers to collaborate on the notebooks 
+Among other things, it provides a ready-to-use environment to run Jupyter
+Python notebooks. For someone just getting started with QISkit, this is an
+excellent option. You can skip all the installation and environment creation
+steps on your computer, and instead use this web-hosted Jupyter notebook
+environment for running the Quantum programs. It also provides a platform
+where you can invite fellow researchers to collaborate on the notebooks
 you have developed or simply share your work within the community.
 
-We have customized the example notebooks for you, so that you can 
-directly run those using DSx. To get started, refer to this 
+We have customized the example notebooks for you, so that you can
+directly run those using DSx. To get started, refer to this
 example: `1_introduction/running_on_IBM_DSX.ipynb`
 
 See this `link
-<https://github.com/QISKit/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx>`__ 
-that gives step-by-step instructions on setting up an example notebook on DSx. 
+<https://github.com/QISKit/qiskit-tutorial/wiki/Running-Quantum-Program-on-IBM-DSx>`__
+that gives step-by-step instructions on setting up an example notebook on DSx.
 
 Other QISKit projects
 ---------------------
