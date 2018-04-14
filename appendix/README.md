@@ -1,10 +1,10 @@
 # Appendix
 
 This folder contains the rest of the tutorials. They are not guaranteed to work with the
-_stable_ version of the `qiskit-sdk-py`.
+latest version of `qiskit` but we will try our best.
 
 All new tutorials will also be placed under this folder
-until they are moved to their proper location (the `Reference` or the `Hello, Quantum World`).
+until they are moved to their proper location (the `Reference` or the `Hello, Quantum World` directory).
 
 The tutorials under this Appendix are classified into four categoris:
 - [Advanced QISKit](advanced_qiskit) - contain tutorials explaining the functionalities of QISKit.
