@@ -49,10 +49,9 @@ def version_information(sdk_develop=False):
     filename = 'requirements.txt'
     # If the notebook is run from another one, the path will be the parent's.
     if not path.exists(filename):
-        filename = '../../requirements.txt'
-    
+        filename = '../requirements.txt'
+
     with open(filename, 'r') as requirements_file:
-       
         str_requirements = requirements_file.readlines()
         requirements = [Requirement(i) for i in str_requirements]
 
@@ -61,7 +60,7 @@ def version_information(sdk_develop=False):
         qiskit_branch = '<b>development</b>'
     output = ['<h2>Version information</h2>',
               '<p>Please note that this tutorial is targeted to the %s '
-              'version of the QISKit. The following versions of the '
+              'version of the QISKit SDK. The following versions of the '
               'packages are recommended:</p>' % qiskit_branch,
               '<table>',
               '<tr><th>Package</th><th colspan="2">Version</th></tr>']
