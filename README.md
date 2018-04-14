@@ -25,25 +25,7 @@ We have organized the tutorials into three sections:
 Since quantum computing is so new to most users, we want to find the best *Hello Quantum World* program and welcome submissions here. 
 
 ### 2. [Reference](reference/)<a id='reference'></a>
-We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. We will be keeping them up to date with QISKit updates. They are organized into the following topics:
-
-#### 2.1 [Getting started with QISKit](reference/tools)
-In this first topic, we introduce you to the basic features of QISKit.
-        
-#### 2.2 [Introduction to quantum information science](reference/qis)
-The next set of notebooks shows how you can explore some simple concepts of quantum information science. 
-    
-####  2.3 [Understanding your quantum computer](reference/qcvv)
-This set of notebooks describe a few of the techniques used to characterize, verify and validate quantum systems. 
-
-####  2.4 [Working on approximate quantum computers](reference/approximate)
-Universal fault tolerant quantum computers are still many years away, notebooks in this section describe a few of the things you can do with the approximate quantum computers we have today.
-
-#### 2.5 [Examples of quantum algorithms](reference/algorithms)
-This section contains notebooks describing the canonical quantum algorithms. 
-
-####  2.6 [Having fun with quantum computers](reference/games)
-Here we have a few examples of quantum games. Enjoy!
+We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. We will be keeping them up to date with QISKit updates. 
 
 ### 3. [Appendix](appendix)<a id='appendix'></a>
 This is where the rest of the tutorials are. They are not guaranteed to work with the latest version of the QISKit, but we will do our best. 
