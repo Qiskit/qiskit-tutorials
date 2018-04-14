@@ -22,7 +22,7 @@ If you need to install `git` follow the instructions [here](https://help.github.
 
 ## 2. Install QISKit
 
-The latest release version of the QISKit should be the one installed (not the development branch if you are using `git`).  The latest release can be installed using
+The latest release version of the QISKit should be the one installed.  The latest release can be installed using
 
 ```
 pip install qiskit
