@@ -6,6 +6,6 @@ Here are some ideas to get you started.
 
 - **Flip a coin with quantum**. Put one single qubit in superposition, and then measure it's state! Voila, you have your first quantum coin!
 - **Random number generator**. You can put multiple qubits in superposition and then measure their state to get a perfect random number!
-- **Spooky entangled states**. Entangle two qubits and then sit back and watch their spooky action at a distance!
+- **Entangled states**. Entangle two qubits and then investigate their properties and try to wrap your ahead around this new resource that only quantum computing can provide.
 
 If you would like your own recipe included in our featured hello world recipes, please send us a Pull Request.
