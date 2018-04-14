@@ -28,16 +28,16 @@ The latest release version of the QISKit should be the one installed (not the de
 pip install qiskit
 ```
 
-but we recommend the following:
+**but we recommend the following**:
 
 
 1. **Install [conda](https://conda.io/docs/index.html)**
 
-2. **Create conda environment for QISKit and install packages** (with the 	accompanied `qiskit-simple.yml` file)
+2. **Create conda environment for QISKit and install packages** (with the 	accompanied `QISKitenv.yml` file)
 
 ```
 cd qiskit-tutorial
-conda env create -f qiskit-simple.yml
+conda env create -f QISKitenv.yml
 ```   
 
 ## 3. Setup the API Token
