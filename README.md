@@ -3,6 +3,8 @@
 
 ***
 
+THIS IS CURRENTLY STILL BE ORGANIZED. THE OLD VERSION IS IN THE OLD_TUTORIAL_FORMAT BUT WE WILL GET THIS DONE AS FAST AS WE CAN
+
 # QISKit Tutorials
 
 Welcome to the Quantum Information Software Kit ([QISKit](https://www.qiskit.org/) for short) tutorials! 
