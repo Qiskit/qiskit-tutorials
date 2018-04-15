@@ -8,6 +8,5 @@ https://github.com/QISKit/qiskit-tutorial/wiki/QISKit-Tutorials
 ## Your Environment
 <!--- Please fill the following fields, and include any other information
 about your environment that might be relevant. -->
-* Tutorial branch (stable/master):
 * QISKit SDK version:
 * Python version:
