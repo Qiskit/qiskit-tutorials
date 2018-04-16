@@ -8,7 +8,6 @@ Giacomo Nannicini, https://arxiv.org/abs/1708.03684.
 
 """
 
-import sys
 from qiskit import QuantumProgram, QuantumCircuit
 from qiskit.tools import visualization
 
@@ -107,10 +106,6 @@ def inversion_about_average(circuit, f_in, n):
 # -- end function
 
 if (__name__ == '__main__'):
-    if (sys.version_info.major < 3):
-        print('This software requires Python 3.')
-        sys.exit()
-
     # Make a quantum program for the n-bit Grover search.
     n = 3
     # Exactly-1 3-SAT formula to be satisfied, in conjunctive
