@@ -1,3 +1,8 @@
 # Where component owners are known, add them here.
 
 reference/tools/* @jaygambetta
+reference/qis/* @attp
+reference/qcvv/* @dtmcclure
+reference/approximate/*
+reference/algorithms/* @rraymondhp
+reference/games/* @decodoku
