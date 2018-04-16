@@ -1,8 +1,8 @@
 # Where component owners are known, add them here.
 
-reference/tools/* @jaygambetta
-reference/qis/* @attp
-reference/qcvv/* @dtmcclure
-reference/approximate/*
-reference/algorithms/* @rraymondhp
+reference/tools/* @ajavadia, @jaygambetta
+reference/qis/* @attp, @jaygambetta
+reference/qcvv/* @dtmcclure, @jaygambetta
+reference/approximate/* @adcorcol, @antoniomezzacapo, @jaygambetta
+reference/algorithms/* @rraymondhp, @jaygambetta
 reference/games/* @decodoku
