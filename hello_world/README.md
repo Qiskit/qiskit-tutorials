@@ -8,8 +8,4 @@ Here are some ideas to get you started.
 - **Random number generator**. You can put multiple qubits in superposition and then measure their state to get a perfect random number!
 - **Entangled states**. Entangle two qubits and then investigate their properties and try to wrap your ahead around this new resource that only quantum computing can provide.
 
-<<<<<<< HEAD:0_hello_world/README.md
 If you would like your own recipe included in our featured "hello world" recipes, please send us a Pull Request with a link to your repository and a demo video.
-=======
-If you would like your own recipe included in our featured hello world recipes, please send us a Pull Request.
->>>>>>> QISKit/master:hello_world/README.md
