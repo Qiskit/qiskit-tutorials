@@ -1,6 +1,6 @@
 # QISKit Reference Tutorials
 
-We've collected a core set of tutorial notebooks in this folder. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. They will be kept date with QISKit. They are organized into the following topics:
+We've collected a core set of tutorial notebooks in this folder. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. They will be kept up-to-date with QISKit. They are organized into the following topics:
 
 ## 1. [Getting started with QISKit](tools)
 Here we introduce you to the basic features of QISKit.
@@ -9,7 +9,7 @@ Here we introduce you to the basic features of QISKit.
 Here we show you how to use QISKit to explore some simple concepts of quantum information science. 
     
 ## 3 [Understanding your quantum computer](qcvv)
-Here we describe a few of the techniques used to characterize, verify and validate quantum systems. 
+Here we describe a few of the techniques used to characterize, verify, and validate quantum systems. 
 
 ## 4. [Working on approximate quantum computers](approximate)
 Here we describe some of the things you can do with the approximate quantum computers we have today.
