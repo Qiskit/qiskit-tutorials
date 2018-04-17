@@ -1,1 +1,0 @@
-folder for 'hello world' type examples - simple, relatable, whimsical examples to help someone get their foot in the door of quantum programming - quote from James Wootton.
