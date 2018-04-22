@@ -110,7 +110,7 @@ if (__name__ == '__main__'):
     n = 3
     # Exactly-1 3-SAT formula to be satisfied, in conjunctive
     # normal form. We represent literals with integers, positive or
-    # negative to indicate a boolean variable or its negation.
+    # negative, to indicate a Boolean variable or its negation.
     exactly_1_3_sat_formula = [[1, 2, -3], [-1, -2, -3], [-1, 2, 3]]
 
     # Define three quantum registers: 'f_in' is the search space (input
