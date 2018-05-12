@@ -1,4 +1,4 @@
-<img src="images/QISKit.gif">
+<img src="images/qiskit-logo.gif">
 
 ***
 
