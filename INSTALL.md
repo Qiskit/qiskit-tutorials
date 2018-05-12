@@ -1,5 +1,5 @@
 
-<img src="images/qiskit-logo.gif" >
+<img src="images/qiskit-heading.gif" >
 
 ***
 
