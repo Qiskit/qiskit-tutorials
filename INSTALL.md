@@ -1,5 +1,5 @@
 
-<img src="images/QISKit.gif" >
+<img src="images/qiskit-heading.gif" >
 
 ***
 
@@ -11,7 +11,7 @@
 
 The easiest way is to [download](https://github.com/QISKit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice.
 
-The more advance user may choose to use `git`. If you have `git` installed, run
+The more advanced user may choose to use `git`. If you have `git` installed, run
 
 ```
 git clone https://github.com/QISKit/qiskit-tutorial.git
@@ -22,7 +22,7 @@ If you need to install `git` follow the instructions [here](https://help.github.
 
 ## 2. Install QISKit
 
-The latest release version of the QISKit should be the one installed.  The latest release can be installed using
+The latest release version of QISKit should be the one installed.  The latest release can be installed using
 
 ```
 pip install qiskit
@@ -33,7 +33,7 @@ pip install qiskit
 
 1. **Install [conda](https://conda.io/docs/index.html)**
 
-2. **Create conda environment for QISKit and install packages** (with the 	accompanied `QISKitenv.yml` file)
+2. **Create conda environment for QISKit and install packages** (with the accompanying `QISKitenv.yml` file)
 
 ```
 cd qiskit-tutorial
@@ -50,7 +50,7 @@ Create the `Qconfig.py` from the template provided at `Qconfig.py.template`. Fol
      Account" &gt; "Advanced" &gt; "API Token"
 3.  You will insert your API token in a file called Qconfig.py in
      the ```qiskit-tutorial``` directory. The contents of the file should
-     look like,
+     look like:
 
 ```
 APItoken = 'my token from the Quantum Experience'
