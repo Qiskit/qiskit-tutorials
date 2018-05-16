@@ -56,7 +56,7 @@ def ask_for_ships ():
             randPos = random.sample(range(5), 3)
             for ship in [0,1,2]:
                 shipPos[player][ship] = randPos[ship]
-            #print(randPos) #uncomment if you want a sneaky peak at where the ships are
+            #print(randPos) #uncomment if you want a sneaky peek at where the ships are
         else:
             for ship in [0,1,2]:
 
@@ -67,8 +67,8 @@ def ask_for_ships ():
                     # get player input
                     position = getpass.getpass("Player " + str(player+1) + ", choose a position for ship " + str(ship+1) + " (0, 1, 2, 3 or 4)\n" )
 
-                    # see if the valid input and ask for another if not
-                    if position.isdigit(): # valid answers  have to be integers
+                    # see if the input is valid and ask for another if not
+                    if position.isdigit(): # valid answers have to be integers
                         position = int(position)
                         if (position in [0,1,2,3,4]) and (not position in shipPos[player]): # they need to be between 0 and 5, and not used for another ship of the same player
                             shipPos[player][ship] = position
@@ -123,7 +123,7 @@ def display_grid ( grid, shipPos, shots ):
     # look at the damage on all qubits (we'll even do ones with no ships)
     damage = [ [0]*5 for _ in range(2)] # this will hold the prob of a 1 for each qubit for each player
         
-    # for this we loop over all 5 bit strings for each player
+    # for this we loop over all strings of 5 bits for each player
     for player in range(2):
         for bitString in grid[player].keys():
             # and then over all positions
@@ -138,8 +138,8 @@ def display_grid ( grid, shipPos, shots ):
 
         input("\nPress Enter to see the results for Player " + str(player+1) + "'s ships...\n")
 
-        # report damage for qubits that are ships, and which have significant damange
-        # ideally this would be non-zero damage, but noise means that can happen for ships that haven't been hit
+        # report damage for qubits that are ships, and which have significant damage
+        # ideally this would be non-zero damage, but noise means it can happen for ships that haven't been hit
         # so we choose 5% as the threshold
         display = [" ?  "]*5
         # loop over all qubits that are ships
