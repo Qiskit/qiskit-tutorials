@@ -1,6 +1,5 @@
 import getpass, random, numpy, math
 
-
 def title_screen ():
 
     print("\n\n\n\n\n\n\n\n")
@@ -23,9 +22,8 @@ def title_screen ():
     print("                | _ \| || | | |) |/ -_)/ _|/ _ \/ _` |/ _ \| / /| || |")
     print("                |___/ \_, | |___/ \___|\__|\___/\__,_|\___/|_\_\ \_,_|")
     print("                      |__/                                            ")
-    print("                           James Wootton, University of Basel")
     print("")
-    print("                        A game played on a real quantum computer!")
+    print("                       A game played on a real quantum computer!")
     print("")
     print("")
     randPlace = input("> Press Enter to play...\n").upper()
@@ -152,7 +150,8 @@ def display_grid ( grid, shipPos, shots ):
                     display[position] = "100%"
                 else:
                     display[position] = str(int( 100*damage[player][position] )) + "% "
-
+            #print(position,damage[player][position])
+                    
         print("Here is the percentage damage for ships that have been bombed.\n")
         print(display[ 4 ] + "    " + display[ 0 ])
         print(" |\     /|")
