@@ -35,7 +35,7 @@ def ask_for_device ():
     if (d=="Y"):
         device = 'ibmqx4' # if real, we use ibmqx4
     else:
-        device = 'ibmqx_hpc_qasm_simulator' # otherwise, we use a simulator
+        device = 'local_qasm_simulator' # otherwise, we use a simulator
         
     return device
 
