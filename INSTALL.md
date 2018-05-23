@@ -83,7 +83,6 @@ For MacOS and Linux, run:
 
 ```
 source activate QISKitenv
-python -m ipykernel install --user --name QISKitEnv --display-name "Python (QISKitEnv)"
 ```
 
 For Windows, run:
@@ -91,6 +90,13 @@ For Windows, run:
 ```
 activate QISKitenv
 ```
+**Note for conda userts**
+You need to be sure that you have installed the right Jupyter Kernel, because in the last conda version it's not installed by default. 
+
+```
+python -m ipykernel install --user --name QISKitEnv --display-name "Python (QISKitEnv)"
+```
+
 **Start Jupyter with the index notebook**<BR>
 
 ```
