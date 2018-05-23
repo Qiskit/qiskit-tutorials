@@ -51,7 +51,7 @@ conda env create -f QISKitenv.yml
 If you have already created `QISKitenv`, you can upgrade it by running
 
 ```
-conda env create -f QISKitenv.yml
+conda env update -f QISKitenv.yml
 ```
 
 ## 3. Setup the API Token
