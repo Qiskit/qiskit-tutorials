@@ -22,13 +22,21 @@ If you need to install `git` follow the instructions [here](https://help.github.
 
 ## 2. Install QISKit
 
-The latest release version of QISKit should be the one installed.  The latest release can be installed using
+The latest release version of QISKit should be the one installed.
+
+The latest release can be installed using
 
 ```
 pip install qiskit
 ```
 
-**but we recommend the following**:
+Or, pre-installed qiskit can be updated using
+
+```
+pip install -U qiskit
+```
+
+**BUT we recommend the following**:
 
 
 1. **Install [conda](https://conda.io/docs/index.html)**
@@ -39,6 +47,12 @@ pip install qiskit
 cd qiskit-tutorial
 conda env create -f QISKitenv.yml
 ```   
+
+If you have already created `QISKitenv`, you can upgrade it by running
+
+```
+conda env update -f QISKitenv.yml
+```
 
 ## 3. Setup the API Token
 
