@@ -83,6 +83,7 @@ For MacOS and Linux, run:
 
 ```
 source activate QISKitenv
+python -m ipykernel install --user --name QISKitEnv --display-name "Python (QISKitEnv)"
 ```
 
 For Windows, run:
