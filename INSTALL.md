@@ -54,13 +54,6 @@ If you have already created `QISKitenv`, you can upgrade it by running
 conda env update -f QISKitenv.yml
 ```
 
-3. **Install the QISKitenv kernel to jupyter notebook**
-
-The command below will enable you to switch to the kernel `QISKitenv` within the jupyter notebook.
-```
-ipython kernel install --name QISKitenv --user
-```
-
 ## 3. Setup the API Token
 
 Create the `Qconfig.py` from the template provided at `Qconfig.py.template`. Follow the three steps below.  
@@ -109,3 +102,30 @@ python -m ipykernel install --user --name QISKitenv --display-name "Python (QISK
 ```
 jupyter notebook index.ipynb
 ```
+
+## 5. Visualizing Circuits
+You can visualize your quantum circuits directly from QISKit. To get publication-quality images, QISKit plots circuits using LaTeX, which means you will need to install some pre-requisite software. These include the `pdflatex` compiler for rendering latex documents, and the Poppler library for converting PDF to image. In the future, we will provide ways of plotting circuits without relying on Latex.
+
+On Linux:
+
+- Install [MiKTeX](https://miktex.org/download#unx)
+- Install Poppler:
+	- Run: ```apt-get install -y poppler-utils```
+
+On MacOS:
+
+- Install [MiKTeX](https://miktex.org/download).
+- Install Poppler:
+	- Run:```brew install poppler```
+
+On Windows:
+
+- Install [MiKTeX](https://miktex.org/download).
+- Install Poppler:
+	- Download the [latest binary](http://blog.alivate.com.au/wp-content/uploads/2017/01/poppler-0.51_x86.7z).
+	- Extract the downloaded `.7z` file into user directory:
+`c:\Users\<user_name>\`.
+Note: You will need to have the [7zip software](https://www.7-zip.org/download.html) for this.
+	- Add to PATH:
+		- Right click on "This PC" -> Properties -> Advanced System Settings -> Environment Variables
+		- Add `C:\Users\<user_name>\poppler-0.51\bin` to the user's path.
