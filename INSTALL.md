@@ -54,6 +54,13 @@ If you have already created `QISKitenv`, you can upgrade it by running
 conda env update -f QISKitenv.yml
 ```
 
+3. **Install the QISKitenv kernel to jupyter notebook **
+
+The command below will enable you to switch to the kernel `QISKitenv` within the jupyter notebook.
+```
+ipython kernel install --name QISKitenv --user
+```
+
 ## 3. Setup the API Token
 
 Create the `Qconfig.py` from the template provided at `Qconfig.py.template`. Follow the three steps below.  
