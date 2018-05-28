@@ -54,7 +54,7 @@ If you have already created `QISKitenv`, you can upgrade it by running
 conda env update -f QISKitenv.yml
 ```
 
-3. **Install the QISKitenv kernel to jupyter notebook **
+3. **Install the QISKitenv kernel to jupyter notebook**
 
 The command below will enable you to switch to the kernel `QISKitenv` within the jupyter notebook.
 ```
