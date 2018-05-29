@@ -5,7 +5,7 @@
 
 # QISKit Tutorials
 
-Welcome to the Quantum Information Software Kit ([QISKit](https://www.qiskit.org/) for short) tutorials! 
+Welcome to the Quantum Information Science Kit ([QISKit](https://www.qiskit.org/) for short) tutorials!
 
 In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use the QISKit for writing quantum computing programs and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors connects to the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
 
