@@ -19,6 +19,7 @@
 - Ali Javadi
 - Antonio Mezzacapo
 - Ramis Movassagh
+- Adam D. Perruzzi
 - Anna Phan
 - [Rudy Raymond](https://github.com/rraymondhp)
 - Russell Rundle
