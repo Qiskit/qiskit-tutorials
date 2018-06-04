@@ -1,6 +1,8 @@
 # QISKit Reference Tutorials
 
-We've collected a core set of tutorial notebooks in this folder. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. They will be kept up-to-date with QISKit. They are organized into the following topics:
+We've collected a core set of tutorial notebooks in this folder. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. We will be keeping them up to date with the latest QISKit version, currently 0.5.3.
+
+They are organized into the following topics:
 
 ## 1. [Getting started with QISKit](tools)
 Here we introduce you to the basic features of QISKit.
