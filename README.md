@@ -23,7 +23,7 @@ We have organized the tutorials into three sections:
 Since quantum computing is new to most users, we want to find the best *Hello Quantum World* program and welcome submissions here. 
 
 ### 2. [Reference](reference/)<a id='reference'></a>
-We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. We will be keeping them up to date along with QISKit updates. 
+We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. We will be keeping them up to date with the latest QISKit version, currently 0.5.  
 
 ### 3. [Appendix](appendix)<a id='appendix'></a>
 This is where the rest of the tutorials are. They are not guaranteed to work with the latest version of QISKit, but we will do our best. 
