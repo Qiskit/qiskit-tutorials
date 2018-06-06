@@ -3,5 +3,6 @@ dependencies:
 - python=3
 - pip
 - notebook
+- scipy
 - pip:
   - qiskit
