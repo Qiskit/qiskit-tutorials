@@ -7,7 +7,6 @@
 # QISKit Tutorials
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
- [![CLA assistant](https://cla-assistant.io/readme/badge/QISKit/qiskit-tutorial)](https://cla-assistant.io/QISKit/qiskit-tutorial) 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/QISKit/qiskit-tutorial/master?filepath=index.ipynb)
 
 
