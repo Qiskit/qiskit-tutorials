@@ -46,7 +46,7 @@ pip install -U qiskit
 ```
 cd qiskit-tutorial
 conda env create -f QISKitenv.yml
-```   
+```
 
 If you have already created `QISKitenv`, you can upgrade it by running
 
@@ -54,9 +54,25 @@ If you have already created `QISKitenv`, you can upgrade it by running
 conda env update -f QISKitenv.yml
 ```
 
+### 2.1 Install QISKit ACQUA, QISKit ACQUA Chemistry
+
+The latest release version of QISKit ACQUA and ISKit ACQUA Chemistry should be the one installed.
+
+The latest release can be installed using
+
+```
+pip install qiskit-acqua qiskit-acqua-chemistry
+```
+
+Or, pre-installed packages can be updated using
+
+```
+pip install -U qiskit-acqua qiskit-acqua-chemistry
+```
+
 ## 3. Setup the API Token
 
-Create the `Qconfig.py` from the template provided at `Qconfig.py.template`. Follow the three steps below.  
+Create the `Qconfig.py` from the template provided at `Qconfig.py.template`. Follow the three steps below.
 
 1.  Create an [IBM Q Experience](https://quantumexperience.ng.bluemix.net) account
      if you haven't already done so
@@ -75,7 +91,6 @@ if 'APItoken' not in locals():
 ```
 
 
-
 ## 4. Explore the tutorials
 
 **Activate the environment**<BR>
@@ -91,7 +106,7 @@ For Windows, run:
 activate QISKitenv
 ```
 **Note for conda users**<BR>
-You need to be sure that you have installed the right Jupyter Kernel, because in the last conda version it's not installed by default. 
+You need to be sure that you have installed the right Jupyter Kernel, because in the last conda version it's not installed by default.
 
 ```
 python -m ipykernel install --user --name QISKitenv --display-name "Python (QISKitenv)"
