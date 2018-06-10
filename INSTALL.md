@@ -20,20 +20,20 @@ git clone https://github.com/QISKit/qiskit-tutorial.git
 If you need to install `git` follow the instructions [here](https://help.github.com/articles/set-up-git/).
 
 
-## 2. Install QISKit
+## 2. Install QISKit, QISKit ACQUA and QISKit ACQUA Chemistry
 
 The latest release version of QISKit should be the one installed.
 
 The latest release can be installed using
 
 ```
-pip install qiskit
+pip install qiskit qiskit-acqua qiskit-acqua-chemistry
 ```
 
 Or, pre-installed qiskit can be updated using
 
 ```
-pip install -U qiskit
+pip install -U qiskit qiskit-acqua qiskit-acqua-chemistry
 ```
 
 **BUT we recommend the following**:
@@ -54,21 +54,6 @@ If you have already created `QISKitenv`, you can upgrade it by running
 conda env update -f QISKitenv.yml
 ```
 
-### 2.1 Install QISKit ACQUA, QISKit ACQUA Chemistry
-
-The latest release version of QISKit ACQUA and ISKit ACQUA Chemistry should be the one installed.
-
-The latest release can be installed using
-
-```
-pip install qiskit-acqua qiskit-acqua-chemistry
-```
-
-Or, pre-installed packages can be updated using
-
-```
-pip install -U qiskit-acqua qiskit-acqua-chemistry
-```
 
 ## 3. Setup the API Token
 

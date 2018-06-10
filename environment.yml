@@ -5,3 +5,5 @@ dependencies:
 - notebook
 - pip:
   - qiskit
+  - qiskit-acqua
+  - qiskit-acqua-chemistry
