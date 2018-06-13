@@ -9,3 +9,4 @@ __pycache__/
 hello_world/*/.ipynb_checkpoints/*
 reference/*/.ipynb_checkpoints/*
 appendix/*/.ipynb_checkpoints/*
+appendix/*/*/.ipynb_checkpoints/*
