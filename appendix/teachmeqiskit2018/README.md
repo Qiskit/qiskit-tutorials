@@ -12,7 +12,7 @@ Here is the list of the top submissions (in alphabetical order).
 - [Exact Ising Model Simulation](exact_ising_model_simulation/Ising_time_evolution.ipynb) - how to simulate time evolution at zero time.
 - [Hadamard Action](hadamard_action) - three approaches to show equivalences of circuits.
 - [Quantum Cryptography](quantum_cryptography_qkd/Quantum_Cryptography2.ipynb) - quantum key distribution with BB84 protocol.
-- [Quantum Error Correction](quantum_error_correction/IBM_Submission.ipynb) - qubit errors and how to threat them.
+- [Quantum Error Correction](quantum_error_correction/error_correction.ipynb) - qubit errors and how to threat them.
 - [Quantum Machine Learning](quantum_machine_learning/QISKIT%20for%20quantum%20machine%20learning.ipynb) - quantum k-means, lineary system of equation, and SVM.
 - [State Distribution in Qubit Chains](state_distribution_in_qubit_chains/index.ipynb) - state transport in quantum chains.
 - [W State](w_state) - W states and games using them.
