@@ -10,7 +10,7 @@ Here we introduce you to the basic features of QISKit.
 ## 2. [Introduction to quantum information science](qis)
 Here we show you how to use QISKit to explore some simple concepts of quantum information science. 
     
-## 3 [Understanding your quantum computer](qcvv)
+## 3. [Understanding your quantum computer](qcvv)
 Here we describe a few of the techniques used to characterize, verify, and validate quantum systems. 
 
 ## 4. [Working on approximate quantum computers](approximate)
