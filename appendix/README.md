@@ -10,4 +10,5 @@ The tutorials under this Appendix are classified into four categories:
 - [Advanced QISKit](advanced_qiskit) - contain tutorials explaining the functionalities of QISKit.
 - [More on Quantum Information Science](more_qis) - tutorials related to Quantum Information Science.
 - [Algorithms and Applications](algo_app) - tutorials on Quantum Algorithms and Applications.
+- [Teach Me QISKit Tutorial Award 2018](teach_me_qiskit_2018) - top submissions to Teach Me QISKit Tutorial Award 2018
 - [Etc.](etc) - anything else that does not fall into the previous categories.
