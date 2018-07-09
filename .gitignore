@@ -6,7 +6,7 @@ __pycache__/
 
 .ipynb_checkpoints/*
 
-hello_world/*/.ipynb_checkpoints/*
+hello_world/.ipynb_checkpoints/*
 reference/*/.ipynb_checkpoints/*
 appendix/*/.ipynb_checkpoints/*
 appendix/*/*/.ipynb_checkpoints/*
