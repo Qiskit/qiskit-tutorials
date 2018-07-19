@@ -1,12 +1,13 @@
 
-.ipynb_checkpoints/*
-
-1_introduction/.ipynb_*
-2_quantum_information/.ipynb_*
-3_qcvv/.ipynb_*
-4_applications/.ipynb_*
-5_games/.ipynb_*
-
 Qconfig.py
 
 __pycache__/
+.cache/
+
+.ipynb_checkpoints/*
+
+hello_world/.ipynb_checkpoints/*
+reference/*/.ipynb_checkpoints/*
+appendix/*/.ipynb_checkpoints/*
+appendix/*/*/.ipynb_checkpoints/*
+appendix/*/*/*/.ipynb_checkpoints/*
