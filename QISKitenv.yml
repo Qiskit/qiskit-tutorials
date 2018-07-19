@@ -1,0 +1,10 @@
+name: QISKitenv
+dependencies:
+- python=3
+- pip
+- notebook
+- scipy
+- pip:
+  - qiskit
+  - qiskit-acqua
+  - qiskit-acqua-chemistry
