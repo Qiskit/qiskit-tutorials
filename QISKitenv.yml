@@ -6,3 +6,5 @@ dependencies:
 - scipy
 - pip:
   - qiskit
+  - qiskit-acqua
+  - qiskit-acqua-chemistry
