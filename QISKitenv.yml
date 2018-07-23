@@ -4,6 +4,7 @@ dependencies:
 - pip
 - notebook
 - scipy
+- cvxopt
 - pip:
   - qiskit
   - qiskit-acqua
