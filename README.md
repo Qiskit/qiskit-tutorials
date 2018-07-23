@@ -1,13 +1,16 @@
 
-<img src="images/QISKit.gif">
+<img src="images/qiskit-heading.gif" >
 
 ***
 
-THIS IS CURRENTLY STILL BE A WORK IN PROGRESS. THE OLD VERSION WAS TOO HARD TO KEEP ORGANIZED.  THE OLD VERSION IS IN THE OLD_TUTORIAL_FORMAT BUT WE WILL GET THIS DONE AS FAST AS WE CAN.
 
 # QISKit Tutorials
 
-Welcome to the Quantum Information Software Kit ([QISKit](https://www.qiskit.org/) for short) tutorials! 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/QISKit/qiskit-tutorial/master?filepath=index.ipynb)
+
+
+Welcome to the Quantum Information Science Kit ([QISKit](https://www.qiskit.org/) for short) tutorials!
 
 In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use the QISKit for writing quantum computing programs and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors connects to the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
 
@@ -22,20 +25,20 @@ You can also run the tutorials online without installation on the [IBM Data Scie
 We have organized the tutorials into three sections:
 
 ### 1. [Hello, Quantum World](hello_world/)
-Since quantum computing is so new to most users, we want to find the best *Hello Quantum World* program and welcome submissions here. 
+Since quantum computing is new to most users, we want to find the best *Hello Quantum World* program and welcome submissions here. 
 
 ### 2. [Reference](reference/)<a id='reference'></a>
-We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. We will be keeping them up to date with QISKit updates. 
+We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. We will be keeping them up to date with the latest QISKit version, currently 0.5.  
 
 ### 3. [Appendix](appendix)<a id='appendix'></a>
-This is where the rest of the tutorials are. They are not guaranteed to work with the latest version of the QISKit, but we will do our best. 
+This is where the rest of the tutorials are. They are not guaranteed to work with the latest version of QISKit, but we will do our best. 
 ***  
 
 ## Contributing
 If you would like to contribute to the tutorials, there are a number of ways to get involved:
 
-* **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/QISKit/qiskit-tutorial/issues) for this repository. Select `New issue` and fill in a descriptive title and provide as much detail as is needed for the issue to be reproduced.
-* **Notebooks**: If you would like to contribute a notebook please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Appendix](appendix) section. We will discuss in the [Slack channel](https://qiskit.slack.com/messages/C7SN3T90V) which of these should be in the [Reference](reference) section.
+* **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/QISKit/qiskit-tutorial/issues) for this repository. Select `New issue`, fill in a descriptive title, and provide as much detail as is needed for the issue to be reproduced.
+* **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Appendix](appendix) section. We will discuss in the [Slack channel](https://qiskit.slack.com/messages/C7SN3T90V) which of these should be in the [Reference](reference) section.
 
 ## Contributors
 An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If you have contributed to these tutorials, please include your name there.

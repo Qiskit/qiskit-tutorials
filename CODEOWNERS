@@ -1,8 +1,10 @@
-# Where component owners are known, add them here.
+# Fallback codeowners for all files that do not have an explicit rule.
+* @attp, @jaygambetta, @rraymondhp
 
-reference/tools/* @ajavadia, @jaygambetta
-reference/qis/* @attp, @jaygambetta
-reference/qcvv/* @dtmcclure, @jaygambetta
+# Codeowners for the reference tutorials.
+reference/tools/* @ajavadia, @ewinston, @jaygambetta
+reference/qis/* @attp, @adcorcol, @jaygambetta
+reference/qcvv/* @dtmcclure, @chriselectic, @jaygambetta
 reference/approximate/* @adcorcol, @antoniomezzacapo, @jaygambetta
-reference/algorithms/* @rraymondhp, @jaygambetta
-reference/games/* @decodoku
+reference/algorithms/* @rraymondhp, @ajavadia, @jaygambetta
+reference/games/* @quantumjim, @rraymondhp, @attp
