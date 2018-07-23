@@ -2,10 +2,10 @@
 
 ***
 
-# The QISKitters 
+# The Qiskitters 
 
 - Alex Breitweiser
-- Jerry Chow 
+- Jerry Chow
 - Antonio Córcoles
 - Abigail Cross
 - Andrew Cross
