@@ -5,6 +5,11 @@ dependencies:
 - notebook
 - scipy
 - cvxopt
+- scikit-learn
+- cython
+- matplotlib
+- sympy
+- pillow
 - pip:
   - qiskit
   - qiskit-acqua
