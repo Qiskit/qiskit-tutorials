@@ -1,10 +1,6 @@
 # Fallback codeowners for all files that do not have an explicit rule.
-* @attp, @jaygambetta, @rraymondhp
+* @attp, @jaygambetta, @rraymondhp, @ajavadia, @chunfuchen, @pistoia, @abbycross, @quantumjim, @dtmcclure, @ewinston, @adcorcol, @antoniomezzacapo
 
-# Codeowners for the reference tutorials.
-reference/tools/* @ajavadia, @ewinston, @jaygambetta
-reference/qis/* @attp, @adcorcol, @jaygambetta
-reference/qcvv/* @dtmcclure, @chriselectic, @jaygambetta
-reference/approximate/* @adcorcol, @antoniomezzacapo, @jaygambetta
-reference/algorithms/* @rraymondhp, @ajavadia, @jaygambetta
-reference/games/* @quantumjim, @rraymondhp, @attp
+# Codeowners for the specific files or dirs: if a more specific entry is added
+# to this file, it will override the general codeowners. For example:
+# reference/tools/* @ajavadia, @ewinston, @jaygambetta
