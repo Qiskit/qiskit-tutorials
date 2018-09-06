@@ -17,12 +17,14 @@ The more advanced user may choose to use `git`. If you have `git` installed, run
 git clone https://github.com/QISKit/qiskit-tutorial.git
 ```
 
+To properly view and run the tutorials, you will need to install [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html).
+
 If you need to install `git` follow the instructions [here](https://help.github.com/articles/set-up-git/).
 
 
 ## 2. Install Qiskit, Qiskit ACQUA and Qiskit ACQUA Chemistry
 
-The latest release version of Qiskit should be the one installed.
+At least [Python 3.5 or later](https://www.python.org/downloads/) is required to install and use Qiskit.
 
 The latest release can be installed using
 
