@@ -22,20 +22,20 @@ To properly view and run the tutorials, you will need to install [Jupyter Notebo
 If you need to install `git` follow the instructions [here](https://help.github.com/articles/set-up-git/).
 
 
-## 2. Install Qiskit, Qiskit ACQUA and Qiskit ACQUA Chemistry
+## 2. Install Qiskit, Qiskit Aqua and Qiskit Aqua Chemistry
 
 At least [Python 3.5 or later](https://www.python.org/downloads/) is required to install and use Qiskit.
 
 The latest release can be installed using
 
 ```
-pip install qiskit qiskit-acqua qiskit-acqua-chemistry
+pip install qiskit qiskit-aqua qiskit-aqua-chemistry
 ```
 
 Or, pre-installed qiskit can be updated using
 
 ```
-pip install -U qiskit qiskit-acqua qiskit-acqua-chemistry
+pip install -U qiskit qiskit-aqua qiskit-aqua-chemistry
 ```
 
 **BUT we recommend the following**:
