@@ -20,20 +20,20 @@ git clone https://github.com/QISKit/qiskit-tutorial.git
 If you need to install `git` follow the instructions [here](https://help.github.com/articles/set-up-git/).
 
 
-## 2. Install Qiskit, Qiskit ACQUA and Qiskit ACQUA Chemistry
+## 2. Install Qiskit, Qiskit Aqua and Qiskit Aqua Chemistry
 
 The latest release version of Qiskit should be the one installed.
 
 The latest release can be installed using
 
 ```
-pip install qiskit qiskit-acqua qiskit-acqua-chemistry
+pip install qiskit qiskit-aqua qiskit-aqua-chemistry
 ```
 
 Or, pre-installed qiskit can be updated using
 
 ```
-pip install -U qiskit qiskit-acqua qiskit-acqua-chemistry
+pip install -U qiskit qiskit-aqua qiskit-aqua-chemistry
 ```
 
 **BUT we recommend the following**:
