@@ -5,7 +5,7 @@
 
 # Guide for Installation and Setup
 
-## 1. Download the QISKit Tutorials
+## 1. Download the Qiskit Tutorials
 
 **Get the tutorials**<BR>
 
@@ -20,9 +20,9 @@ git clone https://github.com/QISKit/qiskit-tutorial.git
 If you need to install `git` follow the instructions [here](https://help.github.com/articles/set-up-git/).
 
 
-## 2. Install QISKit, QISKit ACQUA and QISKit ACQUA Chemistry
+## 2. Install Qiskit, Qiskit ACQUA and Qiskit ACQUA Chemistry
 
-The latest release version of QISKit should be the one installed.
+The latest release version of Qiskit should be the one installed.
 
 The latest release can be installed using
 
@@ -41,7 +41,7 @@ pip install -U qiskit qiskit-acqua qiskit-acqua-chemistry
 
 1. **Install [conda](https://conda.io/docs/index.html)**
 
-2. **Create conda environment for QISKit and install packages** (with the accompanying `QISKitenv.yml` file)
+2. **Create conda environment for Qiskit and install packages** (with the accompanying `QISKitenv.yml` file)
 
 ```
 cd qiskit-tutorial
@@ -104,7 +104,7 @@ jupyter notebook index.ipynb
 ```
 
 ## 5. Visualizing Circuits
-You can visualize your quantum circuits directly from QISKit. To get publication-quality images, QISKit plots circuits using LaTeX, which means you will need to install some pre-requisite software. These include the `pdflatex` compiler for rendering latex documents, and the Poppler library for converting PDF to image. In the future, we will provide ways of plotting circuits without relying on Latex.
+You can visualize your quantum circuits directly from Qiskit. To get publication-quality images, Qiskit plots circuits using LaTeX, which means you will need to install some pre-requisite software. These include the `pdflatex` compiler for rendering latex documents, and the Poppler library for converting PDF to image. In the future, we will provide ways of plotting circuits without relying on Latex.
 
 On Linux:
 
