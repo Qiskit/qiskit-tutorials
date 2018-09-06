@@ -12,5 +12,5 @@ dependencies:
 - pillow
 - pip:
   - qiskit
-  - qiskit-acqua
-  - qiskit-acqua-chemistry
+  - qiskit-aqua
+  - qiskit-aqua-chemistry
