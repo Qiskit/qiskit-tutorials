@@ -9,9 +9,11 @@
 
 **Get the tutorials**<BR>
 
-The easiest way is to [download](https://github.com/QISKit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice.
+The notebooks for these tutorials can be viewed here on GitHub. But for the full experience, you'll want to interact with them!
 
-The more advanced user may choose to use `git`. If you have `git` installed, run
+The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/QISKit/qiskit-tutorial/master?filepath=index.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but is also means that you should not insert any private information into the notebooks (such as your API key).
+
+For the full experience, you can start by [downloading](https://github.com/QISKit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice. Alternatively, the more advanced user may choose to use `git`. If you have `git` installed, run
 
 ```
 git clone https://github.com/QISKit/qiskit-tutorial.git
@@ -24,9 +26,9 @@ If you need to install `git` follow the instructions [here](https://help.github.
 
 ## 2. Install Qiskit, Qiskit Aqua and Qiskit Aqua Chemistry
 
-At least [Python 3.5 or later](https://www.python.org/downloads/) is required to install and use Qiskit.
+At least [Python 3.5 or later](https://www.python.org/downloads/) is required to install and use Qiskit. If you have multiple Python versions installed (and particularly if the command `python --version` returns an incompatble version), you will need to ensure that your versions are [managed correctly](https://conda.io/docs/user-guide/tasks/manage-python.html). This can be done using the `QISKitenv.yml` file, as detailed below.
 
-The latest release can be installed using
+When there are no issues with dependencies, Qiskit can be simply installed using
 
 ```
 pip install qiskit qiskit-aqua qiskit-aqua-chemistry
@@ -38,8 +40,7 @@ Or, pre-installed qiskit can be updated using
 pip install -U qiskit qiskit-aqua qiskit-aqua-chemistry
 ```
 
-**BUT we recommend the following**:
-
+However, in case of issues with dependencies, we recommend the following installation procedure:
 
 1. **Install [conda](https://conda.io/docs/index.html)**
 
