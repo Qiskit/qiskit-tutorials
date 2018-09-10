@@ -15,7 +15,7 @@ Welcome to the Quantum Information Science Kit ([Qiskit](https://www.qiskit.org/
 In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use the Qiskit for writing quantum computing programs and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors connects to the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
 
 ## Installation and Setup
-Please refer to this [installation](INSTALL.md) for installing and setting up Qiskit and tutorials on your own machine.
+Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and tutorials on your own machine.
 
 You can also run the tutorials online without installation on the [IBM Data Science Experience](https://datascience.ibm.com/) following the instructions in this [notebook](DSX.ipynb).
 
