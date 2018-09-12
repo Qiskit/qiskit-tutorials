@@ -9,6 +9,7 @@
 - Antonio Córcoles
 - Abigail Cross
 - Andrew Cross
+- Pierre Decoodt
 - Vincent Dwyer
 - Mark Everitt
 - Ismael Faro
