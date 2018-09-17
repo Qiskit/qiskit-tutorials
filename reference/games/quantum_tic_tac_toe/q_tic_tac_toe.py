@@ -17,8 +17,9 @@ class Move():
         return str([self.indices,self.player,self.q1,self.q2])
     
 class Board():
-    def __init__(self,x,y):
+    def __init__(self,x,y,print_info=False):
         #quantum register, classical register, quantum circuit.
+        self.print_info=print_info
         self.q = QuantumRegister(1)
         self.c = ClassicalRegister(1)
         self.qc = QuantumCircuit(self.q, self.c)
@@ -157,21 +158,22 @@ class Board():
     def run(self):
         """Game loop"""
         self.running=True
-        print("Welcome to Quantum tic tac toe!")
-        print("At each turn choose if to make one or two moves.")
-        print("Playing one move at a time is a classic tic tac toe game.")
-        print("At each turn the game state is printed;")
-        print("X3 is the third move, played by X. When a move is made in a super position,")
-        print("You will see its label, say X3, appear in several places.")
-        print("This means your move is in a superposition of two classical moves!")
-        print("You can make a move in a possibly occupied spot.")
-        print("Then the new move will be anti-correlated with the move already in that spot.")
-        print("And so the game branches out into many possible states.")
-        print("The outcome is then computed by simulation...")
-        print("so don't make too many quantum moves or it will take long to compute!")
-        print("Enter 'q' at any time to quit")
-        print("Enter 'end' to end the game, and compute the winner(s).")
-        print("Good luck!")
+        if self.print_info:
+            print("Welcome to Quantum tic tac toe!")
+            print("At each turn choose if to make one or two moves.")
+            print("Playing one move at a time is a classic tic tac toe game.")
+            print("At each turn the game state is printed;")
+            print("X3 is the third move, played by X. When a move is made in a super position,")
+            print("You will see its label, say X3, appear in several places.")
+            print("This means your move is in a superposition of two classical moves!")
+            print("You can make a move in a possibly occupied spot.")
+            print("Then the new move will be anti-correlated with the move already in that spot.")
+            print("And so the game branches out into many possible states.")
+            print("The outcome is then computed by simulation...")
+            print("so don't make too many quantum moves or it will take long to compute!")
+            print("Enter 'q' at any time to quit")
+            print("Enter 'end' to end the game, and compute the winner(s).")
+            print("Good luck!")
         while self.running:
             self.ask_player(0)
             self.ask_player(1)
@@ -184,12 +186,16 @@ class Board():
         if self.running:
             asking = True
         while asking:
-            print("PLAYER "+str(player)+":")
+            if player==0:
+                player_name = 'X'
+            elif player==1:
+                player_name = 'O'
+            print("PLAYER "+player_name+" :")
             cells = self.question('Play in 1 or 2 cells?')
             if cells=='1':
                 x = int(self.question('x index:'))
                 y = int(self.question('y index:'))
-                status = self.add_move([[x,y]],player)
+                status = self.add_move([[y,x]],player)
                 if status == 'ok':
                     asking = False
                 else: print(status)
@@ -198,7 +204,7 @@ class Board():
                 y1 = int(self.question('y1 index:'))
                 x2 = int(self.question('x2 index:'))
                 y2 = int(self.question('y2 index:'))
-                status = self.add_move([[x1,y1],[x2,y2]],player)
+                status = self.add_move([[y1,x1],[y2,x2]],player)
                 if status == 'ok':
                     asking = False
                 else: print(status)
@@ -233,7 +239,9 @@ class Board():
             c = list(count)[:-1] #splits key '1011' => ['1','0','1','1']
             c = c[::-1] #invert it so it goes 0 up...
             #Ignore the last bit since I dont know how to get rid of it
-            #It is zero.
+            #It is zero always.
+            #The reason it is included is that I create a quantum register and
+            #then start adding operations, quantum registers need at least one bit.
             counter = 0
             weight = self.counts[count]
             empty = np.zeros((self.x,self.y),dtype=str)
@@ -257,7 +265,8 @@ class Board():
                     if len(result)>1:
                         if result[1]=='1':
                             if result[0]=='1':
-                                print('much problem!')
+                                print('problem! a move appeard in two places.')
+                                print(m)
                             empty[m.indices[1][0],m.indices[1][1]] = char
                 elif not result: #Then it was a classcal move
                     empty[m.indices[0][0],m.indices[0][1]] = char
@@ -266,7 +275,6 @@ class Board():
             print('O wins: '+str(oscore))
             print('Shots: '+str(weight))
             print(empty)
-        return empty
     
     def winners(self,empty):
         """Compute winners of a board"""
@@ -310,8 +318,8 @@ class Board():
         self.add_move([[0,2]],0)
         self.add_move([[1,1]],1)
         self.add_move([[1,2]],0)
-
-B= Board(3,3)
-B.run()
-#B._populate_board()
-#a = B.compute_winner()
+if __name__=="__main__":
+    B= Board(3,3)
+    B.run()
+    #B._populate_board()
+    #a = B.compute_winner()
