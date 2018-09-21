@@ -3,7 +3,7 @@
 ***
 
 # The Qiskitters 
-
+- Maor Ben-Shahar
 - Alex Breitweiser
 - Jerry Chow
 - Antonio Córcoles
