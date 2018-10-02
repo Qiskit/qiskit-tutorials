@@ -1,3 +1,4 @@
+from qiskit import Aer, IBMQ
 import getpass, random, numpy, math
 
 def title_screen ():
@@ -33,9 +34,9 @@ def ask_for_device ():
     
     d = input("Do you want to play on the real device? (y/n)\n").upper()
     if (d=="Y"):
-        device = 'ibmqx4' # if real, we use ibmqx4
+        device = IBMQ.get_backend('ibmq_5_tenerife') # if real, we use ibmqx4
     else:
-        device = 'local_qasm_simulator' # otherwise, we use a simulator
+        device = Aer.get_backend('qasm_simulator') # otherwise, we use a simulator
         
     return device
 
