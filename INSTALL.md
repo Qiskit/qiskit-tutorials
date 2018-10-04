@@ -85,19 +85,19 @@ if 'APItoken' not in locals():
 For MacOS and Linux, run:
 
 ```
-source activate QISKitenv
+source activate Qiskitenv
 ```
 
 For Windows, run:
 
 ```
-activate QISKitenv
+activate Qiskitenv
 ```
 **Note for conda users**<BR>
 You need to be sure that you have installed the right Jupyter Kernel, because in the last conda version it's not installed by default.
 
 ```
-python -m ipykernel install --user --name QISKitenv --display-name "Python (QISKitenv)"
+python -m ipykernel install --user --name Qiskitenv --display-name "Python (Qiskitenv)"
 ```
 
 **Start Jupyter with the index notebook**<BR>
