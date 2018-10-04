@@ -44,17 +44,17 @@ However, in case of issues with dependencies, we recommend the following install
 
 1. **Install [conda](https://conda.io/docs/index.html)**
 
-2. **Create conda environment for Qiskit and install packages** (with the accompanying `QISKitenv.yml` file)
+2. **Create conda environment for Qiskit and install packages** (with the accompanying `environment.yml` file)
 
 ```
 cd qiskit-tutorial
-conda env create -f QISKitenv.yml
+conda env create -f environment.yml
 ```
 
-If you have already created `QISKitenv`, you can upgrade it by running
+If you have already created `environment`, you can upgrade it by running
 
 ```
-conda env update -f QISKitenv.yml
+conda env update -f environment.yml
 ```
 
 
@@ -62,9 +62,9 @@ conda env update -f QISKitenv.yml
 
 Create the `Qconfig.py` from the template provided at `Qconfig.py.template`. Follow the three steps below.
 
-1.  Create an [IBM Q Experience](https://quantumexperience.ng.bluemix.net) account
+1.  Create an [IBM Q](https://quantumexperience.ng.bluemix.net) account
      if you haven't already done so
-2.  Get an API token from the IBM Q Experience website under "My
+2.  Get an API token from the IBM Q website under "My
      Account" &gt; "Advanced" &gt; "API Token"
 3.  You will insert your API token in a file called Qconfig.py in
      the ```qiskit-tutorial``` directory. The contents of the file should
@@ -72,7 +72,7 @@ Create the `Qconfig.py` from the template provided at `Qconfig.py.template`. Fol
 
 ```
 APItoken = 'my token from the Quantum Experience'
-config = {'url': 'https://quantumexperience.ng.bluemix.net/api'}
+url= 'https://quantumexperience.ng.bluemix.net/api'
 
 if 'APItoken' not in locals():
      raise Exception('Please set up your access token. See Qconfig.py.')

@@ -17,8 +17,6 @@ In this repository, we've put together a collection of Jupyter notebooks aimed a
 ## Installation and Setup
 Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and tutorials on your own machine.
 
-You can also run the tutorials online without installation on the [IBM Data Science Experience](https://datascience.ibm.com/) following the instructions in this [notebook](DSX.ipynb).
-
 ***
 
 ## Contents
