@@ -23,7 +23,7 @@ Please refer to this [installation guide](INSTALL.md) for installing and setting
 We have organized the tutorials into two sections:
 
 ### 1. [Reference](reference/)<a id='reference'></a>
-We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use Qiskit and explore quantum information science, acting as a reference guide for Qiskit. We will be keeping them up to date with the latest Qiskit version, currently 0.5.  
+We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use Qiskit and explore quantum information science, acting as a reference guide for Qiskit. We will be keeping them up to date with the latest Qiskit version, currently 0.6.  
 
 ### 2. [Appendix](appendix)<a id='appendix'></a>
 This is where the rest of the tutorials are. They are not guaranteed to work with the latest version of Qiskit, but we will do our best. In here there is one section that we recomending checking out the folder [Hello, Quantum World](appendix/hello_world/)
