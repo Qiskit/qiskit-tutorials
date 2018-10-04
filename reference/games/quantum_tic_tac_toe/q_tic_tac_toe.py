@@ -1,8 +1,9 @@
 """A qquantum tic tac toe running in command line"""
 
+from qiskit import Aer
 from qiskit import QuantumCircuit, ClassicalRegister, QuantumRegister
 from qiskit import CompositeGate
-from qiskit import available_backends, execute
+from qiskit import execute
 import numpy as np
 from composite_gates import cry,cnx,any_x,bus_or,x_bus
 
@@ -230,7 +231,8 @@ class Board():
         """Find overall game winner, by finding winners of each outcome"""
         self.c.size = self.q.size #Make them the same
         self.qc.measure(self.q, self.c) #Measure
-        job_sim = execute(self.qc, "local_qasm_simulator",shots=100)
+        backend = Aer.get_backend('qasm_simulator')
+        job_sim = execute(self.qc, backend=backend, shots=100)
         sim_result = job_sim.result()
         print("simulation: ", sim_result)
         print(sim_result.get_counts(self.qc))
