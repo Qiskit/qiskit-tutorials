@@ -1,4 +1,4 @@
-name: QISKitenv
+name: Qiskitenv
 dependencies:
 - python=3
 - pip
