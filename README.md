@@ -26,14 +26,15 @@ We have organized the tutorials into two sections:
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version, currently 0.6.  
 
 ### 2. [Community notebooks](community/)<a id='community'></a>
-Teaching quantum of qiskit to many different preople is not simple. There aaThis is where the rest of the tutorials are. They are not guaranteed to work with the latest version of Qiskit, but we will do our best. In here there is one section where we hope you add your own [Hello, Quantum World](appendix/hello_world/)
+Teaching quantum and qiskit has so many different paths of learning. We love our community and we love the contributions so keep them coming. Because Qiskit is changing so much we cant keep this updated but there are some great notebooks in here. Some trying to come up with the best [Hello, Quantum World](community/hello_world/) program to teaching qiskit though [games](community/hello_world/). There is also all the textbook [quantum algorithms](community/algorithms/). 
+
 ***  
 
 ## Contributing
 If you would like to contribute to the tutorials, there are a number of ways to get involved:
 
 * **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/QISKit/qiskit-tutorial/issues) for this repository. Select `New issue`, fill in a descriptive title, and provide as much detail as is needed for the issue to be reproduced.
-* **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Appendix](appendix) section. We will discuss in the [Slack channel](https://qiskit.slack.com/messages/C7SN3T90V) which of these should be in the [Reference](reference) section.
+* **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Community](community) section. 
 
 ## Contributors
 An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If you have contributed to these tutorials, please include your name there.
