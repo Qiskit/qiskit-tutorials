@@ -58,25 +58,20 @@ conda env update -f environment.yml
 ```
 
 
-## 3. Setup the API Token
+## 3. Configure your IBMQ provider
 
-Create the `Qconfig.py` from the template provided at `Qconfig.py.template`. Follow the three steps below.
+-  Create an `IBM Q <https://quantumexperience.ng.bluemix.net>`__ account if
+   you haven't already done so
+-  Get an API token from the IBM Q website under “My
+   Account” > “Advanced”
+-  The API token can be used by
 
-1.  Create an [IBM Q](https://quantumexperience.ng.bluemix.net) account
-     if you haven't already done so
-2.  Get an API token from the IBM Q website under "My
-     Account" &gt; "Advanced" &gt; "API Token"
-3.  You will insert your API token in a file called Qconfig.py in
-     the ```qiskit-tutorial``` directory. The contents of the file should
-     look like:
+```python
+    from qiskit import IBMQ
 
+    IBMQ.enable_account('MY_API_TOKEN')
 ```
-APItoken = 'my token from the Quantum Experience'
-url= 'https://quantumexperience.ng.bluemix.net/api'
 
-if 'APItoken' not in locals():
-     raise Exception('Please set up your access token. See Qconfig.py.')
-```
 
 
 ## 4. Explore the tutorials
