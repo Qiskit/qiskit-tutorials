@@ -30,6 +30,7 @@ Teaching quantum and qiskit has so many different paths of learning. We love our
 - [Hello, Quantum World](community/hello_world/) learn form the community how to write your first quantum program.
 - [Quantum games](community/hello_world/), learn quantum computing by having fun.
 - [Quantum algorithms](community/algorithms/), learn Qiskit from the textbook algorithms. 
+- [Teach Me Qiskit 2018](community/teach_me_qiskit_2018/), learn from the great contributions to the Teach Me Qiskit.
 
 ***  
 
@@ -37,7 +38,7 @@ Teaching quantum and qiskit has so many different paths of learning. We love our
 If you would like to contribute to the tutorials, there are a number of ways to get involved:
 
 * **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/QISKit/qiskit-tutorial/issues) for this repository. Select `New issue`, fill in a descriptive title, and provide as much detail as is needed for the issue to be reproduced.
-* **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Community](community) section. 
+* **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Community](community/) section. 
 
 ## Contributors
 An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If you have contributed to these tutorials, please include your name there.
