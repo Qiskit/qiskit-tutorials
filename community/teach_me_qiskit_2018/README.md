@@ -1,8 +1,8 @@
 ## Teach Me QISKit Award 2018: Top Submissions
 
 This folder contains the top submissions of the Teach Me QISKit Award 2018.
-Most of the tutorials were written and tested with [qiskit-core](https://github.com/QISKit/qiskit-core)
-version 0.4.15 (previously known as qiskit-sdk-py).
+Most of the tutorials were written and tested with [qiskit-terra](https://github.com/QISKit/qiskit-terra)
+version 0.4.15.
 
 Here is the list of the top submissions (in alphabetical order).
 
