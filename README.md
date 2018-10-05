@@ -26,7 +26,10 @@ We have organized the tutorials into two sections:
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version, currently 0.6.  
 
 ### 2. [Community notebooks](community/)<a id='community'></a>
-Teaching quantum and qiskit has so many different paths of learning. We love our community and we love the contributions so keep them coming. Because Qiskit is changing so much we cant keep this updated but there are some great notebooks in here. Some trying to come up with the best [Hello, Quantum World](community/hello_world/) program to teaching qiskit though [games](community/hello_world/). There is also all the textbook [quantum algorithms](community/algorithms/). 
+Teaching quantum and qiskit has so many different paths of learning. We love our community and we love the contributions so keep them coming. Because Qiskit is changing so much we cant keep this updated but there are some great notebooks in here. See 
+- [Hello, Quantum World](community/hello_world/) learn form the community how to write your first quantum program.
+- [Quantum games](community/hello_world/), learn quantum computing by having fun.
+- [Quantum algorithms](community/algorithms/), learn Qiskit from the textbook algorithms. 
 
 ***  
 
