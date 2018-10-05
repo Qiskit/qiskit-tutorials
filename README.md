@@ -25,7 +25,7 @@ We have organized the tutorials into two sections:
 ### 1. [Qiskit](qiskit/)<a id='qiskit'></a>
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version, currently 0.6.  
 
-### 2. [Community notebooks](community)<a id='community'></a>
+### 2. [Community notebooks](community/)<a id='community'></a>
 Teaching quantum of qiskit to many different preople is not simple. There aaThis is where the rest of the tutorials are. They are not guaranteed to work with the latest version of Qiskit, but we will do our best. In here there is one section where we hope you add your own [Hello, Quantum World](appendix/hello_world/)
 ***  
 
