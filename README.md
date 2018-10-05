@@ -22,7 +22,7 @@ Please refer to this [installation guide](INSTALL.md) for installing and setting
 ## Contents
 We have organized the tutorials into two sections:
 
-### 1. [Qiskit](qiskit/)<a id='qiskit'></a>
+### 1. [Qiskit notebooks](qiskit/)<a id='qiskit'></a>
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version, currently 0.6.  
 
 ### 2. [Community notebooks](community/)<a id='community'></a>
