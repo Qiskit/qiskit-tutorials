@@ -35,6 +35,7 @@ Teaching quantum and qiskit has so many different paths of learning. We love our
 - [Quantum games](community/hello_world/), learn quantum computing by having fun.
 - [Quantum algorithms](community/algorithms/), learn Qiskit from the textbook algorithms. 
 - [Teach Me Qiskit 2018](community/teach_me_qiskit_2018/), learn from the great contributions to the Teach Me Qiskit.
+- [Terra Advanced](community/terra/), learn more advanced features of Qiskit Terra from the community. 
 
 ***  
 
