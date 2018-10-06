@@ -168,16 +168,16 @@ def display_grid ( grid, shipPos, shots ):
 
         print("\n")
 
-    # if a player has all their ships destroyed, the game is over
-    # ideally this would mean 100% damage, but we go for 95% because of noise again
-    if (damage[player][ shipPos[player][0] ]>.9) and (damage[player][ shipPos[player][1] ]>.9) and (damage[player][ shipPos[player][2] ]>.9):
-        print ("***All Player " + str(player+1) + "'s ships have been destroyed!***\n\n")
-        game = False
+        # if a player has all their ships destroyed, the game is over
+        # ideally this would mean 100% damage, but we go for 95% because of noise again
+        if (damage[player][ shipPos[player][0] ]>.9) and (damage[player][ shipPos[player][1] ]>.9) and (damage[player][ shipPos[player][2] ]>.9):
+            print ("***All Player " + str(player+1) + "'s ships have been destroyed!***\n\n")
+            game = False
 
-    if (game is False):
-        print("")
-        print("=====================================GAME OVER=====================================")
-        print("")
+        if (game is False):
+            print("")
+            print("=====================================GAME OVER=====================================")
+            print("")
 
 
     return game
