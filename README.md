@@ -12,33 +12,40 @@
 
 Welcome to the Quantum Information Science Kit ([Qiskit](https://www.qiskit.org/) for short) tutorials!
 
-In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use the Qiskit for writing quantum computing programs and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors connects to the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
+In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use Qiskit for writing quantum computing programs, and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors are the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
 
 ## Installation and Setup
-Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and tutorials on your own machine.
-
-You can also run the tutorials online without installation on the [IBM Data Science Experience](https://datascience.ibm.com/) following the instructions in this [notebook](DSX.ipynb).
+Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and the tutorials on your own machine.
 
 ***
 
 ## Contents
-We have organized the tutorials into three sections:
+We have organized the tutorials into two sections:
 
-### 1. [Hello, Quantum World](hello_world/)
-Since quantum computing is new to most users, we want to find the best *Hello Quantum World* program and welcome submissions here.
+### 1. [Qiskit notebooks](qiskit/)<a id='qiskit'></a>
+We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version, currently version 0.6.  
+- [Basics](qiskit/basics) is meant for those who are getting started.
+- [Terra](qiskit/terra) is meant for those who want to study circuits.
+- [Ignis](qiskit/ignis) is meant for those who want to study noise.
+- [Aqua](qiskit/aqua) is meant for those who want to develop applications on NISQ computers. 
 
-### 2. [Reference](reference/)<a id='reference'></a>
-We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use Qiskit and explore quantum information science, acting as a reference guide for Qiskit. We will be keeping them up to date with the latest Qiskit version, currently 0.5.  
+### 2. [Community notebooks](community/)<a id='community'></a>
+Teaching quantum computing and qiskit has many different paths of learning. We love our community, and we love the contributions so keep them coming. Because Qiskit is changing so much, at the moment we cant keep this updated, but there are some great notebooks in here. See: 
+- [Hello, Quantum World](community/hello_world/) learn from the community how to write your first quantum program.
+- [Quantum games](community/hello_world/), learn quantum computing by having fun.
+- [Quantum algorithms](community/algorithms/), learn Qiskit from the textbook algorithms. 
+- [Teach Me Qiskit 2018](community/teach_me_qiskit_2018/), learn from the great contributions to the Teach Me Qiskit.
+- [Terra Advanced](community/terra/), learn more advanced features of Qiskit Terra from the community. 
 
-### 3. [Appendix](appendix)<a id='appendix'></a>
-This is where the rest of the tutorials are. They are not guaranteed to work with the latest version of Qiskit, but we will do our best.
-***  
+To go though the tutorial load up the [index.ipynb](index.ipynb) notebook and start learning. 
+
+*** 
 
 ## Contributing
 If you would like to contribute to the tutorials, there are a number of ways to get involved:
 
 * **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/QISKit/qiskit-tutorial/issues) for this repository. Select `New issue`, fill in a descriptive title, and provide as much detail as is needed for the issue to be reproduced.
-* **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Appendix](appendix) section. We will discuss in the [Slack channel](https://qiskit.slack.com/messages/C7SN3T90V) which of these should be in the [Reference](reference) section.
+* **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Community](community/) section. 
 
 ## Contributors
 An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If you have contributed to these tutorials, please include your name there.
