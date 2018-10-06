@@ -37,7 +37,9 @@ Teaching quantum computing and qiskit has many different paths of learning. We l
 - [Teach Me Qiskit 2018](community/teach_me_qiskit_2018/), learn from the great contributions to the Teach Me Qiskit.
 - [Terra Advanced](community/terra/), learn more advanced features of Qiskit Terra from the community. 
 
-***  
+To go though the tutorial load up the [index.py](index.py) notebook and start learning. 
+
+*** 
 
 ## Contributing
 If you would like to contribute to the tutorials, there are a number of ways to get involved:
