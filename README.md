@@ -24,10 +24,10 @@ We have organized the tutorials into two sections:
 
 ### 1. [Qiskit notebooks](qiskit/)<a id='qiskit'></a>
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version, currently version 0.6.  
-- Qiskit basics
-- Terra
-- Ignis
-- Aqua
+- [Basics](qiskit/basis) is meant for those who are getting started.
+- [Terra](qiskit/terra) is meant for those who want to study circuits.
+- [Ignis](qiskit/ignis) is meant for those who want to study noise.
+- [Aqua](qiskit/aqua) is meant for those who want to develop applications on NISQ computers. 
 
 ### 2. [Community notebooks](community/)<a id='community'></a>
 Teaching quantum computing and qiskit has many different paths of learning. We love our community, and we love the contributions so keep them coming. Because Qiskit is changing so much, at the moment we cant keep this updated, but there are some great notebooks in here. See: 
