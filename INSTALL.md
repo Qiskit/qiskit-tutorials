@@ -88,7 +88,7 @@ For Windows, run:
 ```
 activate Qiskitenv
 ```
-**Note for conda users**<BR>
+**Note for conda users**<BR>t
 You need to be sure that you have installed the right Jupyter Kernel, because in the last conda version it's not installed by default.
 
 ```
