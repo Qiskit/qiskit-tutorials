@@ -15,6 +15,11 @@ Welcome to the Quantum Information Science Kit ([Qiskit](https://www.qiskit.org/
 In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use Qiskit for writing quantum computing programs, and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors are the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
 
 ## Installation and Setup
+
+The notebooks for these tutorials can be viewed here on GitHub. But for the full experience, you'll want to interact with them!
+
+The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/QISKit/qiskit-tutorial/master?filepath=index.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but is also means that you should not insert any private information into the notebooks (such as your API key). We recommend as pointed out in issue #231 that after you are done using mybinder that you regenerate your token. 
+
 Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and the tutorials on your own machine.
 
 ***
