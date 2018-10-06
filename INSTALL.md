@@ -56,11 +56,29 @@ conda env update -f environment.yml
 
 ## 3. Configure your IBMQ provider
 
--  Create an `IBM Q <https://quantumexperience.ng.bluemix.net>`__ account if
+-  Create an [IBM Q](https://quantumexperience.ng.bluemix.net) account if
    you haven't already done so
 -  Get an API token from the IBM Q website under “My
    Account” > “Advanced”
--  The API token can be used by
+-  We are now going to add the necessary credentials to Qiskit. Take your token, here called `MY_API_TOKEN`, 
+   and pass it to the `IBMQ.save_account()` function:
+
+```python
+    from qiskit import IBMQ
+
+    IBMQ.save_account('MY_API_TOKEN')
+```
+
+-  Your credentials will be stored on disk. Once they are stored, at any point in the future you can load and use 
+   them via:
+
+```python
+    from qiskit import IBMQ
+
+    IBMQ.load_accounts()
+```
+
+-  For those who do not want to save there credentials to disk please use
 
 ```python
     from qiskit import IBMQ
@@ -68,6 +86,7 @@ conda env update -f environment.yml
     IBMQ.enable_account('MY_API_TOKEN')
 ```
 
+and the token will only be active for the session. 
 
 
 ## 4. Explore the tutorials
@@ -84,7 +103,7 @@ For Windows, run:
 ```
 activate Qiskitenv
 ```
-**Note for conda users**<BR>t
+**Note for conda users**<BR>
 You need to be sure that you have installed the right Jupyter Kernel, because in the last conda version it's not installed by default.
 
 ```
