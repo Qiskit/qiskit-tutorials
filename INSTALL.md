@@ -44,39 +44,34 @@ However, in case of issues with dependencies, we recommend the following install
 
 1. **Install [conda](https://conda.io/docs/index.html)**
 
-2. **Create conda environment for Qiskit and install packages** (with the accompanying `QISKitenv.yml` file)
+2. **Create conda environment for Qiskit and install packages** (with the accompanying `environment.yml` file)
 
 ```
 cd qiskit-tutorial
-conda env create -f QISKitenv.yml
+conda env create -f environment.yml
 ```
 
-If you have already created `QISKitenv`, you can upgrade it by running
+If you have already created `environment`, you can upgrade it by running
 
 ```
-conda env update -f QISKitenv.yml
+conda env update -f environment.yml
 ```
 
 
-## 3. Setup the API Token
+## 3. Configure your IBMQ provider
 
-Create the `Qconfig.py` from the template provided at `Qconfig.py.template`. Follow the three steps below.
+-  Create an `IBM Q <https://quantumexperience.ng.bluemix.net>`__ account if
+   you haven't already done so
+-  Get an API token from the IBM Q website under “My
+   Account” > “Advanced”
+-  The API token can be used by
 
-1.  Create an [IBM Q Experience](https://quantumexperience.ng.bluemix.net) account
-     if you haven't already done so
-2.  Get an API token from the IBM Q Experience website under "My
-     Account" &gt; "Advanced" &gt; "API Token"
-3.  You will insert your API token in a file called Qconfig.py in
-     the ```qiskit-tutorial``` directory. The contents of the file should
-     look like:
+```python
+    from qiskit import IBMQ
 
+    IBMQ.enable_account('MY_API_TOKEN')
 ```
-APItoken = 'my token from the Quantum Experience'
-config = {'url': 'https://quantumexperience.ng.bluemix.net/api'}
 
-if 'APItoken' not in locals():
-     raise Exception('Please set up your access token. See Qconfig.py.')
-```
 
 
 ## 4. Explore the tutorials
@@ -85,19 +80,19 @@ if 'APItoken' not in locals():
 For MacOS and Linux, run:
 
 ```
-source activate QISKitenv
+source activate Qiskitenv
 ```
 
 For Windows, run:
 
 ```
-activate QISKitenv
+activate Qiskitenv
 ```
-**Note for conda users**<BR>
+**Note for conda users**<BR>t
 You need to be sure that you have installed the right Jupyter Kernel, because in the last conda version it's not installed by default.
 
 ```
-python -m ipykernel install --user --name QISKitenv --display-name "Python (QISKitenv)"
+python -m ipykernel install --user --name Qiskitenv --display-name "Python (Qiskitenv)"
 ```
 
 **Start Jupyter with the index notebook**<BR>
