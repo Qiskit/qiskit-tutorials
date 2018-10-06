@@ -12,10 +12,10 @@
 
 Welcome to the Quantum Information Science Kit ([Qiskit](https://www.qiskit.org/) for short) tutorials!
 
-In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use the Qiskit for writing quantum computing programs and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors connects to the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
+In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use Qiskit for writing quantum computing programs, and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors are the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
 
 ## Installation and Setup
-Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and tutorials on your own machine.
+Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and the tutorials on your own machine.
 
 ***
 
@@ -23,15 +23,15 @@ Please refer to this [installation guide](INSTALL.md) for installing and setting
 We have organized the tutorials into two sections:
 
 ### 1. [Qiskit notebooks](qiskit/)<a id='qiskit'></a>
-We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version, currently 0.6.  
+We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version, currently version 0.6.  
 - Qiskit basics
 - Terra
 - Ignis
 - Aqua
 
 ### 2. [Community notebooks](community/)<a id='community'></a>
-Teaching quantum and qiskit has so many different paths of learning. We love our community and we love the contributions so keep them coming. Because Qiskit is changing so much we cant keep this updated but there are some great notebooks in here. See 
-- [Hello, Quantum World](community/hello_world/) learn form the community how to write your first quantum program.
+Teaching quantum computing and qiskit has many different paths of learning. We love our community, and we love the contributions so keep them coming. Because Qiskit is changing so much, at the moment we cant keep this updated, but there are some great notebooks in here. See: 
+- [Hello, Quantum World](community/hello_world/) learn from the community how to write your first quantum program.
 - [Quantum games](community/hello_world/), learn quantum computing by having fun.
 - [Quantum algorithms](community/algorithms/), learn Qiskit from the textbook algorithms. 
 - [Teach Me Qiskit 2018](community/teach_me_qiskit_2018/), learn from the great contributions to the Teach Me Qiskit.
