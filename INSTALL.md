@@ -9,14 +9,10 @@
 
 **Get the tutorials**<BR>
 
-The notebooks for these tutorials can be viewed here on GitHub. But for the full experience, you'll want to interact with them!
-
-The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/QISKit/qiskit-tutorial/master?filepath=index.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but is also means that you should not insert any private information into the notebooks (such as your API key).
-
-For the full experience, you can start by [downloading](https://github.com/QISKit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice. Alternatively, the more advanced user may choose to use `git`. If you have `git` installed, run
+For the full experience, you can start by [downloading](https://github.com/Qiskit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice. Alternatively, the more advanced user may choose to use `git`. If you have `git` installed, run
 
 ```
-git clone https://github.com/QISKit/qiskit-tutorial.git
+git clone https://github.com/Qiskit/qiskit-tutorial.git
 ```
 
 To properly view and run the tutorials, you will need to install [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html).
