@@ -9,10 +9,10 @@
 
 **Get the tutorials**<BR>
 
-For the full experience, you can start by [downloading](https://github.com/QISKit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice. Alternatively, the more advanced user may choose to use `git`. If you have `git` installed, run
+For the full experience, you can start by [downloading](https://github.com/Qiskit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice. Alternatively, the more advanced user may choose to use `git`. If you have `git` installed, run
 
 ```
-git clone https://github.com/QISKit/qiskit-tutorial.git
+git clone https://github.com/Qiskit/qiskit-tutorial.git
 ```
 
 To properly view and run the tutorials, you will need to install [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html).
