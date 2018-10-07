@@ -20,7 +20,7 @@ The notebooks for these tutorials can be viewed here on GitHub. But for the full
 
 The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/Qiskit/qiskit-tutorial/master?filepath=index.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but is also means that you should not insert any private information into the notebooks (such as your API key). We recommend as pointed out in issue #231 that after you are done using mybinder that you regenerate your token. 
 
-Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and the tutorials on your own machine.
+Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and the tutorials on your own machine (this is the recommended way).
 
 ***
 
