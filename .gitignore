@@ -1,5 +1,4 @@
 
-Qconfig.py
 
 __pycache__/
 .cache/
@@ -11,3 +10,6 @@ reference/*/.ipynb_checkpoints/*
 appendix/*/.ipynb_checkpoints/*
 appendix/*/*/.ipynb_checkpoints/*
 appendix/*/*/*/.ipynb_checkpoints/*
+
+qiskit/basics/Qconfig_IBMQ_experience.py
+qiskit/basics/Qconfig_IBMQ_network.py
