@@ -53,7 +53,7 @@ If you would like to contribute to the tutorials, there are a number of ways to 
 * **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Community](community/) section. 
 
 ## Contributors
-An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If you have contributed to these tutorials, please include your name there.
+These tutorials are the work of our [Qiskitters](https://github.com/Qiskit/qiskit-tutorial/graphs/contributors) who contribute to the project at different levels.
 
 ## License
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/QISKit/qiskit-tutorial/blob/master/LICENSE) file for details.
