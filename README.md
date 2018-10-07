@@ -15,6 +15,11 @@ Welcome to the Quantum Information Science Kit ([Qiskit](https://www.qiskit.org/
 In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use Qiskit for writing quantum computing programs, and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors are the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
 
 ## Installation and Setup
+
+The notebooks for these tutorials can be viewed here on GitHub. But for the full experience, you'll want to interact with them!
+
+The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/QISKit/qiskit-tutorial/master?filepath=index.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but is also means that you should not insert any private information into the notebooks (such as your API key). We recommend as pointed out in issue #231 that after you are done using mybinder that you regenerate your token. 
+
 Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and the tutorials on your own machine.
 
 ***
@@ -48,7 +53,7 @@ If you would like to contribute to the tutorials, there are a number of ways to 
 * **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Community](community/) section. 
 
 ## Contributors
-An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If you have contributed to these tutorials, please include your name there.
+These tutorials are the work of our [Qiskitters](https://github.com/Qiskit/qiskit-tutorial/graphs/contributors) who contribute to the project at different levels.
 
 ## License
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/QISKit/qiskit-tutorial/blob/master/LICENSE) file for details.
