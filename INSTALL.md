@@ -78,7 +78,7 @@ conda env update -f environment.yml
     IBMQ.load_accounts()
 ```
 
--  For those who do not want to save there credentials to disk please use
+-  For those who do not want to save their credentials to disk please use
 
 ```python
     from qiskit import IBMQ
