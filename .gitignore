@@ -11,3 +11,5 @@ reference/*/.ipynb_checkpoints/*
 appendix/*/.ipynb_checkpoints/*
 appendix/*/*/.ipynb_checkpoints/*
 appendix/*/*/*/.ipynb_checkpoints/*
+
+qiskit/*/.ipynb_checkpoints
