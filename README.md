@@ -43,7 +43,7 @@ Teaching quantum computing and qiskit has many different paths of learning. We l
 - [Quantum Algorithms](community/aqua/), learn about quantum algorithms for noisy near-term devices with Qiskit Aqua code.
 - [Teach Me Qiskit 2018](community/teach_me_qiskit_2018/), learn from the great contributions to the [Teach Me Qiskit award](https://www.ibm.com/blogs/research/2018/06/teach-qiskit-winner/).
 
-To go though the tutorial load up the [index.ipynb](index.ipynb) notebook and start learning. 
+To go through the tutorial, load up the [index.ipynb](index.ipynb) notebook and start learning. 
 
 *** 
 
