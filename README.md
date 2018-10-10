@@ -18,9 +18,9 @@ In this repository, we've put together a collection of Jupyter notebooks aimed a
 
 The notebooks for these tutorials can be viewed here on GitHub. But for the full experience, you'll want to interact with them!
 
-The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/QISKit/qiskit-tutorial/master?filepath=index.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but is also means that you should not insert any private information into the notebooks (such as your API key). We recommend as pointed out in issue #231 that after you are done using mybinder that you regenerate your token. 
+The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/Qiskit/qiskit-tutorial/master?filepath=index.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but it also means that you should not insert any private information into the notebooks (such as your API key). We recommend as pointed out in [issue #231](https://github.com/Qiskit/qiskit-tutorial/issues/231) that after you are done using mybinder that you regenerate your token. 
 
-Please refer to this [installation guide](INSTALL.md) for installing and setting up Qiskit and the tutorials on your own machine.
+Please refer to this [installation guide](INSTALL.md) for setting up Qiskit and the tutorials on your own machine (this is the recommended way).
 
 ***
 
@@ -37,19 +37,20 @@ We've collected a core reference set of notebooks in this section outlining the 
 ### 2. [Community notebooks](community/)<a id='community'></a>
 Teaching quantum computing and qiskit has many different paths of learning. We love our community, and we love the contributions so keep them coming. Because Qiskit is changing so much, at the moment we cant keep this updated, but there are some great notebooks in here. See: 
 - [Hello, Quantum World](community/hello_world/) learn from the community how to write your first quantum program.
-- [Quantum games](community/hello_world/), learn quantum computing by having fun.
-- [Quantum algorithms](community/algorithms/), learn Qiskit from the textbook algorithms. 
-- [Teach Me Qiskit 2018](community/teach_me_qiskit_2018/), learn from the great contributions to the Teach Me Qiskit.
-- [Terra Advanced](community/terra/), learn more advanced features of Qiskit Terra from the community. 
+- [Quantum Games](community/games/), learn quantum computing by having fun.
+- [Textbook Quantum Algorithms](community/algorithms/), learn Qiskit from the textbook algorithms. 
+- [Quantum Information Science with Terra](community/terra/), learn about quantum information science with Qiskit Terra code. 
+- [Quantum Algorithms](community/aqua/), learn about quantum algorithms for noisy near-term devices with Qiskit Aqua code.
+- [Teach Me Qiskit 2018](community/teach_me_qiskit_2018/), learn from the great contributions to the [Teach Me Qiskit award](https://www.ibm.com/blogs/research/2018/06/teach-qiskit-winner/).
 
-To go though the tutorial load up the [index.ipynb](index.ipynb) notebook and start learning. 
+To go through the tutorial, load up the [index.ipynb](index.ipynb) notebook and start learning. 
 
 *** 
 
 ## Contributing
 If you would like to contribute to the tutorials, there are a number of ways to get involved:
 
-* **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/QISKit/qiskit-tutorial/issues) for this repository. Select `New issue`, fill in a descriptive title, and provide as much detail as is needed for the issue to be reproduced.
+* **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/Qiskit/qiskit-tutorial/issues) for this repository. Select `New issue`, fill in a descriptive title, and provide as much detail as is needed for the issue to be reproduced.
 * **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Community](community/) section. 
 
 ## Contributors
