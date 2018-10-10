@@ -9,10 +9,10 @@
 
 **Get the tutorials**<BR>
 
-For the full experience, you can start by [downloading](https://github.com/QISKit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice. Alternatively, the more advanced user may choose to use `git`. If you have `git` installed, run
+For the full experience, you can start by [downloading](https://github.com/Qiskit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice (this is the recommend way). Alternatively, the more advanced user may choose to use `git`. If you have `git` installed, run
 
 ```
-git clone https://github.com/QISKit/qiskit-tutorial.git
+git clone https://github.com/Qiskit/qiskit-tutorial.git
 ```
 
 To properly view and run the tutorials, you will need to install [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html).
@@ -22,7 +22,7 @@ If you need to install `git` follow the instructions [here](https://help.github.
 
 ## 2. Install Qiskit, Qiskit Aqua and Qiskit Aqua Chemistry
 
-At least [Python 3.5 or later](https://www.python.org/downloads/) is required to install and use Qiskit. If you have multiple Python versions installed (and particularly if the command `python --version` returns an incompatble version), you will need to ensure that your versions are [managed correctly](https://conda.io/docs/user-guide/tasks/manage-python.html). This can be done using the `QISKitenv.yml` file, as detailed below.
+At least [Python 3.5 or later](https://www.python.org/downloads/) is required to install and use Qiskit. If you have multiple Python versions installed (and particularly if the command `python --version` returns an incompatble version), you will need to ensure that your versions are [managed correctly](https://conda.io/docs/user-guide/tasks/manage-python.html). This can be done using the `environment.yml` file, as detailed below.
 
 When there are no issues with dependencies, Qiskit can be simply installed using
 
