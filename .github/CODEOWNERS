@@ -1,0 +1,11 @@
+# Fallback codeowners for all files that do not have an explicit rule.
+* @jaygambetta
+
+# Codeowners for individual folders and files.
+qiskit/* @jaygambetta
+community/hello_world/* @quantumjim
+community/games/* @quantumjim
+community/algorithms/* @rraymondhp
+community/terra/* @attp
+community/teach_me_qiskit_2018/* @rraymondhp
+community/aqua/* @jaygambetta
