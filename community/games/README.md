@@ -7,11 +7,13 @@ This is exactly what we'd like to replicate in this folder. Here you'll find bas
 
 ## Contents
 
-* [Battleships with partial NOT gates](battleships_with_partial_NOT_gates.ipynb)
+* [Hello Qiskit](Hello_Qiskit.ipynb) - Solve puzzles by creating simple Qiskit programs.
 
-* [Quantum Counterfeit Coin Problem](quantum_counterfeit_coin_problem.ipynb)
+* [Battleships with partial NOT gates](battleships_with_partial_NOT_gates.ipynb) - Battleships implemented with single qubit rotations.
 
-* [Quantum Tic-tac-toe](quantum_tic_tac_toe.ipynb)
+* [Quantum Counterfeit Coin Problem](quantum_counterfeit_coin_problem.ipynb) - A game based on finding a counterfeit coin, with a quantum strategy based on the Bernstein-Vazirani algorithm.
+
+* [Quantum Tic-tac-toe](quantum_tic_tac_toe.ipynb) - Tic-tac-toe was one of the first games for a classical computer. Now we have a quantum version too!
 
 
 ## Contributing
