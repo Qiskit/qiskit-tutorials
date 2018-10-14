@@ -1,7 +1,6 @@
 # Qiskit Aqua Tutorials
 
-Qiskit Algorithms for QUantum Applications (Qiskit Aqua) is a library of algorithms for quantum computing
-that uses [Qiskit Terra](https://qiskit.org/terra) to build out and run quantum circuits.
+Qiskit Aqua is a library of algorithms for quantum computing that uses [Qiskit Terra](https://qiskit.org/terra) to build  and run quantum circuits.
 
 ## Contents 
 
