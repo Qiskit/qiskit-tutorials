@@ -18,7 +18,3 @@ Directory Contents:
         notebook
     - hadamard_action.ipynb - 3 part walkthrough of 
 	a quantum circuitry exercise. Main tutorial file.
-    - QConfig.py: Configuration file for storing APIToken
-        needed to access IBM's external backends. Adapted
-        from QConfig_copy.py file provided in IBM's qiskit 
-        tutorial files under /1_introduction/
