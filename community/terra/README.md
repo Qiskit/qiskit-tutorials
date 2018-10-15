@@ -1,12 +1,13 @@
 # Quantum Information Science with Qiskit Terra
 
-In this folder we have a collection of great tutorials from our fantastic Qiskitters describing various quantum physics and computing concepts using Qiskit Terra.
+In this folder we have a collection of great tutorials from our fantastic Qiskitters describing various quantum physics and computing concepts using Qiskit Terra. They are divided into the following topics:
 
-If you are new to quantum computing, we suggest starting with the following tutorials, which introduce the qubit and the concepts of superposition and entanglement. Please note that these assume you know some linear algebra. 
-1. [Single Qubits: Superposition](superposition.ipynb)
-2. [Single Qubits: Amplitude and Phase](amplitude_and_phase.ipynb)
-3. [Multiple Qubits: Creating Entanglement](entanglement_introduction.ipynb)
-4. [Multiple Qubits: Testing Entanglement](entanglement_testing.ipynb)
-5. [Multiple Qubits: Teleportation and Superdense Coding](teleportation_superdensecoding.ipynb)
+* [Introductory Quantum Information Science](qis_intro)
+* [Advanced Quantum Information Science](qis_adv)
+* [Quantum Error Correction](qec)
 
-Once you feel that you understand the basics, you can explore the rest of the tutorials in this folder, or move on and learn about [quantum algorithms with Qiskit Terra](../algorithms/) and [quantum applications with Qiskit Aqua](../aqua).
+Load up [index.ipynb](index.ipynb) to start exploring quantum information science with Qiskit Terra!
+
+## Contributing
+
+Quantum information science is such an interesting topic and we have by no means covered everything! We welcome additional notebooks in the relevant folder. The [quantum error correction](qec) folder is currently looking particularly empty...
