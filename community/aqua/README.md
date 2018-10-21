@@ -8,7 +8,6 @@ that uses [Qiskit Terra](https://qiskit.org/terra) to build out and run quantum 
 Aqua provides a library of cross-domain algorithms upon which domain-specific applications and stacks can be
 built. Tutorials, sample code and sample input files may be found here for:
 
-* [General Quantum Algortihms](quantum_algorithms) 
 * [Aqua Chemistry](chemistry) 
 * [Aqua Optimization](optimization) 
 * [Aqua Artificial Intelligence](artificial_intelligence)
