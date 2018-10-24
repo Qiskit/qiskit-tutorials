@@ -1,6 +1,6 @@
 # Quantum Games
 
-Computer games have been around almost as long as computers. They begn with examples like [Nimrod](https://en.wikipedia.org/wiki/Nimrod_(computing)), [OXO](https://en.wikipedia.org/wiki/OXO) and [Spacewar!](https://en.wikipedia.org/wiki/Spacewar!), which were designed to help people learn about how early computers worked, and how to program them.
+Computer games have been around almost as long as computers. They begin with examples like [Nimrod](https://en.wikipedia.org/wiki/Nimrod_(computing)), [OXO](https://en.wikipedia.org/wiki/OXO) and [Spacewar!](https://en.wikipedia.org/wiki/Spacewar!), which were designed to help people learn about how early computers worked, and how to program them.
 
 This is exactly what we'd like to replicate in this folder. Here you'll find basic examples of the tools and techniques of quantum programming, used to create the core of simple games. These all run in Jupyter notebooks, which are also used to explain the quantum programming behind the game.
 
@@ -22,7 +22,7 @@ Each game should have a Jupyter notebook in which the game is played, and in whi
 
 If you are intimidated by the idea of explaining the quantum program, don't hesitate to contribute your game without it. Others will be happy to build on your work, and bring it in line with the required style.
 
-To make even a simple command line game, you'll most likely need many lines of classical programming. This will handle the subtelties of input and output, and so not be directly relevant to someone learning quantum programming. You can therefore hide this away in a _.py_ file that can then be imported into your notebook. These files can be placed in the _game_engines_ folder. For example see _battleships_engine.py_ and its use in [Battleships with partial NOT gates](battleships_with_partial_NOT_gates.ipynb).
+To make even a simple command line game, you'll most likely need many lines of classical programming. This will handle the subtleties of input and output, and so not be directly relevant to someone learning quantum programming. You can therefore hide this away in a _.py_ file that can then be imported into your notebook. These files can be placed in the _game_engines_ folder. For example see _battleships_engine.py_ and its use in [Battleships with partial NOT gates](battleships_with_partial_NOT_gates.ipynb).
 
 For more on how to contribute, see the main [README](../../README.md) for these tutorials.
 
