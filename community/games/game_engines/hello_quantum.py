@@ -172,7 +172,7 @@ class run_game():
             
             if qubit.value not in ['',description['qubit'][0],'Success!']:
                 action.options = description['action']+['Apply operation']
-
+                
         def given_action(c):
             # Action to be taken when user confirms their choice of gate and qubit.
             # This applied the command, updates the visualization and checks whether the puzzle is solved.
@@ -214,6 +214,7 @@ class run_game():
                     gate.options = ['Success!']
                     qubit.options = ['Success!']
                     action.options = ['Success!']
+                    plt.close(grid.fig)
                 else:
                     gate.value = description['gate'][0]  
                     qubit.options = ['']
