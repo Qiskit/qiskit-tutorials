@@ -38,12 +38,12 @@ We've collected a core reference set of notebooks in this section outlining the 
 Teaching quantum computing and qiskit has many different paths of learning. We love our community, and we love the contributions so keep them coming. Because Qiskit is changing so much, at the moment we cant keep this updated, but there are some great notebooks in here. See: 
 - [Hello, Quantum World](community/hello_world/) learn from the community how to write your first quantum program.
 - [Quantum Games](community/games/), learn quantum computing by having fun.
+- [Quantum Information Science with Terra](community/terra/), learn about quantum information science with Qiskit Terra. 
 - [Textbook Quantum Algorithms](community/algorithms/), learn Qiskit from the textbook algorithms. 
-- [Quantum Information Science with Terra](community/terra/), learn about quantum information science with Qiskit Terra code. 
-- [Quantum Algorithms](community/aqua/), learn about quantum algorithms for noisy near-term devices with Qiskit Aqua code.
+- [Quantum Algorithms](community/aqua/), learn about quantum algorithms for noisy near-term devices with Qiskit Aqua.
 - [Teach Me Qiskit 2018](community/teach_me_qiskit_2018/), learn from the great contributions to the [Teach Me Qiskit award](https://www.ibm.com/blogs/research/2018/06/teach-qiskit-winner/).
 
-To go though the tutorial load up the [index.ipynb](index.ipynb) notebook and start learning. 
+To go through the tutorials, load up the [index.ipynb](index.ipynb) notebook and start learning. 
 
 *** 
 
