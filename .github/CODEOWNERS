@@ -3,13 +3,20 @@
 
 # Codeowners for individual folders
 qiskit/* @jaygambetta
+
 community/hello_world/* @quantumjim
 community/hello_world/*/* @quantumjim
 community/games/* @quantumjim
 community/games/*/* @quantumjim
-community/algorithms/* @attp
+
 community/terra/* @attp
 community/terra/*/* @attp
+community/algorithms/* @attp
+
+community/aqua/* @chunfuchen @attp
+community/aqua/*/* @chunfuchen @attp
+community/aqua/*/*/* @chunfuchen @attp
+
 community/teach_me_qiskit_2018/* @rraymondhp
 community/teach_me_qiskit_2018/*/* @rraymondhp
-community/aqua/* @chunfuchen @attp
+
