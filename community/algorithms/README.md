@@ -13,12 +13,12 @@ Most algorithms use both quantum superposition and entanglement to obtain quantu
 
 * [Deutsch-Jozsa](deutsch_jozsa.ipynb) algorithm: help determine if a Boolean function is balanced or constant with a single quantum query. This is one of the first examples demonstrating the power of quantum algorithms against deterministic classical ones.
 
-* [Grover search](grover_algorithm.ipynb) algorithm: help you find a needle in a haystack faster with quantum operations. The Grover search and its derivatives are the most popular quantum algorithms with proven quantum advantage. They are more effective to search some target items when no structure available within the search space. The notebook shows how to solve a combinatorial problem naively with the Grover search. But, please notice that most of combinatorial problems have structures allowing fast-enough classical algorithms. For example, it is unlikely one can obtain quantum advantage by simply applying the Grover search to look for the best possible solution among all possible ones by brute-force search. You have been warned!
+* [Grover search](grover_algorithm.ipynb) algorithm: help you find a needle in a haystack faster with quantum operations. The notebook shows how to solve a combinatorial problem naively with the Grover search. But, please notice that most of combinatorial problems have structures which can allow fast classical algorithms. For example, it is unlikely one can obtain quantum advantage by simply applying the Grover search to look for the best possible solution among all possible ones by brute-force quantum search. You have been warned!
 
 
 You probably have heard many times that near-term quantum computers will be used in tandem with classical computers: quantum computers are used for attacking special subproblems whose solutions are then processed by classical computers. These types of hybrid algorithms have been known for quite some time, as below.
 
-* [Simon](simon_algorithm.ipynb) algorithm: help you determine if a function is one-to-one or two-to-one with resources exponentially more efficient that any classical algorithm. Given an oracle that computes the hidden function, Simon algorithm helps you reveal the hidden function. It uses classical computers for post-processing the output of quantum computation.
+* [Simon](simon_algorithm.ipynb) algorithm: help you determine if a function is one-to-one or two-to-one with resources exponentially more efficient that any classical algorithm. It uses classical computers for post-processing the output of quantum computation.
 
 * [Shor](shor_algorithm.ipynb) algorithm: help you break the [RSA encryption](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) by factorizing an integer into its prime factors. Here, you will see the power of quantum Fourier transform to efficiently extract periodicity structures.
 
