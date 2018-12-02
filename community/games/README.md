@@ -15,6 +15,8 @@ This is exactly what we'd like to replicate in this folder. Here you'll find bas
 
 * [Quantum Tic-tac-toe](quantum_tic_tac_toe.ipynb) - Tic-tac-toe was one of the first games for a classical computer. Now we have a quantum version too!
 
+* [Quantum Awesomeness](quantum_awesomeness.ipynb) - Puzzles that aim to give hands-on experience of a quantum device's most important features: number of qubits, connectivity and noise
+
 
 ## Contributing
 
