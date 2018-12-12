@@ -50,7 +50,6 @@ setuptools.setup(
     description='Example',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    # url='https://github.ibm.com/IBMQuantum/aqua-client-preview',
     author='IBM Q',
     author_email='qiskit@us.ibm.com',
     license='Apache-2.0',
