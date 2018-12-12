@@ -20,7 +20,7 @@ requirements = [
 
 
 def _post_install():
-    from qiskit_aqua.preferences import Preferences
+    from qiskit_aqua_cmd.preferences import Preferences
     preferences = Preferences()
     preferences.add_package('evolutionfidelity')
     preferences.save()

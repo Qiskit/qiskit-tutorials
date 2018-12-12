@@ -13,3 +13,14 @@ community/*/*/*/.ipynb_checkpoints/*
 Qconfig.py
 qiskit/basics/Qconfig_IBMQ_experience.py
 qiskit/basics/Qconfig_IBMQ_network.py
+
+# editor files
+.vscode/
+.idea/
+
+# Distribution / packaging
+*.egg-info/
+
+# Spyder project settings
+.spyderproject
+.spyproject
