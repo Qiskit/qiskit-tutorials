@@ -73,7 +73,13 @@ class EvolutionFidelity(QuantumAlgorithm):
             },
             'additionalProperties': False
         },
-        'problems': ['eoh']
+        'problems': ['eoh'],
+        'depends': ['initial_state'],
+        'defaults': {
+            'initial_state': {
+                'name': 'ZERO'
+            }
+        }
     }
 
     """
@@ -138,7 +144,7 @@ class EvolutionFidelity(QuantumAlgorithm):
             expansion_order=self._expansion_order
         )
 
-        result = self._quantum_device.execute(circuit)
+        result = self._quantum_instance.execute(circuit)
         state_out_dynamics = np.asarray(result.get_statevector(circuit))
 
         self._ret['score'] = state_fidelity(state_out_exact, state_out_dynamics)
