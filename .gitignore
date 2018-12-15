@@ -13,6 +13,7 @@ community/*/*/*/.ipynb_checkpoints/*
 Qconfig.py
 qiskit/basics/Qconfig_IBMQ_experience.py
 qiskit/basics/Qconfig_IBMQ_network.py
+qiskit/basics/Qconfig_IBMQ_experience_public.py
 
 # editor files
 .vscode/
@@ -24,3 +25,4 @@ qiskit/basics/Qconfig_IBMQ_network.py
 # Spyder project settings
 .spyderproject
 .spyproject
+
