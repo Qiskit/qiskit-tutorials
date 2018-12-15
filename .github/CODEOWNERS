@@ -13,9 +13,9 @@ community/terra/* @attp
 community/terra/*/* @attp
 community/algorithms/* @attp
 
-community/aqua/* @chunfuchen
-community/aqua/*/* @chunfuchen
-community/aqua/*/*/* @chunfuchen 
+community/aqua/* @chunfuchen @pistoia
+community/aqua/*/* @chunfuchen @pistoia
+community/aqua/*/*/* @chunfuchen @pistoia
 
 community/teach_me_qiskit_2018/* @rraymondhp
 community/teach_me_qiskit_2018/*/* @rraymondhp
