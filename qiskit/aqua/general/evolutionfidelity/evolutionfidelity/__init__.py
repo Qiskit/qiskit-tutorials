@@ -15,5 +15,6 @@
 # limitations under the License.
 # =============================================================================
 
-# for core development
 from .evolutionfidelity import EvolutionFidelity
+
+__all__ = ['EvolutionFidelity']
