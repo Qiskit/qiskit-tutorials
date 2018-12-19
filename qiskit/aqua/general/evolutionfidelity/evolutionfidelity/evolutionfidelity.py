@@ -15,10 +15,10 @@
 # limitations under the License.
 # =============================================================================
 """
-he Fidelity of Quantum Dynamics.
+The Fidelity of Quantum Evolution.
 This is a simple tutorial example to show how to build an algorithm to extend
-Qiskit AQUA library. Algorithms are designed to be dynamically discovered within
-Qiskit AQUA. For this the entire parent directory 'evolutionfidelity' should
+Qiskit Aqua library. Algorithms are designed to be dynamically discovered within
+Qiskit Aqua. For this the entire parent directory 'evolutionfidelity' should
 be moved under the 'qiskit_aqua' directory. The current demonstration notebook
 shows how to explicitly register the algorithm and works without re-locating this
 code. The former automatic discovery does however allow the algorithm to be found
@@ -42,7 +42,7 @@ class EvolutionFidelity(QuantumAlgorithm):
     PROP_EXPANSION_ORDER = 'expansion_order'
 
     """
-    A configuration dictionary defines the algorithm to QISKIt AQUA. It can contain
+    A configuration dictionary defines the algorithm to QISKIt Aqua. It can contain
     the following though this sample does not have them all.
 
     name: Is the registered name and will be used as the case-sensitive key to load an instance
@@ -128,7 +128,7 @@ class EvolutionFidelity(QuantumAlgorithm):
     Once the algorithm has been initialized then run is called to carry out the computation
     and the result is returned as a dictionary.
 
-    E.g., the `_run` method is required to be implemented for a quantum algorithm.
+    E.g., the `_run` method is required to be implemented for an algorithm.
     """
     def _run(self):
         evo_time = 1

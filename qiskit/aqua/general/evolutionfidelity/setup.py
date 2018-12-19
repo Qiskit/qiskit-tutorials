@@ -14,7 +14,7 @@ long_description = """An example to install a pluggable algorithm/component."""
 
 requirements = [
     "qiskit-aqua>=0.4.0",
-    "qiskit>=0.7,<0.8",
+    "qiskit-terra>=0.7,<0.8",
     "numpy>=1.13"
 ]
 
