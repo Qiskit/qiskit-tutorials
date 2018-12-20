@@ -1,4 +1,5 @@
-from qiskit import IBMQ, Aer
+from qiskit import IBMQ
+from qiskit import BasicAer as Aer
 from qiskit import ClassicalRegister, QuantumRegister, QuantumCircuit
 from qiskit import execute
 
@@ -17,7 +18,7 @@ except:
 class run_game():
     # Implements a puzzle, which is defined by the given inputs.
     
-    def __init__(self,initialize, success_condition, allowed_gates, vi, qubit_names, eps=0.1, backend=Aer.get_backend('qasm_simulator_py'), shots=1024,mode='circle',verbose=False):
+    def __init__(self,initialize, success_condition, allowed_gates, vi, qubit_names, eps=0.1, backend=Aer.get_backend('qasm_simulator'), shots=1024,mode='circle',verbose=False):
         """
         initialize
             List of gates applied to the initial 00 state to get the starting state of the puzzle.
@@ -37,7 +38,7 @@ class run_game():
             The two qubits are always called '0' and '1' from the programming side. But for the player, we can display different names.
         eps=0.1
             How close the expectation values need to be to the targets for success to be declared.
-        backend=Aer.get_backend('qasm_simulator_py')
+        backend=Aer.get_backend('qasm_simulator')
             Backend to be used by Qiskit to calculate expectation values (defaults to local simulator).
         shots=1024
             Number of shots used to to calculate expectation values.
@@ -228,9 +229,9 @@ class run_game():
 class pauli_grid():
     # Allows a quantum circuit to be created, modified and implemented, and visualizes the output in the style of 'Hello Quantum'.
 
-    def __init__(self,backend=Aer.get_backend('qasm_simulator_py'),shots=1024,mode='circle'):
+    def __init__(self,backend=Aer.get_backend('qasm_simulator'),shots=1024,mode='circle'):
         """
-        backend=Aer.get_backend('qasm_simulator_py')
+        backend=Aer.get_backend('qasm_simulator')
             Backend to be used by Qiskit to calculate expectation values (defaults to local simulator).
         shots=1024
             Number of shots used to to calculate expectation values.
