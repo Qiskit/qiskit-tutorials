@@ -15,25 +15,6 @@
 # limitations under the License.
 # =============================================================================
 
-from qiskit_aqua.input import get_input_instance
-from qiskit_aqua import run_algorithm
+from .evolutionfidelity import EvolutionFidelity
 
-sat_cnf = """
-c Example DIMACS 3-sat, with 3 solutions: 1 -2 3 0, -1 -2 -3 0, 1 2 -3 0
-p cnf 3 5
--1 -2 -3 0
-1 -2 3 0
-1 2 -3 0
-1 -2 -3 0
--1 2 3 0
-"""
-
-params = {
-    'problem': {'name': 'search'},
-    'algorithm': {'name': 'Grover'},
-    'oracle': {'name': 'SAT', 'cnf': sat_cnf},
-    'backend': {'name': 'qasm_simulator'}
-}
-
-result = run_algorithm(params)
-print(result['result'])
+__all__ = ['EvolutionFidelity']

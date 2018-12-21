@@ -15,10 +15,10 @@
 # limitations under the License.
 # =============================================================================
 """
-he Fidelity of Quantum Dynamics.
+The Fidelity of Quantum Evolution.
 This is a simple tutorial example to show how to build an algorithm to extend
-Qiskit AQUA library. Algorithms are designed to be dynamically discovered within
-Qiskit AQUA. For this the entire parent directory 'evolutionfidelity' should
+Qiskit Aqua library. Algorithms are designed to be dynamically discovered within
+Qiskit Aqua. For this the entire parent directory 'evolutionfidelity' should
 be moved under the 'qiskit_aqua' directory. The current demonstration notebook
 shows how to explicitly register the algorithm and works without re-locating this
 code. The former automatic discovery does however allow the algorithm to be found
@@ -26,14 +26,13 @@ and seen in the UI browser, and selected from the GUI when choosing an algorithm
 """
 
 import logging
+
 import numpy as np
 from qiskit import QuantumRegister
-from qiskit.tools.qi.qi import state_fidelity
+from qiskit.quantum_info import state_fidelity
 
-from qiskit_aqua import QuantumAlgorithm
-from qiskit_aqua import AlgorithmError
-from qiskit_aqua import get_initial_state_instance
-
+from qiskit_aqua.algorithms import QuantumAlgorithm
+from qiskit_aqua import AquaError, PluggableType, get_pluggable_class
 
 logger = logging.getLogger(__name__)
 
@@ -43,7 +42,7 @@ class EvolutionFidelity(QuantumAlgorithm):
     PROP_EXPANSION_ORDER = 'expansion_order'
 
     """
-    A configuration dictionary defines the algorithm to QISKIt AQUA. It can contain
+    A configuration dictionary defines the algorithm to QISKIt Aqua. It can contain
     the following though this sample does not have them all.
 
     name: Is the registered name and will be used as the case-sensitive key to load an instance
@@ -58,7 +57,7 @@ class EvolutionFidelity(QuantumAlgorithm):
     defaults: A list of configurations for the dependent objects. May just list names if the
               dependent's defaults are acceptable
     """
-    EVOLUTIONFIDELITY_CONFIGURATION = {
+    CONFIGURATION = {
         'name': 'EvolutionFidelity',
         'description': 'Sample Demo EvolutionFidelity Algorithm for Quantum Systems',
         'input_schema': {
@@ -74,30 +73,43 @@ class EvolutionFidelity(QuantumAlgorithm):
             },
             'additionalProperties': False
         },
-        'problems': []
+        'problems': ['eoh'],
+        'depends': ['initial_state'],
+        'defaults': {
+            'initial_state': {
+                'name': 'ZERO'
+            }
+        }
     }
 
-    def __init__(self, configuration=None):
-        """
-        Args:
-            configuration (dict): algorithm configuration
-        """
-        super().__init__(configuration or self.EVOLUTIONFIDELITY_CONFIGURATION.copy())
+    """
+    If directly use these objects programmatically then the constructor is more convenient to call
+    than init_params. init_params itself uses this to do the actual object initialization.
+    """
+    def __init__(self, operator, initial_state, expansion_order=1):
+        self.validate(locals())
+        super().__init__()
+        self._operator = operator
+        self._initial_state = initial_state
+        self._expansion_order = expansion_order
+        self._ret = {}
 
     """
-    init_params is called via run_algorithm. The params contain all the configuration settings 
+    init_params is called via run_algorithm. The params contain all the configuration settings
     of the objects. algo_input contains data computed from above for the algorithm. A simple
-    algorithm may have all its data in configuration params such that algo_input is None  
+    algorithm may have all its data in configuration params such that algo_input is None
     """
-    def init_params(self, params, algo_input):
+    @classmethod
+    def init_params(cls, params, algo_input):
         """
-        Initialize via parameters dictionary and algorithm input instance
+        Initialize via parameters dictionary and algorithm input instance.
+
         Args:
             params: parameters dictionary
             algo_input: EnergyInput instance
         """
         if algo_input is None:
-            raise AlgorithmError("EnergyInput instance is required.")
+            raise AquaError("EnergyInput instance is required.")
 
         operator = algo_input.qubit_op
 
@@ -107,26 +119,18 @@ class EvolutionFidelity(QuantumAlgorithm):
         # Set up initial state, we need to add computed num qubits to params
         initial_state_params = params.get(QuantumAlgorithm.SECTION_KEY_INITIAL_STATE)
         initial_state_params['num_qubits'] = operator.num_qubits
-        initial_state = get_initial_state_instance(initial_state_params['name'])
-        initial_state.init_params(initial_state_params)
+        initial_state = get_pluggable_class(PluggableType.INITIAL_STATE,
+                                            initial_state_params['name']).init_params(initial_state_params)
 
-        self.init_args(operator, initial_state, expansion_order)
-
-    """
-    If directly use these objects programmatically then init_args is more convenient to call
-    than init_params. init_params itself uses this to do the actual object initialization. 
-    """
-    def init_args(self, operator, initial_state, expansion_order):
-        self._operator = operator
-        self._initial_state = initial_state
-        self._expansion_order = expansion_order
-        self._ret = {}
+        return cls(operator, initial_state, expansion_order)
 
     """
     Once the algorithm has been initialized then run is called to carry out the computation
-    and the result is returned as a dictionary. 
+    and the result is returned as a dictionary.
+
+    E.g., the `_run` method is required to be implemented for an algorithm.
     """
-    def run(self):
+    def _run(self):
         evo_time = 1
         # get the groundtruth via simple matrix * vector
         state_out_exact = self._operator.evolve(self._initial_state.construct_circuit('vector'), evo_time, 'matrix', 0)
@@ -140,10 +144,9 @@ class EvolutionFidelity(QuantumAlgorithm):
             expansion_order=self._expansion_order
         )
 
-        result = self.execute(circuit)
+        result = self._quantum_instance.execute(circuit)
         state_out_dynamics = np.asarray(result.get_statevector(circuit))
 
         self._ret['score'] = state_fidelity(state_out_exact, state_out_dynamics)
 
         return self._ret
-
