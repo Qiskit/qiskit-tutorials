@@ -1,9 +1,11 @@
 # Advanced Quantum Information Science with Qiskit Terra
 
-This folder hosts notebooks on advanced topics of Quantum Information Science.
+This folder hosts notebooks on advanced topics of Quantum Information Science, note that all of them may not work with the latest version of qiskit. 
 
 Now that you have seen that quantum superposition and entanglement are important features in quantum computing and information,
 we will see how they can be used to obtain quantum advantages, as below.
+
+* [Random Number Generation](random_number_generation.ipynb): demonstrate how to generate random numbers using a quantum computer.
 
 * [Quantum Random Access Coding](single-qubit_quantum_random_access_coding.ipynb): show quantum advantages with one qubit that cannot be achieved with a single classical bit. The two-qubit version is also available [here](two-qubit_state_quantum_random_access_coding.ipynb).
 
@@ -11,7 +13,7 @@ we will see how they can be used to obtain quantum advantages, as below.
 
 * [Quantum Fourier Transform](fourier_transform.ipynb): part of the [Shor's factoring algorithm](../../algorithms/shor_algorithm.ipynb) and an important block for extracting periodicity structures in many quantum algorithms.
 
-* [Creation of Multi-Qubit W State Systems](Multi-Qubit_W_States_with_Tomography.ipynb): show an evidence that a customized circuit can be more efficient than the standard/generic one.
+* [Multi-Qubit W State Systems](Multi-Qubit_W_States_with_Tomography.ipynb): show an evidence that a customized circuit can be more efficient than the standard/generic one.
 
 * [Topological Quantum Walk](topological_quantum_walk.ipynb): an example of applying quantum mechanics for random walk, which is a powerful tool in many classical randomized algorithms.
 
