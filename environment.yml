@@ -8,4 +8,4 @@ dependencies:
 - pip:
   - qiskit
   - qiskit-aqua
-  - qiskit-aqua-chemistry
+  - qiskit-chemistry
