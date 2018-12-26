@@ -1,9 +1,3 @@
-
-<img src="images/qiskit-heading.gif" >
-
-***
-
-
 # Qiskit Tutorials
 [![License](https://img.shields.io/github/license/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/QISKit/qiskit-tutorial/master?filepath=index.ipynb)
@@ -45,16 +39,23 @@ Teaching quantum computing and qiskit has many different paths of learning. We l
 
 To go through the tutorials, load up the [index.ipynb](index.ipynb) notebook and start learning.
 
-***
+## Contribution guidelines
 
-## Contributing
-If you would like to contribute to the tutorials, there are a number of ways to get involved:
+If you'd like to contribute to Qiskit, please take a look at our
+[contribution guidelines](.github/CONTRIBUTING.rst). This project adheres to Qiskit's [code of conduct](.github/CODE_OF_CONDUCT.rst). By participating, you are expect to uphold to this code.
 
-* **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/Qiskit/qiskit-tutorial/issues) for this repository. Select `New issue`, fill in a descriptive title, and provide as much detail as is needed for the issue to be reproduced.
-* **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Community](community/) section.
+We use [GitHub issues](https://github.com/Qiskit/qiskit-terra/issues) for tracking requests and bugs. Please use our [slack](https://qiskit.slack.com) for discussion and simple questions. To join our Slack community use the [link](https://join.slack.com/t/qiskit/shared_invite/enQtNDc2NjUzMjE4Mzc0LTMwZmE0YTM4ZThiNGJmODkzN2Y2NTNlMDIwYWNjYzA2ZmM1YTRlZGQ3OGM0NjcwMjZkZGE0MTA4MGQ1ZTVmYzk). For questions that are more suited for a forum we use the Qiskit tag in the [Stack Overflow](https://stackoverflow.com/questions/tagged/qiskit).
 
-## Contributors
-These tutorials are the work of our [Qiskitters](https://github.com/Qiskit/qiskit-tutorial/graphs/contributors) who contribute to the project at different levels.
+### Next Steps
+
+Now you're set up and ready to check out some of the other examples from our
+[Qiskit Tutorial](https://github.com/Qiskit/qiskit-tutorial) repository.
+
+## Authors
+
+Qiskit Terra is the work of [many people](https://github.com/Qiskit/qiskit-terra/graphs/contributors) who contribute
+to the project at different levels.
 
 ## License
-This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/QISKit/qiskit-tutorial/blob/master/LICENSE) file for details.
+
+[Apache License 2.0](LICENSE.txt)
