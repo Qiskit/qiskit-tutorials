@@ -1,6 +1,6 @@
 # Qiskit Tutorials
 
-[![License](https://img.shields.io/github/license/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)![](https://img.shields.io/github/release/Qiskit/qiskit-tutorials.svg?style=popout-square)![](https://img.shields.io/github/downloads/Qiskit/qiskit-tutorials/total.svg?style=popout-square)
+[![License](https://img.shields.io/github/license/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)[![](https://img.shields.io/github/release/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://github.com/Qiskit/qiskit-tutorials/releases)
 
 Welcome to the [Qiskit](https://www.qiskit.org/) tutorials!
 
