@@ -48,7 +48,7 @@ We use [GitHub issues](https://github.com/Qiskit/qiskit-tutorials/issues) for tr
 
 ## Authors
 
-Qiskit Terra is the work of [many people](https://github.com/Qiskit/qiskit-tutorials/graphs/contributors) who contribute
+Qiskit Tutorials is the work of [many people](https://github.com/Qiskit/qiskit-tutorials/graphs/contributors) who contribute
 to the project at different levels.
 
 ## License
