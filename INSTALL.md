@@ -9,16 +9,9 @@
 
 **Get the tutorials**<BR>
 
-For the full experience, you can start by [downloading](https://github.com/Qiskit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice (this is the recommend way). Alternatively, the more advanced user may choose to use `git`. If you have `git` installed, run
-
-```
-git clone https://github.com/Qiskit/qiskit-tutorial.git
-```
+For the full experience, you can start by downloading the latest release of the tutorials from [here](https://github.com/Qiskit/qiskit-tutorials/releases). Unzip the archive in the directory of your choice (this is the recommend way). 
 
 To properly view and run the tutorials, you will need to install [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html).
-
-If you need to install `git` follow the instructions [here](https://help.github.com/articles/set-up-git/).
-
 
 ## 2. Install Qiskit, Qiskit Aqua and Qiskit Aqua Chemistry
 
