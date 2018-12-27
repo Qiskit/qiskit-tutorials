@@ -1,13 +1,12 @@
 # Qiskit Tutorials
-[![License](https://img.shields.io/github/license/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/QISKit/qiskit-tutorial/master?filepath=index.ipynb)
 
+[![License](https://img.shields.io/github/license/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)![](https://img.shields.io/github/release/Qiskit/qiskit-tutorials.svg?style=popout-square)![](https://img.shields.io/github/downloads/Qiskit/qiskit-tutorials/total.svg?style=popout-square)
 
 Welcome to the [Qiskit](https://www.qiskit.org/) tutorials!
 
 In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use Qiskit for writing quantum computing programs, and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors are the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
 
-## Installation and Setup
+## Installation
 
 The notebooks for these tutorials can be viewed here on GitHub. But for the full experience, you'll want to interact with them!
 
@@ -15,12 +14,12 @@ The easiest way to do this is using [the Binder image](https://mybinder.org/v2/g
 
 Please refer to this [installation guide](INSTALL.md) for setting up Qiskit and the tutorials on your own machine (this is the recommended way).
 
-***
-
 ## Contents
+
 We have organized the tutorials into two sections:
 
 ### 1. [Qiskit notebooks](qiskit/)<a id='qiskit'></a>
+
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version.  
 - [Basics](qiskit/basics) is meant for those who are getting started.
 - [Terra](qiskit/terra) is meant for those who want to study circuits.
@@ -29,6 +28,7 @@ We've collected a core reference set of notebooks in this section outlining the 
 - [Jupyter](qiskit/jupyter) is meant to highlight some cool Juypter features.
 
 ### 2. [Community notebooks](community/)<a id='community'></a>
+
 Teaching quantum computing and qiskit has many different paths of learning. We love our community, and we love the contributions so keep them coming. Because Qiskit is changing so much, at the moment we cant keep this updated, but there are some great notebooks in here. See:
 - [Hello, Quantum World](community/hello_world/) learn from the community how to write your first quantum program.
 - [Quantum Games](community/games/), learn quantum computing by having fun.
@@ -41,19 +41,14 @@ To go through the tutorials, load up the [index.ipynb](index.ipynb) notebook and
 
 ## Contribution guidelines
 
-If you'd like to contribute to Qiskit, please take a look at our
+If you'd like to contribute to Qiskit Tutorials, please take a look at our
 [contribution guidelines](.github/CONTRIBUTING.rst). This project adheres to Qiskit's [code of conduct](.github/CODE_OF_CONDUCT.rst). By participating, you are expect to uphold to this code.
 
-We use [GitHub issues](https://github.com/Qiskit/qiskit-terra/issues) for tracking requests and bugs. Please use our [slack](https://qiskit.slack.com) for discussion and simple questions. To join our Slack community use the [link](https://join.slack.com/t/qiskit/shared_invite/enQtNDc2NjUzMjE4Mzc0LTMwZmE0YTM4ZThiNGJmODkzN2Y2NTNlMDIwYWNjYzA2ZmM1YTRlZGQ3OGM0NjcwMjZkZGE0MTA4MGQ1ZTVmYzk). For questions that are more suited for a forum we use the Qiskit tag in the [Stack Overflow](https://stackoverflow.com/questions/tagged/qiskit).
-
-### Next Steps
-
-Now you're set up and ready to check out some of the other examples from our
-[Qiskit Tutorial](https://github.com/Qiskit/qiskit-tutorial) repository.
+We use [GitHub issues](https://github.com/Qiskit/qiskit-tutorials/issues) for tracking requests and bugs. Please use our [slack](https://qiskit.slack.com) for discussion and simple questions. To join our Slack community use the [link](https://join.slack.com/t/qiskit/shared_invite/enQtNDc2NjUzMjE4Mzc0LTMwZmE0YTM4ZThiNGJmODkzN2Y2NTNlMDIwYWNjYzA2ZmM1YTRlZGQ3OGM0NjcwMjZkZGE0MTA4MGQ1ZTVmYzk). For questions that are more suited for a forum we use the Qiskit tag in the [Stack Overflow](https://stackoverflow.com/questions/tagged/qiskit).
 
 ## Authors
 
-Qiskit Terra is the work of [many people](https://github.com/Qiskit/qiskit-terra/graphs/contributors) who contribute
+Qiskit Terra is the work of [many people](https://github.com/Qiskit/qiskit-tutorials/graphs/contributors) who contribute
 to the project at different levels.
 
 ## License
