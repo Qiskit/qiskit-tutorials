@@ -190,7 +190,7 @@ arm_lower = widgets.Image(
     width='auto')
 
 arm_button = widgets.Button(description='PUSH', button_style='danger',
-                            layout=widgets.Layout(width='93px', height='auto', margin='0px 27px'))
+                            layout=widgets.Layout(width='120px', height='auto', margin='0px 35px'))
 arm_button.style.font_weight = 'bold'
 
 
