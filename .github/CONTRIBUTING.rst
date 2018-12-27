@@ -12,9 +12,9 @@ get involved:
 * **Notebooks**: If you would like to contribute a notebook, please 
   create a `fork <https://help.github.com/articles/fork-a-repo/>`_ of the repository 
   from the `master` branch and create a 
-  `pull requests <https://help.github.com/articles/about-pull-requests>`_ for your change.
+  `pull request <https://help.github.com/articles/about-pull-requests>`_ for your change.
   Note that new notebooks should be placed in the relevant part of the 
-  `Community <./community/>`_ section.
+  `Community <../community/>`_ section.
 
 Contributor License Agreement
 -----------------------------
