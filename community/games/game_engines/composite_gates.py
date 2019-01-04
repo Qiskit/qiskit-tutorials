@@ -9,7 +9,7 @@ def x_bus(qc,*bus):
         qc.x(q)
         
 def bus_or(qc,target,*busses):
-    """Negates target if any of input busses is totally true, can add overall phase."""
+    """Negates target if any of input busses is totally true, can add overall phase. Page 16 of reference"""
     if len(busses)==1:
         qc.cnx(qc,*busses[0],target)
     elif len(busses) == 2:
@@ -24,7 +24,11 @@ def bus_or(qc,target,*busses):
         qc.ry(-np.pi/4,target)
         qc.x_bus(qc,*busses[0],*busses[1])
     elif len(busses) >= 3:
-        qc.x_bus(qc,*busses[-1],target)
+        #Need to negate all qubits, do so for each bus
+        for bus in busses:
+            qc.x_bus(qc,*bus)
+        #Then negate the target also
+        qc.x(target)
         qc.ry(np.pi/4,target)
         qc.any_x(qc,*busses[1],target)
         qc.ry(np.pi/4,target)
@@ -33,7 +37,9 @@ def bus_or(qc,target,*busses):
         qc.ry(-np.pi/4,target)
         qc.any_x(qc,*busses[1],target)
         qc.ry(-np.pi/4,target)
-        qc.x_bus(qc,*busses[0],*busses[1])
+        for bus in busses:
+            qc.x_bus(qc,*bus)
+        #No need to negate target again
         
 def any_x(qc,*qubits):
     """Negate last qubit if any of initial qubits are 1."""
@@ -57,20 +63,25 @@ def cnx(qc,*qubits):
       doi = {10.1103/PhysRevA.52.3457},
       url = {https://link.aps.org/doi/10.1103/PhysRevA.52.3457}
     }
+    Follwing Lemma 7.9, which uses Lemma 5.1 and 4.3
     """
     if len(qubits) >= 3:
         last = qubits[-1]
-        #A matrix: (decomposed cry also, control Ry)
+        #A matrix: (made up of a  and Y rotation, lemma4.3)
         qc.crz(np.pi/2,qubits[-2],qubits[-1])
         #cry
         qc.cry(qc,np.pi/2,qubits[-2],qubits[-1])
-        #Control
+        
+        #Control not gate
         qc.cnx(qc,*qubits[:-2],qubits[-1])
+        
         #B matrix (cry again, but opposite angle)
         qc.cry(qc,-np.pi/2,qubits[-2],qubits[-1])
+        
         #Control
         qc.cnx(qc,*qubits[:-2],qubits[-1])
-        #C matrix
+        
+        #C matrix (final rotation)
         qc.crz(-np.pi/2,qubits[-2],qubits[-1])
     elif len(qubits)==3:
         qc.ccx(*qubits)
