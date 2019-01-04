@@ -9,7 +9,7 @@ Aqua provides a library of cross-domain algorithms upon which domain-specific ap
 built. Tutorials, sample code and sample input files may be found here for:
 
 * [General](general)
-* [Aqua Chemistry](chemistry)
+* [Qiskit Chemistry](chemistry)
 * [Aqua Optimization](optimization)
 * [Aqua Artificial Intelligence](artificial_intelligence)
 * [Aqua Finance](finance)

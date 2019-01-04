@@ -1,4 +1,4 @@
-# Sample input file for Qiskit Aqua Chemistry stack.
+# Sample input file for Qiskit Chemistry stack.
 #
 # This is a simple sample to show representative sections but not
 # all fields are shown. Consult the documentation for further
@@ -38,7 +38,7 @@ driver installation requirements this will use the HDF5 file driver.
 
 # -- Molecule and config in driver specific format
 # Drivers need an external chemistry program or library to be installed.
-# Qiskit Aqua Chemistry provides the interfacing logic but the actual
+# Qiskit Chemistry provides the interfacing logic but the actual
 # program or library it interfaces with needs to be separately installed.
 # The configuration needed in this section depends on the specific driver.
 # Please see the particular driver documentation for more information.

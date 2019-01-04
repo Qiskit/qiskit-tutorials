@@ -1,4 +1,4 @@
-# Sample input file for Qiskit Aqua Chemistry stack
+# Sample input file for Qiskit Chemistry stack
 # This demonstrates the bare minimum configuration. This is to specify a driver
 # along with the required driver specific configuration
 # All other sections are optional and being omitted fallback to their default
