@@ -30,7 +30,7 @@ The pace of development in quantum computing mirrors the rapid advances made in 
 
 [09_Discrete Optimization and Ensemble Learning.ipynb](09_Discrete%20Optimization%20and%20Ensemble%20Learning.ipynb)
 
-[10_Discrete Optimization and Unsupervised Learning.ipynb](10_Discrete%20Optimization%20and%20Unsupervised Learning.ipynb)
+[10_Discrete Optimization and Unsupervised Learning.ipynb](10_Discrete%20Optimization%20and%20Unsupervised%20Learning.ipynb)
 
 [11_Kernel Methods.ipynb](11_Kernel%20Methods.ipynb)
 
