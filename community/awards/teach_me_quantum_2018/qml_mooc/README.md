@@ -6,29 +6,38 @@ The pace of development in quantum computing mirrors the rapid advances made in 
 
 [00_Course_Introduction.ipynb](00_Course_Introduction.ipynb)
 
-[00_Introduction to Qiskit.ipynb](00_Introduction to Qiskit.ipynb)
+[00_Introduction to Qiskit.ipynb](00_Introduction%20to%20Qiskit.ipynb)
 
 ## Module 1: Quantum Systems
 
 [02_Measurements_and_Mixed_States.ipynb](02_Measurements_and_Mixed_States.ipynb)
+
 [03_Evolution in Closed and Open Systems.ipynb](03_Evolution in Closed and Open Systems.ipynb)
+
 [04_Classical and Quantum Many-Body Physics.ipynb](04_Classical and Quantum Many-Body Physics.ipynb)
 
 ## Module 2: Quantum Computation
 
 [05_Gate-Model Quantum Computing.ipynb](05_Gate-Model Quantum Computing.ipynb)
+
 [06_Adiabatic Quantum Computing.ipynb](06_Adiabatic Quantum Computing.ipynb)
+
 [07_Variational Circuits.ipynb](07_Variational Circuits.ipynb)
+
 [08_Sampling a Thermal State.ipynb](08_Sampling a Thermal State.ipynb)
 
 ## Module 3: Classical-quantum hybrid learning algorithms
 
 [09_Discrete Optimization and Ensemble Learning.ipynb](09_Discrete Optimization and Ensemble Learning.ipynb)
+
 [10_Discrete Optimization and Unsupervised Learning.ipynb](10_Discrete Optimization and Unsupervised Learning.ipynb)
+
 [11_Kernel Methods.ipynb](11_Kernel Methods.ipynb)
+
 [12_Training Probabilistic Graphical Models.ipynb](12_Training Probabilistic Graphical Models.ipynb)
 
 ## Module 4: Coherent Learning Protocols
 
 [13_Quantum Phase Estimation.ipynb](13_Quantum Phase Estimation.ipynb)
+
 [14_Quantum Matrix Inversion.ipynb](14_Quantum Matrix Inversion.ipynb)
