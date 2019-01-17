@@ -1,0 +1,42 @@
+\setbeamercolor{background canvas}{bg=BGgrey03}
+
+% Title page
+\defbeamertemplate*{title page}{material}[1][]
+{ 
+  \makebox[\linewidth][c]{%
+  \begin{minipage}[t][\paperheight]{\paperwidth}
+    \raggedright
+    \begin{tcolorbox}[colback=primary, enhanced, sharpish corners=all, boxrule=0mm, coltext=textPrimary,
+                      fuzzy shadow={0mm}{-0.6mm}{0mm}{0.2mm}{shadow!40!BGgrey03}, % bottomSmall
+                      fuzzy shadow={0mm}{-0.2mm}{0mm}{0.2mm}{shadow!20!BGgrey03}, % bottomBig
+                      fuzzy shadow={0mm}{ 0.6mm}{0mm}{0.2mm}{shadow!40!primary}, % topSmall
+                      fuzzy shadow={0mm}{ 0.2mm}{0mm}{0.2mm}{shadow!20!primary}, % topBig
+                      width=\paperwidth, height=0.6\paperheight, flushright upper, valign=bottom, boxsep=0.5cm]
+      {\usebeamerfont{title} \inserttitle}\\
+      {\usebeamerfont{author}\insertauthor}\\
+      {\usebeamerfont{author}\insertdate}
+    \end{tcolorbox}
+    
+    %\begin{tcolorbox}[arc=5mm,width=10mm,height=10mm, enhanced, %
+                  %colback=accent, coltext=textAccent, %
+                  %fuzzy shadow={0mm}{ 0.9mm}{ 0.6mm}{0.2mm}{shadow!20!primary}, % top
+                  %fuzzy shadow={0mm}{-0.6mm}{-0.1mm}{0.2mm}{shadow!40!BGgrey03}, % bottomSmall
+                  %fuzzy shadow={0mm}{-0.2mm}{-0.2mm}{0.2mm}{shadow!20!BGgrey03}, % bottomBig
+                  %left=1.5mm, right=1.5mm, top=1.5mm, bottom=1.5mm, boxsep=0mm, %
+                  %boxrule=0mm, enlarge left by=10mm, enlarge top by=-10mm]%
+                  %\includegraphics[width=7mm]{\iconFolder/ic_account_circle_48px}
+    %\end{tcolorbox}
+  \end{minipage}%
+  }%
+  \vfill
+}
+
+% Items
+\setbeamertemplate{enumerate items}[circle]
+\setbeamertemplate{itemize items}{\Large $\bullet$}
+\setbeamertemplate{sections/subsections in toc}[circle]
+
+\setbeamercolor{local structure}{fg=accent}
+
+\mode
+<all>

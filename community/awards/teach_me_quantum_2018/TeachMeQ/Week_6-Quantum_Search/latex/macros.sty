@@ -1,0 +1,127 @@
+\ProvidesPackage{macros}[2018 My own macros]
+
+% Packages that main.tex will use AND common header commands
+\usepackage{multicol}
+\usepackage{tikz} % drawings
+\usetikzlibrary{positioning, arrows}
+\usepackage{animate} % animations
+\usepackage{hyperref}
+\usepackage{minted} % code snippets
+\usepackage{todonotes}
+\let\todox\todo
+\renewcommand\todo[1]{\todox[inline]{#1}}
+
+%%%%%%%%%%%%%%%%% DOCUMENT GLOBAL SETTINGS
+% example for author reusing these slides:
+\author[Ramalho]{Miguel Sozinho Ramalho}
+% \author[LASTNAME]{FIRSTNAME LASTNAME,\\ \scriptsize{based on slides by \textbf{Miguel Sozinho Ramalho}}}
+\institute[FEUP]{Faculty of Engineering of the University of Porto}
+\subject{Quantum Computing}
+\date{November, 2018}
+
+
+% Uncomment for notes on slides
+% \usepackage{pgfpages}
+% \setbeameroption{show notes}
+% \setbeameroption{show notes on second screen=right}
+
+\graphicspath{{img/}} % add the img folder to graphics path
+
+% Packages that this file uses
+\usepackage{braket} % bra-ket notation
+\usepackage{xargs} % custom new commands
+\usepackage{xspace} % add xspace after new command to auto insert space
+
+
+
+% braket shorthands
+\newcommandx{\superpos}[3][1=\textual{\psi},2=0,3=1]{\ket {#1} = \textual{\alpha} \ket{#2} + \textual{\beta} \ket{#3}}
+\newcommand{\plusminus}[1][\psi]{\superpos[#1][-][+]}
+\newcommand{\pagenumber}{\raggedleft\vfill\scriptsize\insertframenumber/\inserttotalframenumber}
+\newcommand{\speedoflight}{3 \times 10^{8} m/s}
+\newcommand{\osqrt}{\frac{1}{\sqrt{2}}}
+\newcommand{\kz}{\ket{0}}
+\newcommand{\ko}{\ket{1}}
+
+% short shorthands
+\newcommand{\qasm}{Qasm\xspace}
+\newcommand{\q}{Quantum\xspace}
+\newcommand{\qa}{\q Algorithms\xspace}
+\newcommand{\qct}{\q Circuit\xspace}
+\newcommand{\qcts}{\q Circuits\xspace}
+\newcommand{\qc}{\q Computing\xspace}
+\newcommand{\qcp}{\q Computation\xspace}
+\newcommand{\qec}{\q Error Correction\xspace}
+\newcommand{\qft}{\q Fourier Transform\xspace}
+\newcommand{\qi}{\q Information\xspace}
+\newcommand{\qis}{\q Information Science\xspace}
+\newcommand{\qm}{\q Mechanics\xspace}
+\newcommand{\qmt}{\q Measurement\xspace}
+\newcommand{\qp}{\q Physics\xspace}
+\newcommand{\qsp}{\q Superposition\xspace}
+\newcommand{\qw}{\q World\xspace}
+\newcommand{\mbqc}{Measurement Based \q Computer\xspace}
+\newcommand{\aqc}{Adiabatic \q Computation\xspace}
+
+\newcommand{\cl}{Classical\xspace}
+\newcommand{\cc}{Classical Computing\xspace}
+\newcommand{\cm}{Classical Mechanics\xspace}
+\newcommand{\cp}{Classical Physics\xspace}
+
+\newcommand{\qk}{Qiskit\xspace}
+\newcommand{\qka}{Qiskit Aqua\xspace}
+\newcommand{\ibmq}{IBM Q\xspace}
+\newcommand{\ibmqe}{IBM Q Experience\xspace}
+
+\newcommand{\p}{\textbf{P}\xspace}
+\newcommand{\np}{\textbf{NP}\xspace}
+\newcommand{\bqp}{\textbf{BQP}\xspace}
+
+\newcommand{\djs}{Deutsch-Jozsa\xspace}
+\newcommand{\ds}{Deutsch's\xspace}
+\newcommand{\gv}{Grover\xspace}
+\newcommand{\gvs}{\gv's\xspace}
+\newcommand{\gvsa}{\gv's algorithm\xspace}
+\newcommand{\aamp}{Amplitude Amplification\xspace}
+\newcommand{\sa}{Shor's algorithm\xspace}
+
+\newcommand{\phiv}{phase inversion\xspace}
+\newcommand{\iatm}{inversion about the mean\xspace}
+
+\newcommand{\ai}{Artificial Intelligence\xspace}
+
+%configurable variables
+\newcommand{\githubRepo}{https://github.com/msramalho/Teach-Me-Quantum/}
+\newcommand{\weeks}{\githubRepo/tree/master/}
+\newcommand{\weekZero}{\weeks/Week\%200\%20-\%20Hello\%20Quantum\%20World/}
+\newcommand{\weekOne}{\weeks/Week\%201\%20-\%20Quantum\%20Tools/}
+\newcommand{\weekTwo}{\weeks/Week\%202\%20-\%20Quantum\%20Information\%20Science/}
+\newcommand{\weekThree}{\weeks/Week\%203\%20-\%20Quantum\%20Gates/}
+\newcommand{\weekFour}{\weeks/Week\%204\%20-\%20Quantum\%20Facts/}
+
+%%%%%%%%%%%%%%%%%%%%%%%% quotations
+% src: https://tex.stackexchange.com/a/53380/126771
+\newcommand{\@chapapp}{\relax}
+\makeatletter
+\renewcommand{\@chapapp}{}
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}
+   \def\chapquote@author{#2}
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+%%%%%%%%%%%%%%%%% color on hrefs
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primaryD,%blue,
+    filecolor=primaryD,%cyan,
+    urlcolor=accent %hrefs
+}
+
+%%%%%%%%%%%%%%%%% minted settings
+\setminted[python]{fontsize=\footnotesize}
+\setminted[vhdl]{fontsize=\footnotesize}
+\definecolor{bgGrey}{rgb}{0.95,0.95,0.95}
+\setminted{bgcolor=bgGrey}

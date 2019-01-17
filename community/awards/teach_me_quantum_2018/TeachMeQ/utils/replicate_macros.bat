@@ -1,0 +1,10 @@
+COPY "macros.sty" "../Week 0 - Hello Quantum World/latex/macros.sty"
+COPY "macros.sty" "../Week 1 - Quantum Tools/latex/macros.sty"
+COPY "macros.sty" "../Week 2 - Quantum Information Science/latex/macros.sty"
+COPY "macros.sty" "../Week 3 - Quantum Gates/latex/macros.sty"
+COPY "macros.sty" "../Week 4 - Quantum Facts/latex/macros.sty"
+COPY "macros.sty" "../Week 5 - Quantum Algorithms/latex/macros.sty"
+COPY "macros.sty" "../Week 6 - Quantum Search/latex/macros.sty"
+COPY "macros.sty" "../Week 7 - Quantum Factorization/latex/macros.sty"
+COPY "macros.sty" "../Week 8 - High Level Quantum Programming/latex/macros.sty"
+COPY "macros.sty" "../Week 9 - State of the Quantum Art/latex/macros.sty
