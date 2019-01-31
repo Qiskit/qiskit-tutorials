@@ -94,11 +94,7 @@ driver installation requirements this will use the HDF5 file driver.
 # device or simulator that wll be used. The BACKEND will default to a QISkit
 # local simulator without this section.
 #
-# To use non-local device the user also needs to have edited the qiskit
-# Qconfig.py.default file from the Qiskit root and placed there Qconfig.py
-# with the right values, such as API_Token. See the Qiskit installation
-# documentation for more information
-#
 &backend
+   provider=qiskit.BasicAer
    name=statevector_simulator
 &end

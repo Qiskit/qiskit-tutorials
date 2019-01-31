@@ -35,7 +35,7 @@ Teaching quantum computing and qiskit has many different paths of learning. We l
 - [Quantum Information Science with Terra](community/terra/), learn about quantum information science with Qiskit Terra.
 - [Textbook Quantum Algorithms](community/algorithms/), learn Qiskit from the textbook algorithms.
 - [Quantum Algorithms](community/aqua/), learn about quantum algorithms for noisy near-term devices with Qiskit Aqua.
-- [Teach Me Qiskit 2018](community/teach_me_qiskit_2018/), learn from the great contributions to the [Teach Me Qiskit award](https://www.ibm.com/blogs/research/2018/06/teach-qiskit-winner/).
+- [Teach Me Qiskit 2018](community/awards/teach_me_qiskit_2018/), learn from the great contributions to the [Teach Me Qiskit award](https://www.ibm.com/blogs/research/2018/06/teach-qiskit-winner/).
 
 To go through the tutorials, load up the [index.ipynb](index.ipynb) notebook and start learning.
 

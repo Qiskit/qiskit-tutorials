@@ -3,6 +3,7 @@
         "name": "Grover"
     },
     "backend": {
+        "provider": "qiskit.BasicAer", 
         "name": "qasm_simulator"
     },
     "oracle": {

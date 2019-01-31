@@ -9,6 +9,7 @@
         "paulis_grouping": "default"
     },
     "backend": {
+        "provider": "qiskit.BasicAer",
         "name": "statevector_simulator",
         "shots": 1024,
         "skip_transpiler": false
@@ -96,7 +97,7 @@
             }
         ],
         "name": "EnergyInput",
-        "qubitop": {
+        "qubit_op": {
             "paulis": [
                 {
                     "coeff": {
