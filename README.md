@@ -46,10 +46,10 @@ If you'd like to contribute to Qiskit Tutorials, please take a look at our
 
 We use [GitHub issues](https://github.com/Qiskit/qiskit-tutorials/issues) for tracking requests and bugs. Please use our [slack](https://qiskit.slack.com) for discussion and simple questions. To join our Slack community use the [link](https://join.slack.com/t/qiskit/shared_invite/enQtNDc2NjUzMjE4Mzc0LTMwZmE0YTM4ZThiNGJmODkzN2Y2NTNlMDIwYWNjYzA2ZmM1YTRlZGQ3OGM0NjcwMjZkZGE0MTA4MGQ1ZTVmYzk). For questions that are more suited for a forum we use the Qiskit tag in the [Stack Overflow](https://stackoverflow.com/questions/tagged/qiskit).
 
-## Authors
+## Authors and Citation
 
 Qiskit Tutorials is the work of [many people](https://github.com/Qiskit/qiskit-tutorials/graphs/contributors) who contribute
-to the project at different levels.
+to the project at different levels. If you use Qiskit, please cite as per the included [BibTex file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
 
 ## License
 
