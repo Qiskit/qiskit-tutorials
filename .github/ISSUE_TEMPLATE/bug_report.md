@@ -29,8 +29,5 @@ assignees: ''
 
 
 ### Suggested solutions
-<<<<<<< HEAD
 
 
-=======
->>>>>>> Adding changes
