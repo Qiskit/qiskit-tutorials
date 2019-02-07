@@ -39,5 +39,6 @@ set {
 &end
 
 &backend
+   provider=qiskit.BasicAer
    name=statevector_simulator
 &end

@@ -49,6 +49,7 @@
 &end
 
 &backend
+   provider=qiskit.BasicAer
    name=qasm_simulator
    shots=100
    skip_transpiler=False

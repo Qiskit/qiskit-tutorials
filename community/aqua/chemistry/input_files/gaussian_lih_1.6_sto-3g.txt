@@ -44,5 +44,6 @@ H   0.0  0.0  0.8
 &end
 
 &backend
+   provider=qiskit.BasicAer
    name=statevector_simulator
 &end

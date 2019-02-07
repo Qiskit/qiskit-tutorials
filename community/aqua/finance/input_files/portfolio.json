@@ -17,12 +17,13 @@
         "entanglement": "full"
     },
     "backend": {
+        "provider": "qiskit.BasicAer",
         "name": "statevector_simulator"
     },
     "input": {
         "aux_ops": [],
         "name": "EnergyInput",
-        "qubitop": {
+        "qubit_op": {
             "paulis": [
                 {
                     "coeff": {

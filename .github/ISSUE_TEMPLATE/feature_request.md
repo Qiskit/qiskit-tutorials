@@ -1,6 +1,10 @@
 ---
-name: 🚀 Feature request
-about: Suggest an idea for this project 💡!
+name: "\U0001F680 Feature request"
+about: "Suggest an idea for this project \U0001F4A1!"
+title: ''
+labels: enhancement
+assignees: ''
+
 ---
 
 <!-- ⚠️ If you do not respect this template, your issue will be closed -->

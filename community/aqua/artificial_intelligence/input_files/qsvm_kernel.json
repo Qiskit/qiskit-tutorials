@@ -2,7 +2,7 @@
     "algorithm": {
         "name": "QSVM.Kernel"},
     "problem": {"name": "svm_classification"},
-    "backend": {"name": "qasm_simulator", "shots":1000},
+    "backend": {"provider": "qiskit.BasicAer", "name": "qasm_simulator", "shots":1000},
 
     "input": {
         "name": "SVMInput",
