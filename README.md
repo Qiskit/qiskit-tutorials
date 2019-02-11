@@ -49,7 +49,7 @@ We use [GitHub issues](https://github.com/Qiskit/qiskit-tutorials/issues) for tr
 ## Authors and Citation
 
 Qiskit Tutorials is the work of [many people](https://github.com/Qiskit/qiskit-tutorials/graphs/contributors) who contribute
-to the project at different levels. If you use Qiskit, please cite as per the included [BibTex file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
+to the project at different levels. If you use Qiskit, please cite as per the included [BibTeX file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
 
 ## License
 
