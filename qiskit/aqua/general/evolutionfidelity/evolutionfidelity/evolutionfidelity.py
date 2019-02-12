@@ -31,8 +31,8 @@ import numpy as np
 from qiskit import QuantumRegister
 from qiskit.quantum_info import state_fidelity
 
-from qiskit_aqua.algorithms import QuantumAlgorithm
-from qiskit_aqua import AquaError, PluggableType, get_pluggable_class
+from qiskit.aqua.algorithms import QuantumAlgorithm
+from qiskit.aqua import AquaError, Pluggable, PluggableType, get_pluggable_class
 
 logger = logging.getLogger(__name__)
 
@@ -74,18 +74,21 @@ class EvolutionFidelity(QuantumAlgorithm):
             'additionalProperties': False
         },
         'problems': ['eoh'],
-        'depends': ['initial_state'],
-        'defaults': {
-            'initial_state': {
-                'name': 'ZERO'
-            }
-        }
+        'depends': [
+            {
+                'pluggable_type': 'initial_state',
+                'default': {
+                    'name': 'ZERO',
+                }
+            },
+        ]
     }
 
     """
     If directly use these objects programmatically then the constructor is more convenient to call
     than init_params. init_params itself uses this to do the actual object initialization.
     """
+
     def __init__(self, operator, initial_state, expansion_order=1):
         self.validate(locals())
         super().__init__()
@@ -113,14 +116,14 @@ class EvolutionFidelity(QuantumAlgorithm):
 
         operator = algo_input.qubit_op
 
-        evolution_fidelity_params = params.get(QuantumAlgorithm.SECTION_KEY_ALGORITHM)
+        evolution_fidelity_params = params.get(Pluggable.SECTION_KEY_ALGORITHM)
         expansion_order = evolution_fidelity_params.get(EvolutionFidelity.PROP_EXPANSION_ORDER)
 
         # Set up initial state, we need to add computed num qubits to params
-        initial_state_params = params.get(QuantumAlgorithm.SECTION_KEY_INITIAL_STATE)
+        initial_state_params = params.get(Pluggable.SECTION_KEY_INITIAL_STATE)
         initial_state_params['num_qubits'] = operator.num_qubits
         initial_state = get_pluggable_class(PluggableType.INITIAL_STATE,
-                                            initial_state_params['name']).init_params(initial_state_params)
+                                            initial_state_params['name']).init_params(params)
 
         return cls(operator, initial_state, expansion_order)
 
@@ -130,6 +133,7 @@ class EvolutionFidelity(QuantumAlgorithm):
 
     E.g., the `_run` method is required to be implemented for an algorithm.
     """
+
     def _run(self):
         evo_time = 1
         # get the groundtruth via simple matrix * vector
