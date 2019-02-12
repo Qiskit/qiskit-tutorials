@@ -19,7 +19,7 @@ The Fidelity of Quantum Evolution.
 This is a simple tutorial example to show how to build an algorithm to extend
 Qiskit Aqua library. Algorithms are designed to be dynamically discovered within
 Qiskit Aqua. For this the entire parent directory 'evolutionfidelity' should
-be moved under the 'qiskit_aqua' directory. The current demonstration notebook
+be moved under the 'qiskit/aqua' directory. The current demonstration notebook
 shows how to explicitly register the algorithm and works without re-locating this
 code. The former automatic discovery does however allow the algorithm to be found
 and seen in the UI browser, and selected from the GUI when choosing an algorithm.
