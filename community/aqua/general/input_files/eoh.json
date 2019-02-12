@@ -5,8 +5,7 @@
         "expansion_order": 1,
         "name": "EOH",
         "num_time_slices": 1,
-        "operator_mode": "paulis",
-        "paulis_grouping": "default"
+        "operator_mode": "paulis"
     },
     "backend": {
         "provider": "qiskit.BasicAer",
