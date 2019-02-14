@@ -1,7 +1,7 @@
 name: Qiskitenv
 dependencies:
 - python=3
-- pip
+- pip=18
 - matplotlib
 - notebook
 - ipywidgets
