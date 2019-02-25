@@ -1,0 +1,28 @@
+\mode<presentation>
+
+% Frame title
+\defbeamertemplate*{frametitle}{material}[1][]
+{
+  \makebox[\linewidth][c]{%
+  \begin{minipage}[t]{\paperwidth}
+    \raggedright
+    \begin{tcolorbox}[colback=primary, enhanced, sharpish corners=all, boxrule=0mm, coltext=textPrimary, %
+                      left=6mm, right=6mm, top=2.6mm, bottom=2mm,%
+                      fuzzy shadow={0mm}{-0.9mm}{0mm}{0.2mm}{shadow!40!BGgrey03}, % bottomSmall
+                      fuzzy shadow={0mm}{-0.8mm}{0mm}{0.2mm}{shadow!20!BGgrey03}, % bottomBig
+                      fuzzy shadow={0mm}{ 0.6mm}{0mm}{0.2mm}{shadow!40!primary}, % topSmall
+                      fuzzy shadow={0mm}{ 0.5mm}{0mm}{0.2mm}{shadow!20!primary}, % topBig
+                      width=\paperwidth, boxsep=2mm]
+   \ifx\insertframesubtitle\@empty%
+        {\usebeamerfont{frametitle} \insertframetitle}
+      \else%
+        {\usebeamerfont{frametitle} \insertframetitle}
+        {\usebeamerfont{framesubtitle} \insertframesubtitle}
+      \fi
+    \end{tcolorbox}
+  \end{minipage}%
+  }%
+}
+
+
+\mode<all>

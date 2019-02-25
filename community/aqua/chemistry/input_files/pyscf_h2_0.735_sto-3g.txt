@@ -34,5 +34,6 @@ PySCF H2 experiment
 &end
 
 &backend
+   provider=qiskit.BasicAer
    name=statevector_simulator
 &end

@@ -41,6 +41,7 @@ Hamiltonian, i.e. the ground state energy.
 &end
 
 &backend
+   provider=qiskit.BasicAer
    name=qasm_simulator
    shots=1024
 &end
