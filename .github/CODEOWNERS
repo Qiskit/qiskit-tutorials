@@ -9,9 +9,9 @@ community/hello_world/*/* @quantumjim
 community/games/* @quantumjim
 community/games/*/* @quantumjim
 
-community/terra/* @attp
-community/terra/*/* @attp
-community/algorithms/* @attp
+community/terra/* @attp @ajavadia
+community/terra/*/* @attp @ajavadia
+community/algorithms/* @attp @ajavadia
 
 community/aqua/* @chunfuchen @pistoia
 community/aqua/*/* @chunfuchen @pistoia
