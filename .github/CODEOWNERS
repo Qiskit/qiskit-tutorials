@@ -20,3 +20,6 @@ community/aqua/*/*/* @chunfuchen @pistoia
 community/awards/teach_me_qiskit_2018/* @rraymondhp
 community/awards/teach_me_qiskit_2018/*/* @rraymondhp
 
+community/ignis/* @dcmckayibm
+qiskit/ignis/* @dcmckayibm
+
