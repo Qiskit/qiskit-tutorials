@@ -1,3 +1,3 @@
-# Qiskit Ignis Tutorials
+# Qiskit Ignis Examples
 
-Coming soon. Current examples/background notebooks are in the Ignis repo [here](https://github.com/Qiskit/qiskit-ignis/tree/master/examples)
+This collection of notebooks contains examples for how to use the various components of [Qiskit Ignis](https://github.com/Qiskit/qiskit-ignis). The examples are run on Qiskit Aer, but can easily be ported to any backend.
