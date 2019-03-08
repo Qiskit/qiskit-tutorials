@@ -25,6 +25,11 @@ we will see how they can be used to obtain quantum advantages, as below.
 
 * [Quantum Pseudo-Telepathy](quantum_magic_square.ipynb): show that gambling with parties sharing quantum entanglement can be a headache as they can trick you proving something impossible with classical statistics.
 
+* [The Structure of the Clifford Group](Clifford_Group.ipynb): 
+This notebook describes the structure of the Clifford group, 
+which consists quantum operators that can be efficiently 
+simulated (in polynomial time) using a classical computer.
+In addition, the Clifford group is used for Randomized Benchmarking.
 
 ## Contributing
 
