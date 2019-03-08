@@ -8,6 +8,12 @@ In this folder we have a collection of great tutorials from our fantastic Qiskit
 
 * [State and Process Tomography Overview](tomography-overview.ipynb): Introduction to state and process tomography and different representations of a quantum process.
 
+* [Hamiltonian Parameters](hamiltonian.ipynb): Introduction to the Hamiltonian for a multi-qubit circuit and how the Hamiltonian transforms to the dressed basis, leads to dispersive shifts used for qubit state measurement and gives rise to ZZ.
+
+* [Gate Errors](gate_errors.ipynb): Introduction to error amplification sequences and a derivation of the amplitude error amplification sequence fit function.
+
+* [Randomized Benchmarking](RB_overview.ipynb): Introduction to randomized benchmarking (RB), which is a scalable technique for measuring the average gate error. 
+
 ## Contributing
 
 Quantum characterization is such an interesting topic and we have by no means covered everything! We welcome additional notebooks in the relevant folder. 
