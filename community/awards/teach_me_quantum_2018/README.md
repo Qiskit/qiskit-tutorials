@@ -4,9 +4,9 @@ The 'Teach Me Quantum Award' sought out the best lecture materials using Qiskit.
 
 In this folder you'll find the winning submissions (numbered below) as well as the other high-quality submissions (bullet points below). Note that these materials were prepared using previous versions of Qiskit. We are working to update them, and would appreciate any feedback on which ones to priortize. So don't be shy, and submit [an issue](https://github.com/Qiskit/qiskit-tutorials/issues) to share your comments.
 
-* [Teach Me Quantum](teach_me_quantum_2018/TeachMeQ/README.ipynb) by Miguel Ramalho.
+* [Teach Me Quantum](TeachMeQ/README.ipynb) by Miguel Ramalho.
 
-* [Quantum Machine Learning](teach_me_quantum_2018/qml_mooc/README.md) by Peter Wittek.
+* [Quantum Machine Learning](qml_mooc/README.md) by Peter Wittek.
 
 * [intro2qc](intro2qc/1.Introduction.ipynb) by Mirko Amico.
 
