@@ -10,7 +10,7 @@ In this repository, we've put together a collection of Jupyter notebooks aimed a
 
 The notebooks for these tutorials can be viewed here on GitHub. But for the full experience, you'll want to interact with them!
 
-The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/Qiskit/qiskit-tutorial/master?filepath=index.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but it also means that you should not insert any private information into the notebooks (such as your API key). We recommend as pointed out in [issue #231](https://github.com/Qiskit/qiskit-tutorial/issues/231) that after you are done using mybinder that you regenerate your token.
+The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/omarcostahamido/qiskit-tutorials/master?filepath=index.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but it also means that you should not insert any private information into the notebooks (such as your API key). We recommend as pointed out in [issue #231](https://github.com/Qiskit/qiskit-tutorial/issues/231) that after you are done using mybinder that you regenerate your token.
 
 Please refer to this [installation guide](INSTALL.md) for setting up Qiskit and the tutorials on your own machine (this is the recommended way).
 
