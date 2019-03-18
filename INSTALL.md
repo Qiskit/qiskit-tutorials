@@ -9,16 +9,9 @@
 
 **Get the tutorials**<BR>
 
-For the full experience, you can start by [downloading](https://github.com/Qiskit/qiskit-tutorial/archive/master.zip) the tutorials. Unzip the archive in the directory of your choice (this is the recommend way). Alternatively, the more advanced user may choose to use `git`. If you have `git` installed, run
-
-```
-git clone https://github.com/Qiskit/qiskit-tutorial.git
-```
+For the full experience, you can start by downloading the latest release of the tutorials from [here](https://github.com/Qiskit/qiskit-tutorials/releases). Unzip the archive in the directory of your choice (this is the recommend way). 
 
 To properly view and run the tutorials, you will need to install [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html).
-
-If you need to install `git` follow the instructions [here](https://help.github.com/articles/set-up-git/).
-
 
 ## 2. Install Qiskit, Qiskit Aqua and Qiskit Aqua Chemistry
 
@@ -27,13 +20,13 @@ At least [Python 3.5 or later](https://www.python.org/downloads/) is required to
 When there are no issues with dependencies, Qiskit can be simply installed using
 
 ```
-pip install qiskit qiskit-aqua qiskit-aqua-chemistry
+pip install qiskit qiskit-aqua qiskit-chemistry
 ```
 
 Or, pre-installed qiskit can be updated using
 
 ```
-pip install -U qiskit qiskit-aqua qiskit-aqua-chemistry
+pip install -U qiskit qiskit-aqua qiskit-chemistry
 ```
 
 However, in case of issues with dependencies, we recommend the following installation procedure:
@@ -116,8 +109,8 @@ python -m ipykernel install --user --name Qiskitenv --display-name "Python (Qisk
 jupyter notebook index.ipynb
 ```
 
-## 5. Visualizing Circuits with Latex
-You can visualize your quantum circuits directly from Qiskit. Qiskit circuit drawers are based on matplotlib and latex. The matplotlib version is entirely native to Python, and thus easy to use. The Latex version produces publication-quality circuit images, but relies on some pre-requisite software. These include the `pdflatex` compiler for rendering latex documents, and the Poppler library for converting PDF to image. To get these:
+## 5. [Optional] Visualizing Circuits with Latex
+You can visualize your quantum circuits directly from Qiskit. Qiskit circuit drawers support Text, Latex and matplotlib. The text and matplotlib version is entirely native to Python, and thus easy to use. The Latex version produces publication-quality circuit images, but relies on some pre-requisite software. These include the `pdflatex` compiler for rendering latex documents, and the Poppler library for converting PDF to image. To get these:
 
 On Linux:
 

@@ -1,6 +1,6 @@
 # Hello World
 
-When learning a new language, or using a new programming tool, our first instinct is often just to make something happen. Then we can move on to trying more complex things with onfidence.
+When learning a new language, or using a new programming tool, our first instinct is often just to make something happen. Then we can move on to trying more complex things with confidence.
 
 For example, when lerning Python, your first line of code was probably something like
 
@@ -13,7 +13,7 @@ This folder contains answers to this question. By looking through the notebooks 
 
 ## Contents
 
-For the purpose of testing your installation, the most simplest programs here are
+For the purpose of testing your installation, the most simplest programs here are:
 * [Hello Zero](hello_zero.ipynb)
 * [Quantum World](quantum_world.ipynb)
 

@@ -1,0 +1,319 @@
+\documentclass[aspectratio=43]{beamer}
+\usepackage[utf8]{inputenc}
+
+%%%%%%%%%%%%%%%%%%%%%%%% THEME
+\usetheme{material}
+\useLightTheme
+\usePrimaryBlue
+\useAccentOrange
+
+\usepackage{macros} % must come after theme
+
+\title{State of the Quantum Art}
+\keywords{Models of\qcp, \aqc}
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+
+\begin{frame}{Table of contents}
+	\begin{card}
+		\tableofcontents
+	\end{card}
+\end{frame}
+
+% \begin{frame}{Introduction}
+%     \begin{card}
+        
+%     \end{card}
+% \pagenumber
+% \end{frame}
+
+\section{Introduction}
+\begin{frame}{Introduction}
+    \begin{card}
+        This is the \textbf{final week} of the course, as such it is meant to be \textbf{lighter} and more \textbf{inspiring}. We will go over typical \textbf{models of computation}. Understand how all the theory we have been studying can actually be implemented - \textbf{how to build qubits} and \textbf{quantum computers}. Then, we will take a snapshot of the current state of the art as to the implementation of quantum computers, namely by analyzing the work all the \textbf{players} have showed.
+    \end{card}
+\pagenumber
+\end{frame}
+
+\section{Models of \qcp}
+\begin{frame}{Models of \qcp}
+    \begin{card}
+        By now, we are aware that quantum mechanical properties of the world can be used to compute: \textit{perform a transformation on a given input to produce the desired output.}
+    \end{card}
+    \begin{card}
+        There are, however, many ways of doing so. These are the so-called \textbf{Models of \qcp}. We will go over each of the main ones.
+    \end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{Models of \qcp}
+    \begin{card}
+        Some considerations are required, however, namely:
+        \begin{itemize}
+            \item These models are interchangeable and equivalent in computational power
+            \item Provide different approaches to problem solving, each with a set of problems that it solves more easily - its \textit{forte}
+        \end{itemize}
+        As such, each has its advantages and disadvantages but they each have their own distinct fascinating essence.
+    \end{card}
+\pagenumber
+\end{frame}
+
+
+
+\subsection{\q Circuit}
+\begin{frameImg}[height]{grover_output}
+    \begin{card}[\q Circuit]
+        Throughout this course, we have mainly focused on the \textit{\q Circuit} Model, so you are in a better point to understand its explicit definition.
+    \end{card}
+    \begin{card}
+        Computations are described as a sequence of gates, analog to classical circuits, that perform reversible transformations on a set of qubits, whose state is usually measured at the end.
+    \end{card}
+\pagenumber
+\end{frameImg}
+
+
+\subsection{\aqc}
+\begin{frameImg}[height]{quantum_annealing}
+    \begin{card}[\aqc]
+        This is a quantum application of the \href{https://en.wikipedia.org/wiki/Adiabatic_theorem}{Adiabatic Theorem}, according to which a quantum mechanical system adapts itself to changes in the environment when it is given enough time and will fail to do so, otherwise.
+    \end{card}
+\pagenumber
+\end{frameImg}
+
+\begin{frameImg}[height]{quantum_annealing}
+    \begin{card}
+        This is precisely what happens in metal and glass that is elevated to high temperatures and allowed to cool down slowly, so they can recrystallize into their natural organization, thus gaining some better mechanical properties. This process is called \textbf{annealing} and, as a matter of fact, \aqc is also referred to (with some nuances) as \textbf{\q Annealing}.
+    \end{card}
+    \begin{card}
+        Why is this interesting for \qc? Because we are able to generate a \href{https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)}{\textbf{Hamiltonian}} whose \textbf{ground state} (the state of less energy) describes the final solution to our problem.
+    \end{card}
+\pagenumber
+\end{frameImg}
+
+\begin{frameImg}[height]{quantum_annealing}
+    \begin{card}
+        Take the SAT problem that we have already studied and think of it as a collection of constraints between variables (qubits) that can be implemented on a quantum system. We only specify the constraints and not the algorithm (this is already implicit!) and then we \textit{adiabatically} evolve the system, meaning we bring it to lower and lower states of energy.
+    \end{card}
+    \begin{card}
+        \textbf{Can you think of a way of doing this?}\\
+        One way is to cool the system, bring it (slowly) to lower temperature levels and then perform a measurement, which will encode the solution to our initial problem!
+    \end{card}
+\pagenumber
+\end{frameImg}
+
+
+
+\subsection{\mbqc}
+\begin{frameImg}[height]{mbqc}
+    \begin{card}[\mbqc (One-way)]
+        This model focuses on using entanglement to describe graph-like relations between the quantum state and then performs individual and ordered measurements on qubits, until it obtains the solution to the problem. It should be noted that the result of a measurement on one of the qubits can determine if any further operations (like which basis to measure) will be necessary.
+    \end{card}
+\pagenumber
+\end{frameImg}
+
+\begin{frameImg}[height]{mbqc}
+    \begin{card}[\mbqc (One-way)]
+        The term \textbf{One-way} comes from the fact that there is a sequential logic behind the measurements and because the initial entangled state gets destroyed once a measurement is performed and what is left is to collect the correlated values of the previously entangled qubits, as we have already seen, and we get the solution!\\
+        The simplest physical implementations of such a system can usually be seen as a \href{https://en.wikipedia.org/wiki/Lattice_(group)}{lattice} of qubits.
+    \end{card}
+\pagenumber
+\end{frameImg}
+
+
+\subsection{Topological \q Computer}
+\begin{frameImg}[height]{topological}
+    \begin{card}[Topological \q Computer]
+        This last model is a bit more theoretical and has a few interesting properties, namely it employs \href{https://en.wikipedia.org/wiki/Quasiparticle}{quasiparticles} that can be \textbf{braided} together in a two-dimensional  \href{https://en.wikipedia.org/wiki/Spacetime}{spacetime}, this is quite hard for the non-physics mind but it essentially means that the quantum particles can be connect by the equivalent of quantum gates, although these are inherent to the system. 
+    \end{card}
+\pagenumber
+\end{frameImg}
+
+\begin{frameImg}[height]{topological}
+    \begin{card}[Topological \q Computer]
+        Although harder to implement, this \textit{braid system} can be much more resilient than typical qubit implementations to external interference and, therefore, less error prone.
+    \end{card}
+\pagenumber
+\end{frameImg}
+
+
+\section{Building \q Computers}
+\begin{frame}{Building \q Computers}
+    \begin{card}
+        After all that we have seen and all that we know we haven't seen, quantum computing theory is extensive and promising, yet there is still the slight detail of \textbf{actually building} a quantum computer.
+    \end{card}
+    \begin{card}
+        Unlike classical computers where the transistor has been the universal means for implementing circuits and handle bit information, there is no \textbf{one best} quantum equivalent so far. As a matter of fact, there are a lot of different approaches to this problem, each unique and each with both advantages and disadvantages.
+    \end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{Building \q Computers}
+    \begin{card}
+        Besides facing challenges in how to represent quantum states, the construction of quantum computers requires that those states:
+        \begin{itemize}
+            \item are stable enough that they can be operated upon and measured
+            \item allow entanglement between qubits
+            \item allow for easy setup and replication of experiments
+        \end{itemize}
+    \end{card}
+\pagenumber
+\end{frame}
+
+
+\subsection{Implementing a Qubit}
+\begin{frame}{Implementing a Qubit}
+    \begin{cardTiny}
+        The atomic (literally) element of quantum computers can be implemented in various ways. The most commonly used are:
+        \begin{description}
+            \item[Individual ionized atoms] \textit{ion traps}, optical laser to trap (isolate) ions and using their electron's energy levels
+            \item [Superconducting electronic circuits] circuits cooled down to extremely low temperature so that harmonic behaviour appears
+            \item [Spin qubits] controlling the quantized orientation of electrons
+            \item [Photons] which can be used in many ways to achieve a qubit implementation (often involving other particles)
+        \end{description}
+    \end{cardTiny}
+\pagenumber
+\end{frame}
+
+
+
+\subsection{Quantum Decoherence}
+\begin{frame}{Quantum Decoherence}
+    \begin{card}
+        Besides being able to build the experimental setup to either trap ions or measure spin values, a problem that is common to most qubit implementations is that of \textbf{quantum decoherence}.
+    \end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{Quantum Decoherence}
+    \begin{card}
+        This phenomenon describes the impact of \textbf{external interference} on the quantum states. In practice, the perfect isolation of these systems is extremely hard and so there is always interfering components, this can be: other \textbf{atoms} or \textbf{electrons}, \textbf{magnetic fields}, \textbf{energy fluctuations}, ... and so the coherence of the qubit, a necessary property for quantum computing to work, decays with ease.
+    \end{card}
+\pagenumber
+\end{frame}
+\begin{frame}{Quantum Decoherence}
+    \begin{card}
+        The problem being that the more qubits there are in a system, the harder it is to guarantee the \textit{goldilocks} state of just the \textbf{right amount of interference} to allow for other phenomena like \textbf{entanglement} and to prevent undesirable disturbances of the quantum system.
+    \end{card}
+\pagenumber
+\end{frame}
+
+
+\section{\qec}
+\begin{frame}{\qec}
+    \begin{card}
+        Like every problem invokes a solution, so does quantum decoherence result in another field of \qc, \textbf{\qec}.
+    \end{card}
+    \begin{card}
+        This is a very active and widespread field of study and it tackles not only decoherence, but noise as well (errors from other experimental factors like tools). 
+    \end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{\qec}
+    \begin{card}
+        Classical computing also has to deal with errors in information handling and communication, and \qec can be seen as the analogous for \qc. Instead of handling the quality of qubit implementation, it dwells on ideas of error \textbf{identification} and error \textbf{correction}, it also includes \textbf{gate-specific} analysis.
+    \end{card}
+\pagenumber
+\end{frame}
+
+\section{Industrial Standpoint - Race for \q}
+% \subsection{IBM}
+% \subsection{Intel}
+% \subsection{Microsoft}
+% \subsection{Google}
+% \subsection{D-Wave}
+% \subsection{China Quantum Research Technology}
+% \subsection{NSA} % #Penetrating Hard Targets
+\begin{frame}{Industrial Standpoint - Race for \q}
+    \begin{card}
+        There are many \textbf{competitors} in this metaphorical race, and not only tech giants, a lot of academic institutions are quite well represented in the contest.
+    \end{card}
+    \begin{card}
+        Let us begin by the tech giants, \textbf{IBM}, \textbf{Intel}, \textbf{Google}, \textbf{Microsoft} are just a few names of companies that have active R\&D departments whose sole purpose is to create the best and largest quantum computer. 
+    \end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{Industrial Standpoint - Race for \q}
+    \begin{card}
+        \textbf{IBM} had developed a 50 qubit quantum computer by the end of 2017 and there are some rumours around a within-reach 70+qubit by the end of 2018. More than that, IBM has made available to the public, as we already know, through \href{https://quantumexperience.ng.bluemix.net/qx}{\imqe} a few quantum computers with up to 14 qubits and has some with 20 for rental.\\
+        Moreover, they have given \href{https://qiskit.org/}{\qk} to the world, and we know how wonderful it is.
+    \end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{Industrial Standpoint - Race for \q}
+    \begin{card}
+        \textbf{Intel} has taken a more widespread approach and they have been traveling the world looking for places to invest, one of the most promising ones is \href{https://qutech.nl/}{QuTech} in Delft. They also claim to have achieved a 49 qubit processor!
+    \end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{Industrial Standpoint - Race for \q}
+    \begin{card}
+        \textbf{Microsoft} has claimed to have topological qubits and is trying to make a services out of quantum computing through \href{https://azure.microsoft.com/en-us/}{Azure}. They have also come forward with a \href{https://www.microsoft.com/en-us/quantum/development-kit}{\q Development Kit}.
+    \end{card}
+\pagenumber
+\end{frame}
+
+
+\begin{frame}{Industrial Standpoint - Race for \q}
+    \begin{card}
+        \textbf{Google} has released, as of 2018, \href{https://techcrunch.com/2018/03/05/googles-new-bristlecone-processor-brings-it-one-step-closer-to-quantum-supremacy/}{Bristlecone}, a 70 qubit processor and they have also a large branch of Google AI dedicated to quantum research, along with secretive claims for new machine learning algorithms that run on quantum computers.
+    \end{card}
+\pagenumber
+\end{frame}
+
+
+\begin{frame}{Industrial Standpoint - Race for \q}
+    \begin{card}
+        Another company, \href{https://www.dwavesys.com/quantum-computing}{\textbf{D-Wave Systems}}, which is a solely quantum company, as of 2018, sells \textbf{2000 qubit} processors. These are supposed to be appropriate for Quantum Annealing techniques, especially dedicated to optimization problems. This does seem like a very large number, but let us not forget that quantity does not equal quality, and there is plenty of skepticism around their claims.
+    \end{card}
+\pagenumber
+\end{frame}
+
+
+\begin{frame}{Industrial Standpoint - Race for \q}
+    \begin{card}
+        When \href{https://en.wikipedia.org/wiki/Edward_Snowden}{Edward Snowden} leaked information on the NSA, one of the findings in those documents was that of a secret project called \href{https://www.washingtonpost.com/world/national-security/nsa-seeks-to-build-quantum-computer-that-could-crack-most-types-of-encryption/2014/01/02/8fff297e-7195-11e3-8def-a33011492df2_story.html?utm_term=.0d294e5de470}{Penetrating Hard Targets} whose purpose was to build a Quantum Computer capable of breaking current encryption mechanisms. The current state of the project is unknown.
+    \end{card}
+\pagenumber
+\end{frame}
+
+
+\begin{frame}{Industrial Standpoint - Race for \q}
+    \begin{card}
+        Moreover, the European Union has announced a \href{https://qt.eu/}{10 year funding program} of more than one billion euros for research in quantum technologies
+    \end{card}
+    \begin{card}
+        China, however, is \href{https://www.foreignaffairs.com/articles/china/2018-09-26/chinas-quantum-future}{spending billions of dollars} to be on the frontier of this quantum race.
+    \end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{Industrial Standpoint - Race for \q}
+    \begin{card}
+        Clearly, there is immense at stake here, for quantum technologies represent a great tool, but also a great weapon, if there is one single entity in charge of it. So, global efforts must be put into making this a technology of the world and not of a company or super power, at least that is the author's conviction.
+    \end{card}
+\pagenumber
+\end{frame}
+
+\section{Closing Remarks}
+\begin{frame}{Closing Remarks}
+    \begin{card}
+        With any luck, you will have finished this course with a prickling sensation telling you not to stop here, for the amount of \textbf{possibilities}, \textbf{uncharted waters}, \textbf{untested hypothesis}, \textbf{unresolved problems}, \textbf{unformulated algorithms} along with the \textbf{power} you have witnessed, will have given you the right impression on quantum computing - it is \textbf{undoubtedly the next step}.
+    \end{card}
+\end{frame}
+
+\begin{frame}
+    \LARGE{\begin{chapquote}[2pt]{\href{https://en.wikipedia.org/wiki/Niels_Bohr}{Niels Bohr}}
+        ``If quantum mechanics hasn't profoundly shocked you, you haven't understood it yet.''
+    \end{chapquote}}
+\end{frame}
+
+\end{document}
