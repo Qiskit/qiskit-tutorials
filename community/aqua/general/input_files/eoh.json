@@ -5,13 +5,11 @@
         "expansion_order": 1,
         "name": "EOH",
         "num_time_slices": 1,
-        "operator_mode": "paulis",
-        "paulis_grouping": "default"
+        "operator_mode": "paulis"
     },
     "backend": {
         "provider": "qiskit.BasicAer",
         "name": "statevector_simulator",
-        "shots": 1024,
         "skip_transpiler": false
     },
     "initial_state": {

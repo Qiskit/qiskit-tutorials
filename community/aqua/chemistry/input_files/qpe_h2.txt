@@ -34,7 +34,6 @@
 &algorithm
    name=QPE
    num_time_slices=50
-   paulis_grouping=random
    expansion_mode=suzuki
    expansion_order=2
    num_ancillae=9
