@@ -19,6 +19,7 @@ This is exactly what we'd like to replicate in this folder. Here you'll find bas
 
 * [Random Terrain Generation](random_terrain_generation.ipynb) - A simple example of using quantum computers for the kind of procedural generation often used in games.
 
+* [Quantum Animations](quantum_animations.ipynb) - A simple example of making pixel art animations with quantum computers.
 
 ## Contributing
 
