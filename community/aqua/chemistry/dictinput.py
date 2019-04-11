@@ -15,7 +15,7 @@
 # limitations under the License.
 # =============================================================================
 
-import qiskit_aqua_chemistry
+import qiskit_chemistry
 
 # An example of using a loop to vary inter-atomic distance. A dictionary is
 # created outside the loop, but inside the loop the 'atom' value is updated
@@ -33,8 +33,8 @@ input_dict = {
 }
 molecule = 'H .0 .0 -{0}; H .0 .0 {0}'
 for i in range(21):
-    d = (0.5 + i*0.5/20)/2
+    d = (0.5 + i * 0.5 / 20) / 2
     input_dict['PYSCF']['atom'] = molecule.format(d)
-    solver = qiskit_aqua_chemistry.AquaChemistry()
+    solver = qiskit_chemistry.QiskitChemistry()
     result = solver.run(input_dict)
-    print('{:.4f} : {}'.format(d*2, result['energy']))
+    print('{:.4f} : {}'.format(d * 2, result['energy']))

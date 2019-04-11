@@ -1,0 +1,1 @@
+from .quantum_slot import quantum_slot_machine

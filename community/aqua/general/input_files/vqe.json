@@ -5,6 +5,7 @@
         "operator_mode": "matrix"
     },
     "backend": {
+        "provider": "qiskit.BasicAer",
         "name": "statevector_simulator",
         "shots": 1024,
         "skip_transpiler": false
@@ -15,7 +16,7 @@
     "input": {
         "aux_ops": [],
         "name": "EnergyInput",
-        "qubitop": {
+        "qubit_op": {
             "paulis": [
                 {
                     "coeff": {
