@@ -34,7 +34,6 @@
 &algorithm
    name=IQPE
    num_time_slices=200
-   paulis_grouping=random
    expansion_mode=suzuki
    expansion_order=2
    num_iterations=9
