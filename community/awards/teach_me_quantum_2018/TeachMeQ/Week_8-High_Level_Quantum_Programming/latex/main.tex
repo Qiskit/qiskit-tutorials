@@ -15,14 +15,14 @@
 \begin{document}
 
 \begin{frame}
-	\titlepage
+    \titlepage
 \end{frame}
 
 
 \begin{frame}{Table of contents}
-	\begin{card}
-		\tableofcontents
-	\end{card}
+    \begin{card}
+        \tableofcontents
+    \end{card}
 \end{frame}
 
 
@@ -172,14 +172,14 @@ print(run_algorithm(params)['result']) # [1, -2, 3] or another
 \end{frame}
 
 \begin{frame}[fragile]{\ai (SVM)}
-\small{Here's an example of a configuration for an SVM classification model:}\begin{minted}{python}
+\small{Here's an example of a configuration for an classification model:}\begin{minted}{python}
 params = {
     'problem': {
-        'name': 'svm_classification',
+        'name': 'classification',
         'random_seed': 1219 # same seed ensures reproducibility
     },
     'algorithm': {
-        'name': 'QSVM.Kernel'
+        'name': 'QSVM'
     },
     'backend': {
         'name': 'qasm_simulator',
