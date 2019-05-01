@@ -10,7 +10,7 @@ quantum computation.
 
 This folder contains some Jupyter Notebook examples. There are Python code files too.
 
-For more detail see the main [index](../index.ipynb#artificial_intelligence)
+For more detail see the main [index](../aqua/index.ipynb#artificial_intelligence)
 
 ## Input files
 
