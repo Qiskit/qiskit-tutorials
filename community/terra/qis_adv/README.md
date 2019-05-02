@@ -31,6 +31,7 @@ which consists quantum operators that can be efficiently
 simulated (in polynomial time) using a classical computer.
 In addition, the Clifford group is used for Randomized Benchmarking.
 
+* [Quantum Walk](quantum_walk.ipynb):an example of quantum walk on circle graph with 2^N(N: number of qubits) lattice points. Quantum walker moves around circle in accordance with unitary coin(In this example Hadamard).  This quantum walk is simpler than topological quantum walk(above one).
 ## Contributing
 
 We welcome more examples in this folder, in particular, experimenting with the latest results in quantum information science.
