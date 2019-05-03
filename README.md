@@ -23,6 +23,7 @@ We have organized the tutorials into two sections:
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version.  
 - [Basics](qiskit/basics) is meant for those who are getting started.
 - [Terra](qiskit/terra) is meant for those who want to study circuits.
+- [Aer](qiskit/aer) is meant for those who want to simulate quantum circuits.
 - [Ignis](qiskit/ignis) is meant for those who want to study noise.
 - [Aqua](qiskit/aqua) is meant for those who want to develop applications on NISQ computers.
 - [Jupyter](qiskit/jupyter) is meant to highlight some cool Juypter features.
