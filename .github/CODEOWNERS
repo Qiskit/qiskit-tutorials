@@ -23,3 +23,5 @@ community/awards/teach_me_qiskit_2018/*/* @rraymondhp
 community/ignis/* @dcmckayibm
 qiskit/ignis/* @dcmckayibm
 
+community/aer/* @chriseclectic
+qiskit/aer/* @chriseclectic
