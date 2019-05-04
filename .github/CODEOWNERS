@@ -3,15 +3,17 @@
 
 # Codeowners for individual folders
 qiskit/* @jaygambetta
+qiskit/aer/* @chriseclectic @jaygambetta
+qiskit/ignis/* @dcmckayibm @jaygambetta
 
-community/hello_world/* @quantumjim
-community/hello_world/*/* @quantumjim
-community/games/* @quantumjim
-community/games/*/* @quantumjim
+community/hello_world/* @quantumjim @aasfaw
+community/hello_world/*/* @quantumjim @aasfaw
+community/games/* @quantumjim @aasfaw
+community/games/*/* @quantumjim @aasfaw
 
-community/terra/* @attp @ajavadia
-community/terra/*/* @attp @ajavadia
-community/algorithms/* @attp @ajavadia
+community/terra/* @attp @ajavadia @aasfaw
+community/terra/*/* @attp @ajavadia @aasfaw
+community/algorithms/* @attp @ajavadia @aasfaw
 
 community/aqua/* @chunfuchen @pistoia
 community/aqua/*/* @chunfuchen @pistoia
@@ -33,11 +35,8 @@ community/optimization/* @chunfuchen @pistoia
 community/optimization/*/* @chunfuchen @pistoia
 community/optimization/*/*/* @chunfuchen @pistoia
 
-community/awards/teach_me_qiskit_2018/* @rraymondhp
-community/awards/teach_me_qiskit_2018/*/* @rraymondhp
+community/awards/teach_me_qiskit_2018/* @rraymondhp @aasfaw
+community/awards/teach_me_qiskit_2018/*/* @rraymondhp @aasfaw
 
-community/ignis/* @dcmckayibm
-qiskit/ignis/* @dcmckayibm
-
-community/aer/* @chriseclectic
-qiskit/aer/* @chriseclectic
+community/ignis/* @dcmckayibm @aasfaw
+community/aer/* @chriseclectic @aasfaw
