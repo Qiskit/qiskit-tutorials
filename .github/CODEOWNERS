@@ -1,11 +1,11 @@
 # Fallback codeowners for all files that do not have an explicit rule.
-* @jaygambetta
+* @jaygambetta @ajavadia
 
 # Codeowners for individual folders
-qiskit/* @jaygambetta
-qiskit/aer/* @chriseclectic @jaygambetta
-qiskit/ignis/* @dcmckayibm @jaygambetta
-qiskit/terra/* @ajavadia @jaygambetta
+qiskit/* @jaygambetta @ajavadia
+qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
+qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
+qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
 
 community/algorithms/* @attp @aasfaw @quantumjim @rraymondhp
 community/algorithms/* @attp @aasfaw @quantumjim @rraymondhp
@@ -28,8 +28,8 @@ community/games/*/*/*/* @attp @aasfaw @quantumjim @rraymondhp
 community/hello_world/* @quantumjim @aasfaw
 community/hello_world/*/* @quantumjim @aasfaw
 
-community/terra/* @attp @aasfaw @quantumjim @rraymondhp
-community/terra/*/* @attp @aasfaw @quantumjim @rraymondhp
+community/terra/* @nonhermitian @attp @aasfaw @quantumjim @rraymondhp
+community/terra/*/* @nonhermitian @attp @aasfaw @quantumjim @rraymondhp
 
-community/ignis/* @attp @aasfaw @quantumjim @rraymondhp
-community/aer/* @attp @aasfaw @quantumjim @rraymondhp
+community/ignis/* @dcmckayibm @attp @aasfaw @quantumjim @rraymondhp
+community/aer/* @chriseclectic @attp @aasfaw @quantumjim @rraymondhp
