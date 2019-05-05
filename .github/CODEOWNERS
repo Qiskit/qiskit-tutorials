@@ -1,26 +1,38 @@
 # Fallback codeowners for all files that do not have an explicit rule.
-* @jaygambetta
+* @jaygambetta @ajavadia
 
 # Codeowners for individual folders
-qiskit/* @jaygambetta
-qiskit/aer/* @chriseclectic @jaygambetta
-qiskit/ignis/* @dcmckayibm @jaygambetta
+qiskit/* @jaygambetta @ajavadia
+qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
+qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
+qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
+
+community/aer/* @chriseclectic @attp @aasfaw @quantumjim @rraymondhp
+
+community/algorithms/* @attp @aasfaw @quantumjim @rraymondhp
+community/algorithms/* @attp @aasfaw @quantumjim @rraymondhp
+
+community/arts/* @attp @aasfaw @quantumjim @rraymondhp
+
+community/aqua/* @chunfuchen @pistoia @aasfaw
+community/aqua/*/* @chunfuchen @pistoia @aasfaw
+community/aqua/*/*/* @chunfuchen @pistoia @aasfaw
+
+community/awards/teach_me_qiskit_2018/* @attp @aasfaw @quantumjim @rraymondhp
+community/awards/teach_me_qiskit_2018/*/* @attp @aasfaw @quantumjim @rraymondhp
+
+community/awards/teach_me_quantum_2018/* @attp @aasfaw @quantumjim @rraymondhp
+community/awards/teach_me_quantum_2018/*/* @attp @aasfaw @quantumjim @rraymondhp
+
+community/games/* @attp @aasfaw @quantumjim @rraymondhp
+community/games/*/* @attp @aasfaw @quantumjim @rraymondhp
+community/games/*/*/* @attp @aasfaw @quantumjim @rraymondhp
+community/games/*/*/*/* @attp @aasfaw @quantumjim @rraymondhp
 
 community/hello_world/* @quantumjim @aasfaw
 community/hello_world/*/* @quantumjim @aasfaw
-community/games/* @quantumjim @aasfaw
-community/games/*/* @quantumjim @aasfaw
 
-community/terra/* @attp @ajavadia @aasfaw
-community/terra/*/* @attp @ajavadia @aasfaw
-community/algorithms/* @attp @ajavadia @aasfaw
+community/ignis/* @dcmckayibm @attp @aasfaw @quantumjim @rraymondhp
 
-community/aqua/* @chunfuchen @pistoia
-community/aqua/*/* @chunfuchen @pistoia
-community/aqua/*/*/* @chunfuchen @pistoia
-
-community/awards/teach_me_qiskit_2018/* @rraymondhp @aasfaw
-community/awards/teach_me_qiskit_2018/*/* @rraymondhp @aasfaw
-
-community/ignis/* @dcmckayibm @aasfaw
-community/aer/* @chriseclectic @aasfaw
+community/terra/* @nonhermitian @attp @aasfaw @quantumjim @rraymondhp
+community/terra/*/* @nonhermitian @attp @aasfaw @quantumjim @rraymondhp
