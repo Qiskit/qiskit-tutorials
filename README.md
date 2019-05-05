@@ -34,6 +34,7 @@ Teaching quantum computing and qiskit has many different paths of learning. We l
 - [Hello, Quantum World](community/hello_world/) learn from the community how to write your first quantum program.
 - [Quantum Games](community/games/), learn quantum computing by having fun.
 - [Quantum Information Science with Terra](community/terra/), learn about quantum information science with Qiskit Terra.
+- [Investigate Quantum Noise with Ignis](community/ignis/), learn about quantum noise  with Qiskit Ignis.
 - [Textbook Quantum Algorithms](community/algorithms/), learn Qiskit from the textbook algorithms.
 - [Quantum Algorithms](community/aqua/), learn about quantum algorithms for noisy near-term devices with Qiskit Aqua.
 - [IBM Q Awards](community/awards/), learn from the great contributions to the [IBM Q Awards](https://qe-awards.mybluemix.net/), [Teach Me Qiskit 2018](community/awards/teach_me_qiskit_2018/index.ipynb) and [Teach Me Quantum 2018](community/awards/teach_me_quantum_2018/index.ipynb).
