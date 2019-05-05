@@ -4,7 +4,7 @@
 # Codeowners for individual folders
 qiskit/* @jaygambetta @ajavadia
 qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
-qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
+qiskit/ignis/* @dcmckayibm @yehuda-naveh @jaygambetta @ajavadia
 qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
 
 community/aer/* @chriseclectic @attp @aasfaw @quantumjim @rraymondhp
@@ -32,7 +32,7 @@ community/games/*/*/*/* @attp @aasfaw @quantumjim @rraymondhp
 community/hello_world/* @quantumjim @aasfaw
 community/hello_world/*/* @quantumjim @aasfaw
 
-community/ignis/* @dcmckayibm @attp @aasfaw @quantumjim @rraymondhp
+community/ignis/* @dcmckayibm @yehuda-naveh @attp @aasfaw @quantumjim @rraymondhp
 
 community/terra/* @nonhermitian @attp @aasfaw @quantumjim @rraymondhp
 community/terra/*/* @nonhermitian @attp @aasfaw @quantumjim @rraymondhp
