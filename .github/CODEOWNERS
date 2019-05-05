@@ -7,6 +7,8 @@ qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
 qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
 qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
 
+community/* @attp @aasfaw @quantumjim @rraymondhp
+
 community/aer/* @chriseclectic @attp @aasfaw @quantumjim @rraymondhp
 
 community/algorithms/* @attp @aasfaw @quantumjim @rraymondhp
