@@ -1,10 +1,9 @@
 {
     "algorithm": {
-        "name": "QSVM.Variational",
-        "circuit_depth": 3
+        "name": "QSVM.Variational"
     },
     "problem": {"name": "svm_classification"},
-    "backend": {"name": "qasm_simulator", "shots": 1000},
+    "backend": {"provider": "qiskit.BasicAer", "name": "qasm_simulator", "shots": 1000},
     "optimizer": {"name": "SPSA", "max_trials": 100, "save_steps": 10},
     "input": {
         "name": "SVMInput",

@@ -36,5 +36,6 @@ HDF5 LiH experiment
 &end
 
 &backend
+   provider=qiskit.BasicAer
    name=statevector_simulator
 &end

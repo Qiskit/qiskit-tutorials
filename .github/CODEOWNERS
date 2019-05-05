@@ -1,22 +1,38 @@
 # Fallback codeowners for all files that do not have an explicit rule.
-* @jaygambetta
+* @jaygambetta @ajavadia
 
 # Codeowners for individual folders
-qiskit/* @jaygambetta
+qiskit/* @jaygambetta @ajavadia
+qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
+qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
+qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
 
-community/hello_world/* @quantumjim
-community/hello_world/*/* @quantumjim
-community/games/* @quantumjim
-community/games/*/* @quantumjim
+community/aer/* @chriseclectic @attp @aasfaw @quantumjim @rraymondhp
 
-community/terra/* @attp
-community/terra/*/* @attp
-community/algorithms/* @attp
+community/algorithms/* @attp @aasfaw @quantumjim @rraymondhp
+community/algorithms/* @attp @aasfaw @quantumjim @rraymondhp
 
-community/aqua/* @chunfuchen @pistoia
-community/aqua/*/* @chunfuchen @pistoia
-community/aqua/*/*/* @chunfuchen @pistoia
+community/arts/* @attp @aasfaw @quantumjim @rraymondhp
 
-community/teach_me_qiskit_2018/* @rraymondhp
-community/teach_me_qiskit_2018/*/* @rraymondhp
+community/aqua/* @chunfuchen @pistoia @aasfaw
+community/aqua/*/* @chunfuchen @pistoia @aasfaw
+community/aqua/*/*/* @chunfuchen @pistoia @aasfaw
 
+community/awards/teach_me_qiskit_2018/* @attp @aasfaw @quantumjim @rraymondhp
+community/awards/teach_me_qiskit_2018/*/* @attp @aasfaw @quantumjim @rraymondhp
+
+community/awards/teach_me_quantum_2018/* @attp @aasfaw @quantumjim @rraymondhp
+community/awards/teach_me_quantum_2018/*/* @attp @aasfaw @quantumjim @rraymondhp
+
+community/games/* @attp @aasfaw @quantumjim @rraymondhp
+community/games/*/* @attp @aasfaw @quantumjim @rraymondhp
+community/games/*/*/* @attp @aasfaw @quantumjim @rraymondhp
+community/games/*/*/*/* @attp @aasfaw @quantumjim @rraymondhp
+
+community/hello_world/* @quantumjim @aasfaw
+community/hello_world/*/* @quantumjim @aasfaw
+
+community/ignis/* @dcmckayibm @attp @aasfaw @quantumjim @rraymondhp
+
+community/terra/* @nonhermitian @attp @aasfaw @quantumjim @rraymondhp
+community/terra/*/* @nonhermitian @attp @aasfaw @quantumjim @rraymondhp

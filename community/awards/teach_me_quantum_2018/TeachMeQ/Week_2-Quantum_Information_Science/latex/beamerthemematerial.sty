@@ -1,0 +1,82 @@
+\mode<presentation>
+
+% Requirement
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{ifthen}
+\RequirePackage[many]{tcolorbox}
+\RequirePackage{graphicx}
+
+% Settings
+\useinnertheme{material}
+\useoutertheme{material}
+\usecolortheme{material}
+
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamerfont*{title}{size=\Huge}
+\setbeamerfont*{frametitle}{size=\large}
+
+% tcolorbox settings
+\newcommand{\setCardSettings}{%
+\tcbset{%
+colback=BGgrey04, colbacktitle=primary, coltitle=textPrimary, coltext=text,%
+enhanced, sharpish corners=all,%
+fuzzy shadow={0mm}{ 0.9mm}{ 0.6mm}{0.2mm}{shadow!20!BGgrey03}, % top
+fuzzy shadow={0mm}{-0.6mm}{-0.1mm}{0.2mm}{shadow!40!BGgrey03}, % bottomSmall
+fuzzy shadow={0mm}{-0.2mm}{-0.2mm}{0.2mm}{shadow!20!BGgrey03}, % bottomBig
+left=6mm, right=6mm, top=6mm, bottom=6mm, middle=4mm,%
+title filled, boxrule=0mm, %
+segmentation code={\path[draw=BGgrey01](segmentation.west) -- (segmentation.east);}%
+}
+}
+
+\setCardSettings
+
+\newenvironment{card}[1][pR23s2OTKY]{%
+  \setCardSettings
+    \ifthenelse{\equal{#1}{pR23s2OTKY}}{%
+      \begin{tcolorbox}%
+    }{%
+      \begin{tcolorbox}[colbacktitle=primary, coltitle=textPrimary, title=#1, left=6mm, right=6mm, top=3mm, bottom=4mm, middle=4mm, toptitle=4mm, bottomtitle=3mm,]%
+    }%
+}{%
+  \end{tcolorbox}%
+}
+
+\newenvironment{cardTiny}{%
+  \setCardSettings
+  \begin{tcolorbox}[colbacktitle=primary, left=4mm, right=4mm, top=2mm, bottom=2mm, middle=4mm, toptitle=4mm, bottomtitle=3mm,]%
+}{%
+  \end{tcolorbox}%
+}
+
+  
+\newcommand{\cardImg}[3][pR23s2OTKY]{%
+  \setCardSettings
+  \ifthenelse{\equal{#1}{pR23s2OTKY}}{%
+    \begin{tcolorbox}[lower separated=false, leftupper=0mm, rightupper=0mm, top=0mm, bottom=0mm, middle=1.5mm, boxsep=0mm, width=#3,]%
+      \includegraphics[width=\textwidth]{#2}
+    \end{tcolorbox}
+  }{%
+    \begin{tcolorbox}[lower separated=false, leftupper=0mm, rightupper=0mm, top=0mm, middle=1.5mm, boxsep=0mm, leftlower=6mm, rightlower=6mm, bottom=6mm, , width=#3,]%
+      \includegraphics[width=\textwidth]{#2}
+      \tcblower
+      #1%
+    \end{tcolorbox}
+  }%
+}
+  
+\newenvironment{frameImg}[2][width]{%
+  \setCardSettings
+  \ifthenelse{\equal{#1}{width}}{%
+    \usebackgroundtemplate{\hspace{-0.5\paperwidth}\parbox[c][\paperheight][c]{2\paperwidth}{\centering\includegraphics[width=\paperwidth, keepaspectratio=true]{#2}}}%
+  }{%
+    \usebackgroundtemplate{\hspace{-0.5\paperwidth}\parbox[c][\paperheight][c]{2\paperwidth}{\centering\includegraphics[height=\paperheight, keepaspectratio=true]{#2}}}%
+  }%
+  \begin{frame}
+}{%  
+  \end{frame}
+}
+
+\mode<all>
