@@ -4,7 +4,7 @@
 # Codeowners for individual folders
 qiskit/* @jaygambetta @ajavadia
 qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
-qiskit/ignis/* @dcmckayibm @yehuda-naveh @jaygambetta @ajavadia
+qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
 qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
 
 community/aer/* @chriseclectic @attp @aasfaw @quantumjim @rraymondhp
