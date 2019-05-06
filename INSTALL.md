@@ -20,13 +20,13 @@ At least [Python 3.5 or later](https://www.python.org/downloads/) is required to
 When there are no issues with dependencies, Qiskit can be simply installed using
 
 ```
-pip install qiskit qiskit-aqua qiskit-chemistry
+pip install qiskit
 ```
 
 Or, pre-installed qiskit can be updated using
 
 ```
-pip install -U qiskit qiskit-aqua qiskit-chemistry
+pip install -U qiskit
 ```
 
 However, in case of issues with dependencies, we recommend the following installation procedure:

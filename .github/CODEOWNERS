@@ -7,6 +7,8 @@ qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
 qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
 qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
 
+community/* @attp @aasfaw @quantumjim @rraymondhp
+
 community/aer/* @chriseclectic @attp @aasfaw @quantumjim @rraymondhp
 
 community/algorithms/* @attp @aasfaw @quantumjim @rraymondhp
@@ -32,7 +34,7 @@ community/games/*/*/*/* @attp @aasfaw @quantumjim @rraymondhp
 community/hello_world/* @quantumjim @aasfaw
 community/hello_world/*/* @quantumjim @aasfaw
 
-community/ignis/* @dcmckayibm @attp @aasfaw @quantumjim @rraymondhp
+community/ignis/* @dcmckayibm @yehuda-naveh @attp @aasfaw @quantumjim @rraymondhp
 
 community/terra/* @nonhermitian @attp @aasfaw @quantumjim @rraymondhp
 community/terra/*/* @nonhermitian @attp @aasfaw @quantumjim @rraymondhp
