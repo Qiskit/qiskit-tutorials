@@ -6,16 +6,16 @@ qiskit/* @jaygambetta @ajavadia
 qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
 qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
 qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
-qiskit/aqua/* @pistoia @jaygambetta @ajavadia
-qiskit/aqua/*/* @pistoia @jaygambetta @ajavadia
-qiskit/artificial_intelligence/* @pistoia @jaygambetta @ajavadia
-qiskit/artificial_intelligence/*/* @pistoia @jaygambetta @ajavadia
-qiskit/chemistry/* @pistoia @jaygambetta @ajavadia
-qiskit/chemistry/*/* @pistoia @jaygambetta @ajavadia
-qiskit/finance/* @pistoia @jaygambetta @ajavadia
-qiskit/finance/*/* @pistoia @jaygambetta @ajavadia
-qiskit/optimization/* @pistoia @jaygambetta @ajavadia
-qiskit/optimization/*/* @pistoia @jaygambetta @ajavadia
+qiskit/aqua/* @pistoia @jaygambetta
+qiskit/aqua/*/* @pistoia @jaygambetta
+qiskit/artificial_intelligence/* @pistoia @jaygambetta
+qiskit/artificial_intelligence/*/* @pistoia @jaygambetta
+qiskit/chemistry/* @pistoia @jaygambetta
+qiskit/chemistry/*/* @pistoia @jaygambetta
+qiskit/finance/* @pistoia @jaygambetta
+qiskit/finance/*/* @pistoia @jaygambetta
+qiskit/optimization/* @pistoia @jaygambetta
+qiskit/optimization/*/* @pistoia @jaygambetta
 
 community/* @attp @aasfaw @quantumjim @rraymondhp
 
