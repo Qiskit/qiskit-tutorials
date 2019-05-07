@@ -7,8 +7,6 @@ This is exactly what we'd like to replicate in this folder. Here you'll find bas
 
 ## Contents
 
-* [Hello Qiskit](Hello_Qiskit.ipynb) - Solve puzzles by creating simple Qiskit programs.
-
 * [Battleships with partial NOT gates](battleships_with_partial_NOT_gates.ipynb) - Battleships implemented with single qubit rotations.
 
 * [Quantum Counterfeit Coin Problem](quantum_counterfeit_coin_problem.ipynb) - A game based on finding a counterfeit coin, with a quantum strategy based on the Bernstein-Vazirani algorithm.
@@ -20,6 +18,8 @@ This is exactly what we'd like to replicate in this folder. Here you'll find bas
 * [Random Terrain Generation](random_terrain_generation.ipynb) - A simple example of using quantum computers for the kind of procedural generation often used in games.
 
 * [Quantum Animations](quantum_animations.ipynb) - A simple example of making pixel art animations with quantum computers.
+
+* [Hello Qiskit](../../qiskit/basics/Hello_Qiskit.ipynb) - Solve puzzles by creating simple Qiskit programs.
 
 ## Contributing
 
