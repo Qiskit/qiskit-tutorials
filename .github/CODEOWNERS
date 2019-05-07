@@ -6,6 +6,16 @@ qiskit/* @jaygambetta @ajavadia
 qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
 qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
 qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
+qiskit/aqua/* @pistoia @jaygambetta @ajavadia
+qiskit/aqua/*/* @pistoia @jaygambetta @ajavadia
+qiskit/artificial_intelligence/* @pistoia @jaygambetta @ajavadia
+qiskit/artificial_intelligence/*/* @pistoia @jaygambetta @ajavadia
+qiskit/chemistry/* @pistoia @jaygambetta @ajavadia
+qiskit/chemistry/*/* @pistoia @jaygambetta @ajavadia
+qiskit/finance/* @pistoia @jaygambetta @ajavadia
+qiskit/finance/*/* @pistoia @jaygambetta @ajavadia
+qiskit/optimization/* @pistoia @jaygambetta @ajavadia
+qiskit/optimization/*/* @pistoia @jaygambetta @ajavadia
 
 community/* @attp @aasfaw @quantumjim @rraymondhp
 
@@ -19,6 +29,22 @@ community/arts/* @attp @aasfaw @quantumjim @rraymondhp
 community/aqua/* @chunfuchen @pistoia @aasfaw
 community/aqua/*/* @chunfuchen @pistoia @aasfaw
 community/aqua/*/*/* @chunfuchen @pistoia @aasfaw
+
+community/artificial_intelligence/* @chunfuchen @pistoia @aasfaw
+community/artificial_intelligence/*/* @chunfuchen @pistoia @aasfaw
+community/artificial_intelligence/*/*/* @chunfuchen @pistoia @aasfaw
+
+community/chemistry/* @chunfuchen @pistoia @aasfaw
+community/chemistry/*/* @chunfuchen @pistoia @aasfaw
+community/chemistry/*/*/* @chunfuchen @pistoia @aasfaw
+
+community/finance/* @chunfuchen @pistoia @aasfaw
+community/finance/*/* @chunfuchen @pistoia @aasfaw
+community/finance/*/*/* @chunfuchen @pistoia @aasfaw
+
+community/optimization/* @chunfuchen @pistoia @aasfaw
+community/optimization/*/* @chunfuchen @pistoia @aasfaw
+community/optimization/*/*/* @chunfuchen @pistoia @aasfaw
 
 community/awards/teach_me_qiskit_2018/* @attp @aasfaw @quantumjim @rraymondhp
 community/awards/teach_me_qiskit_2018/*/* @attp @aasfaw @quantumjim @rraymondhp
