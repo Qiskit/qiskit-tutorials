@@ -1,0 +1,146 @@
+{
+    "algorithm": {
+        "initial_point": null,
+        "name": "VQE",
+        "operator_mode": "matrix"
+    },
+    "backend": {
+        "provider": "qiskit.BasicAer",
+        "name": "statevector_simulator",
+        "skip_transpiler": false
+    },
+    "initial_state": {
+        "name": "ZERO"
+    },
+    "problem": {
+        "name": "energy"
+    },
+    "optimizer": {
+        "factr": 10,
+        "iprint": -1,
+        "maxfun": 1000,
+        "name": "L_BFGS_B"
+    },
+    "problem": {
+        "name": "energy"
+    },
+    "variational_form": {
+        "depth": 3,
+        "entanglement": "full",
+        "entangler_map": null,
+        "name": "RYRZ"
+    },
+    "input": {
+        "aux_ops": [],
+        "name": "EnergyInput",
+        "qubit_op": {
+            "paulis": [
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": -0.8105479862761009
+                    },
+                    "label": "IIII"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.1721839427308565
+                    },
+                    "label": "ZIII"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": -0.22575350251540538
+                    },
+                    "label": "IZII"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.1721839427308564
+                    },
+                    "label": "IIZI"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": -0.2257535025154054
+                    },
+                    "label": "IIIZ"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.12091263358560006
+                    },
+                    "label": "ZZII"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.16892754048859018
+                    },
+                    "label": "ZIZI"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.045232799794893475
+                    },
+                    "label": "YYXX"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.045232799794893475
+                    },
+                    "label": "YYYY"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.045232799794893475
+                    },
+                    "label": "XXXX"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.045232799794893475
+                    },
+                    "label": "XXYY"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.16614543338049353
+                    },
+                    "label": "ZIIZ"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.16614543338049353
+                    },
+                    "label": "IZZI"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.174643431424422
+                    },
+                    "label": "IZIZ"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.12091263358560006
+                    },
+                    "label": "IIZZ"
+                }
+            ]
+        }
+    }
+}
