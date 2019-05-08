@@ -7,5 +7,3 @@ dependencies:
 - ipywidgets
 - pip:
   - qiskit
-  - qiskit-aqua
-  - qiskit-chemistry
