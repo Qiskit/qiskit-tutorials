@@ -6,16 +6,6 @@ qiskit/* @jaygambetta @ajavadia
 qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
 qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
 qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
-qiskit/aqua/* @pistoia @jaygambetta
-qiskit/aqua/*/* @pistoia @jaygambetta
-qiskit/artificial_intelligence/* @pistoia @jaygambetta
-qiskit/artificial_intelligence/*/* @pistoia @jaygambetta
-qiskit/chemistry/* @pistoia @jaygambetta
-qiskit/chemistry/*/* @pistoia @jaygambetta
-qiskit/finance/* @pistoia @jaygambetta
-qiskit/finance/*/* @pistoia @jaygambetta
-qiskit/optimization/* @pistoia @jaygambetta
-qiskit/optimization/*/* @pistoia @jaygambetta
 
 community/* @attp @aasfaw @quantumjim @rraymondhp
 
@@ -25,7 +15,6 @@ community/algorithms/* @attp @aasfaw @quantumjim @rraymondhp
 community/algorithms/* @attp @aasfaw @quantumjim @rraymondhp
 
 community/arts/* @attp @aasfaw @quantumjim @rraymondhp
-
 community/aqua/* @chunfuchen @pistoia @aasfaw
 community/aqua/*/* @chunfuchen @pistoia @aasfaw
 community/aqua/*/*/* @chunfuchen @pistoia @aasfaw
