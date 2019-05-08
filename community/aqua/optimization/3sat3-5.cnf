@@ -1,7 +1,0 @@
-c This is an example DIMACS 3-sat file with 3 satisfying solutions: 1 -2 3 0, -1 -2 -3 0, 1 2 -3 0
-p cnf 3 5
--1 -2 -3 0
-1 -2 3 0
-1 2 -3 0
-1 -2 -3 0
--1 2 3 0

@@ -1,0 +1,17 @@
+{
+    "algorithm": {
+        "name": "Grover"
+    },
+    "backend": {
+        "provider": "qiskit.BasicAer", 
+        "name": "qasm_simulator",
+        "shots": 1000
+    },
+    "oracle": {
+        "expression": "c example DIMACS-CNF 3-SAT\np cnf 3 5\n-1 -2 -3 0\n1 -2 3 0\n1 2 -3 0\n1 -2 -3 0\n-1 2 3 0",
+        "name": "LogicalExpressionOracle"
+    },
+    "problem": {
+        "name": "search"
+    }
+}
