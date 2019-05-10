@@ -1,0 +1,74 @@
+{
+    "algorithm": {
+        "initial_point": null,
+        "name": "VQE",
+        "operator_mode": "matrix"
+    },
+    "backend": {
+        "provider": "qiskit.BasicAer",
+        "name": "statevector_simulator",
+        "skip_transpiler": false
+    },
+    "initial_state": {
+        "name": "ZERO"
+    },
+    "input": {
+        "aux_ops": [],
+        "name": "EnergyInput",
+        "qubit_op": {
+            "paulis": [
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": -1.052373245772859
+                    },
+                    "label": "II"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.39793742484318045
+                    },
+                    "label": "ZI"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": -0.39793742484318045
+                    },
+                    "label": "IZ"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": -0.01128010425623538
+                    },
+                    "label": "ZZ"
+                },
+                {
+                    "coeff": {
+                        "imag": 0.0,
+                        "real": 0.18093119978423156
+                    },
+                    "label": "XX"
+                }
+            ]
+        }
+    },
+    "optimizer": {
+        "factr": 10,
+        "iprint": -1,
+        "maxfun": 1000,
+        "name": "L_BFGS_B"
+    },
+    "problem": {
+        "name": "energy",
+        "random_seed": null
+    },
+    "variational_form": {
+        "depth": 3,
+        "entanglement": "linear",
+        "entangler_map": null,
+        "name": "RYRZ"
+    }
+}
