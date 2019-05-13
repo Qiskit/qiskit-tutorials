@@ -23,9 +23,12 @@ We have organized the tutorials into two sections:
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version.  
 - [Basics](qiskit/basics) is meant for those who are getting started.
 - [Terra](qiskit/terra) is meant for those who want to study circuits.
+- [Aer](qiskit/aer) is meant for those who want to simulate quantum circuits.
 - [Ignis](qiskit/ignis) is meant for those who want to study noise.
 - [Aqua](qiskit/aqua) is meant for those who want to develop applications on NISQ computers.
 - [Jupyter](qiskit/jupyter) is meant to highlight some cool Juypter features.
+
+To go through the official qiskit examples load up the [start_here.ipynb](qiskit/start_here.ipynb) notebook and start seeing how qiskit works.
 
 ### 2. [Community notebooks](community/)<a id='community'></a>
 
@@ -33,11 +36,12 @@ Teaching quantum computing and qiskit has many different paths of learning. We l
 - [Hello, Quantum World](community/hello_world/) learn from the community how to write your first quantum program.
 - [Quantum Games](community/games/), learn quantum computing by having fun.
 - [Quantum Information Science with Terra](community/terra/), learn about quantum information science with Qiskit Terra.
+- [Investigate Quantum Noise with Ignis](community/ignis/), learn about quantum noise  with Qiskit Ignis.
 - [Textbook Quantum Algorithms](community/algorithms/), learn Qiskit from the textbook algorithms.
 - [Quantum Algorithms](community/aqua/), learn about quantum algorithms for noisy near-term devices with Qiskit Aqua.
 - [IBM Q Awards](community/awards/), learn from the great contributions to the [IBM Q Awards](https://qe-awards.mybluemix.net/), [Teach Me Qiskit 2018](community/awards/teach_me_qiskit_2018/index.ipynb) and [Teach Me Quantum 2018](community/awards/teach_me_quantum_2018/index.ipynb).
 
-To go through the tutorials, load up the [index.ipynb](index.ipynb) notebook and start learning.
+To go through the community driven tutorials, load up the [index.ipynb](community/index.ipynb) notebook and start learning.
 
 ## Contribution Guidelines
 

@@ -15,8 +15,11 @@ This is exactly what we'd like to replicate in this folder. Here you'll find bas
 
 * [Quantum Tic-tac-toe](quantum_tic_tac_toe.ipynb) - Tic-tac-toe was one of the first games for a classical computer. Now we have a quantum version too!
 
-* [Quantum Awesomeness](quantum_awesomeness.ipynb) - Puzzles that aim to give hands-on experience of a quantum device's most important features: number of qubits, connectivity and noise
+* [Quantum Awesomeness](quantum_awesomeness.ipynb) - Puzzles that aim to give hands-on experience of a quantum device's most important features: number of qubits, connectivity and noise.
 
+* [Random Terrain Generation](random_terrain_generation.ipynb) - A simple example of using quantum computers for the kind of procedural generation often used in games.
+
+* [Quantum Animations](quantum_animations.ipynb) - A simple example of making pixel art animations with quantum computers.
 
 ## Contributing
 
