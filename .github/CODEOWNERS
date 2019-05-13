@@ -6,6 +6,7 @@ qiskit/* @jaygambetta @ajavadia
 qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
 qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
 qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
+qiskit/basics/* @jaygambetta @ajavadia @aasfaw
 
 community/* @attp @aasfaw @quantumjim @rraymondhp
 
