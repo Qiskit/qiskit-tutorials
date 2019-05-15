@@ -15,14 +15,14 @@
 \begin{document}
 
 \begin{frame}
-	\titlepage
+    \titlepage
 \end{frame}
 
 
 \begin{frame}{Table of contents}
-	\begin{card}
-		\tableofcontents
-	\end{card}
+    \begin{card}
+        \tableofcontents
+    \end{card}
 \end{frame}
 
 
@@ -137,7 +137,7 @@
 \section{\gvsa in \qka}
 \begin{frame}[fragile]{\gvsa in \qka}
 Go ahead and run the following code, while trying to understand it:\begin{minted}{python}
-from qiskit_aqua import run_algorithm
+from qiskit.aqua import run_algorithm
 # problem in DIMACS CNF format:
 sat_cnf = """
 p cnf 3 5
@@ -172,14 +172,14 @@ print(run_algorithm(params)['result']) # [1, -2, 3] or another
 \end{frame}
 
 \begin{frame}[fragile]{\ai (SVM)}
-\small{Here's an example of a configuration for an SVM classification model:}\begin{minted}{python}
+\small{Here's an example of a configuration for an classification model:}\begin{minted}{python}
 params = {
     'problem': {
-        'name': 'svm_classification',
+        'name': 'classification',
         'random_seed': 1219 # same seed ensures reproducibility
     },
     'algorithm': {
-        'name': 'QSVM.Kernel'
+        'name': 'QSVM'
     },
     'backend': {
         'name': 'qasm_simulator',
@@ -223,7 +223,7 @@ params = {
 \small{We will not go much deeper into explaining the typical approaches, as this should be done by those students that truly benefit from it. However, here is an example of how such problems may be configured (the input comes from \href{https://support.hdfgroup.org/HDF5/whatishdf5.html}{HDF5} files):}\begin{minted}{python}
 # Input dictionary to configure Qiskit aqua Chemistry
 # for the chemistry problem.
-aqua_chemistry_dict = {
+qiskit_chemistry_dict = {
     'driver': {'name': 'HDF5'},
     'HDF5': {'hdf5_input': 'H2/0.7_sto-3g.hdf5'},
     'operator': {'name': 'hamiltonian'},
