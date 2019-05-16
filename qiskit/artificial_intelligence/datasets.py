@@ -314,8 +314,7 @@ def Breast_cancer(training_size, test_size, n, PLOT_DATA):
 
     # Pick training size number of samples from each distro
     training_input = {key: (sample_train[label_train == k, :])[:training_size] for k, key in enumerate(class_labels)}
-    test_input = {key: (sample_train[label_train == k, :])[training_size:(
-        training_size+test_size)] for k, key in enumerate(class_labels)}
+    test_input = {key: (sample_test[label_test == k, :])[:test_size] for k, key in enumerate(class_labels)}
 
     if PLOT_DATA:
         for k in range(0, 2):
@@ -352,8 +351,7 @@ def Digits(training_size, test_size, n, PLOT_DATA):
 
     # Pick training size number of samples from each distro
     training_input = {key: (sample_train[label_train == k, :])[:training_size] for k, key in enumerate(class_labels)}
-    test_input = {key: (sample_train[label_train == k, :])[training_size:(
-        training_size+test_size)] for k, key in enumerate(class_labels)}
+    test_input = {key: (sample_test[label_test == k, :])[:test_size] for k, key in enumerate(class_labels)}
 
     if PLOT_DATA:
         for k in range(0, 9):
@@ -376,6 +374,11 @@ def Iris(training_size, test_size, n, PLOT_DATA):
     sample_train = std_scale.transform(sample_train)
     sample_test = std_scale.transform(sample_test)
 
+    # Now reduce number of features to number of qubits
+    pca = PCA(n_components=n).fit(sample_train)
+    sample_train = pca.transform(sample_train)
+    sample_test = pca.transform(sample_test)
+
     # Scale to the range (-1,+1)
     samples = np.append(sample_train, sample_test, axis=0)
     minmax_scale = MinMaxScaler((-1, 1)).fit(samples)
@@ -384,8 +387,7 @@ def Iris(training_size, test_size, n, PLOT_DATA):
 
     # Pick training size number of samples from each distro
     training_input = {key: (sample_train[label_train == k, :])[:training_size] for k, key in enumerate(class_labels)}
-    test_input = {key: (sample_train[label_train == k, :])[training_size:(
-        training_size+test_size)] for k, key in enumerate(class_labels)}
+    test_input = {key: (sample_test[label_test == k, :])[:test_size] for k, key in enumerate(class_labels)}
 
     if PLOT_DATA:
         for k in range(0, 3):
@@ -402,8 +404,7 @@ def Wine(training_size, test_size, n, PLOT_DATA):
     class_labels = [r'A', r'B', r'C']
 
     data, target = datasets.load_wine(True)
-    sample_train, sample_test, label_train, label_test = train_test_split(data, target, test_size=0.1,
-                                                                          random_state=7)
+    sample_train, sample_test, label_train, label_test = train_test_split(data, target, test_size=test_size, random_state=7)
 
     # Now we standarize for gaussian around 0 with unit variance
     std_scale = StandardScaler().fit(sample_train)
@@ -422,8 +423,7 @@ def Wine(training_size, test_size, n, PLOT_DATA):
     sample_test = minmax_scale.transform(sample_test)
     # Pick training size number of samples from each distro
     training_input = {key: (sample_train[label_train == k, :])[:training_size] for k, key in enumerate(class_labels)}
-    test_input = {key: (sample_train[label_train == k, :])[training_size:(
-        training_size+test_size)] for k, key in enumerate(class_labels)}
+    test_input = {key: (sample_test[label_test == k, :])[:test_size] for k, key in enumerate(class_labels)}
 
     if PLOT_DATA:
         for k in range(0, 3):
@@ -549,11 +549,3 @@ def Gaussian(training_size, test_size, n, PLOT_DATA):
         return sample_train, training_input, test_input, class_labels
     else:
         print("Gaussian presently only supports 2 or 3 qubits")
-
-
-if __name__ == '__main__':
-
-    _, train_data, test_data, label = ad_hoc_data(training_size=4, test_size=4, n=2, gap=0.3, PLOT_DATA=False)
-    print(train_data)
-    print(test_data)
-    print(label)
