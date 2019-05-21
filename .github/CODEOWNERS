@@ -3,6 +3,13 @@
 
 # Codeowners for individual folders
 qiskit/* @jaygambetta @ajavadia
+
+qiskit/aqua/* @jaygambetta @pistoia
+qiskit/artificial_intelligence/* @jaygambetta @pistoia
+qiskit/chemistry/* @jaygambetta @pistoia
+qiskit/finance/* @jaygambetta @pistoia
+qiskit/optimization/* @jaygambetta @pistoia
+
 qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
 qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
 qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
