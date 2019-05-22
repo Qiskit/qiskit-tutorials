@@ -314,8 +314,7 @@ def Breast_cancer(training_size, test_size, n, PLOT_DATA):
 
     # Pick training size number of samples from each distro
     training_input = {key: (sample_train[label_train == k, :])[:training_size] for k, key in enumerate(class_labels)}
-    test_input = {key: (sample_train[label_train == k, :])[training_size:(
-        training_size+test_size)] for k, key in enumerate(class_labels)}
+    test_input = {key: (sample_test[label_test == k, :])[:test_size] for k, key in enumerate(class_labels)}
 
     if PLOT_DATA:
         for k in range(0, 2):
@@ -352,8 +351,7 @@ def Digits(training_size, test_size, n, PLOT_DATA):
 
     # Pick training size number of samples from each distro
     training_input = {key: (sample_train[label_train == k, :])[:training_size] for k, key in enumerate(class_labels)}
-    test_input = {key: (sample_train[label_train == k, :])[training_size:(
-        training_size+test_size)] for k, key in enumerate(class_labels)}
+    test_input = {key: (sample_test[label_test == k, :])[:test_size] for k, key in enumerate(class_labels)}
 
     if PLOT_DATA:
         for k in range(0, 9):
@@ -389,8 +387,7 @@ def Iris(training_size, test_size, n, PLOT_DATA):
 
     # Pick training size number of samples from each distro
     training_input = {key: (sample_train[label_train == k, :])[:training_size] for k, key in enumerate(class_labels)}
-    test_input = {key: (sample_train[label_train == k, :])[training_size:(
-        training_size+test_size)] for k, key in enumerate(class_labels)}
+    test_input = {key: (sample_test[label_test == k, :])[:test_size] for k, key in enumerate(class_labels)}
 
     if PLOT_DATA:
         for k in range(0, 3):
@@ -426,8 +423,7 @@ def Wine(training_size, test_size, n, PLOT_DATA):
     sample_test = minmax_scale.transform(sample_test)
     # Pick training size number of samples from each distro
     training_input = {key: (sample_train[label_train == k, :])[:training_size] for k, key in enumerate(class_labels)}
-    test_input = {key: (sample_train[label_train == k, :])[training_size:(
-        training_size+test_size)] for k, key in enumerate(class_labels)}
+    test_input = {key: (sample_test[label_test == k, :])[:test_size] for k, key in enumerate(class_labels)}
 
     if PLOT_DATA:
         for k in range(0, 3):
