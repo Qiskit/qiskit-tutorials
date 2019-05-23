@@ -4,15 +4,15 @@
 # Codeowners for individual folders
 qiskit/* @jaygambetta @ajavadia
 
-qiskit/aqua/**/* @jaygambetta @pistoia
-qiskit/artificial_intelligence/**/* @jaygambetta @pistoia
-qiskit/chemistry/**/* @jaygambetta @pistoia
-qiskit/finance/**/* @jaygambetta @pistoia
-qiskit/optimization/**/* @jaygambetta @pistoia
+qiskit/aqua/**/* @jaygambetta @pistoia @aasfaw
+qiskit/artificial_intelligence/**/* @jaygambetta @pistoia @aasfaw
+qiskit/chemistry/**/* @jaygambetta @pistoia @aasfaw
+qiskit/finance/**/* @jaygambetta @pistoia @aasfaw
+qiskit/optimization/**/* @jaygambetta @pistoia @aasfaw
 
-qiskit/aer/* @chriseclectic @jaygambetta @ajavadia
-qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia
-qiskit/terra/* @nonhermitian @jaygambetta @ajavadia
+qiskit/aer/* @chriseclectic @jaygambetta @ajavadia @aasfaw
+qiskit/ignis/* @dcmckayibm @jaygambetta @ajavadia @aasfaw
+qiskit/terra/* @nonhermitian @jaygambetta @ajavadia @aasfaw
 
 community/* @attp @aasfaw @quantumjim @rraymondhp
 
