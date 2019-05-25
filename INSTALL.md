@@ -9,7 +9,7 @@
 
 **Get the tutorials**<BR>
 
-For the full experience, you can start by downloading the latest release of the tutorials from [here](https://github.com/Qiskit/qiskit-tutorials/releases). Unzip the archive in the directory of your choice (this is the recommend way). 
+For the full experience, you can start by downloading the latest release of the tutorials from [here](https://github.com/Qiskit/qiskit-tutorials/releases). Unzip the archive in the directory of your choice (this is the recommended way). 
 
 To properly view and run the tutorials, you will need to install [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html).
 
@@ -17,16 +17,16 @@ To properly view and run the tutorials, you will need to install [Jupyter Notebo
 
 At least [Python 3.5 or later](https://www.python.org/downloads/) is required to install and use Qiskit. If you have multiple Python versions installed (and particularly if the command `python --version` returns an incompatble version), you will need to ensure that your versions are [managed correctly](https://conda.io/docs/user-guide/tasks/manage-python.html). This can be done using the `environment.yml` file, as detailed below.
 
-When there are no issues with dependencies, Qiskit can be simply installed using
+When there are no issues with dependencies, Qiskit can be installed using
 
 ```
-pip install qiskit qiskit-aqua qiskit-chemistry
+pip install qiskit
 ```
 
-Or, pre-installed qiskit can be updated using
+Or, pre-installed Qiskit can be updated using
 
 ```
-pip install -U qiskit qiskit-aqua qiskit-chemistry
+pip install -U qiskit
 ```
 
 However, in case of issues with dependencies, we recommend the following installation procedure:
@@ -47,7 +47,7 @@ conda env update -f environment.yml
 ```
 
 
-## 3. Configure your IBMQ provider
+## 3. Configure your IBM Q Provider
 
 -  Create an [IBM Q](https://quantumexperience.ng.bluemix.net) account if
    you haven't already done so
@@ -71,7 +71,7 @@ conda env update -f environment.yml
     IBMQ.load_accounts()
 ```
 
--  For those who do not want to save their credentials to disk please use
+-  For those who do not want to save their credentials to disk, please use
 
 ```python
     from qiskit import IBMQ
@@ -82,7 +82,7 @@ conda env update -f environment.yml
 and the token will only be active for the session. 
 
 
-## 4. Explore the tutorials
+## 4. Explore the Tutorials
 
 **Activate the environment**<BR>
 For MacOS and Linux, run:
@@ -97,7 +97,7 @@ For Windows, run:
 activate Qiskitenv
 ```
 **Note for conda users**<BR>
-You need to be sure that you have installed the right Jupyter Kernel, because in the last conda version it's not installed by default.
+Verify that you have installed the right Jupyter Kernel, because in the last conda version it's not installed by default.
 
 ```
 python -m ipykernel install --user --name Qiskitenv --display-name "Python (Qiskitenv)"
@@ -109,8 +109,8 @@ python -m ipykernel install --user --name Qiskitenv --display-name "Python (Qisk
 jupyter notebook index.ipynb
 ```
 
-## 5. [Optional] Visualizing Circuits with Latex
-You can visualize your quantum circuits directly from Qiskit. Qiskit circuit drawers support Text, Latex and matplotlib. The text and matplotlib version is entirely native to Python, and thus easy to use. The Latex version produces publication-quality circuit images, but relies on some pre-requisite software. These include the `pdflatex` compiler for rendering latex documents, and the Poppler library for converting PDF to image. To get these:
+## 5. [Optional] Visualizing Circuits with LaTeX
+You can visualize your quantum circuits directly from Qiskit. Qiskit circuit drawers support text, LaTeX and matplotlib. The text and matplotlib version is entirely native to Python, and thus easy to use. The LaTeX version produces publication-quality circuit images, but relies on some pre-requisite software. These include the `pdflatex` compiler for rendering LaTeX documents, and the Poppler library for converting PDF to image. To get these:
 
 On Linux:
 
