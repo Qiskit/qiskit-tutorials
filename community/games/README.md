@@ -21,7 +21,7 @@ You can also find the following game related content in the 'creative' folder.
 
 * [Random Terrain Generation](../creative/random_terrain_generation.ipynb) - A simple example of using quantum computers for the kind of procedural generation often used in games.
 
-* [Quantum Animations](../creativee/quantum_animations.ipynb) - A simple example of making pixel art animations with quantum computers.
+* [Quantum Animations](../creative/quantum_animations.ipynb) - A simple example of making pixel art animations with quantum computers.
 
 ## Contributing
 
