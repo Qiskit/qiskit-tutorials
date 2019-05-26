@@ -23,6 +23,8 @@ You can also find the following game related content in the 'creative' folder.
 
 * [Quantum Animations](../creative/quantum_animations.ipynb) - A simple example of making pixel art animations with quantum computers.
 
+* [Quantum Coin Game](Quantum-Coin-Game.ipynb) - A quantum coin game to illustrate the power of quantum superposition and interference.
+
 ## Contributing
 
 Each game should have a Jupyter notebook in which the game is played, and in which the quantumness behind the game mechanic is explained.
