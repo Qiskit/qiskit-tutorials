@@ -17,9 +17,13 @@ This is exactly what we'd like to replicate in this folder. Here you'll find bas
 
 * [Quantum Awesomeness](quantum_awesomeness.ipynb) - Puzzles that aim to give hands-on experience of a quantum device's most important features: number of qubits, connectivity and noise.
 
-* [Random Terrain Generation](random_terrain_generation.ipynb) - A simple example of using quantum computers for the kind of procedural generation often used in games.
+You can also find the following game related content in the 'creative' folder.
 
-* [Quantum Animations](quantum_animations.ipynb) - A simple example of making pixel art animations with quantum computers.
+* [Random Terrain Generation](../creative/random_terrain_generation.ipynb) - A simple example of using quantum computers for the kind of procedural generation often used in games.
+
+* [Quantum Animations](../creative/quantum_animations.ipynb) - A simple example of making pixel art animations with quantum computers.
+
+* [Quantum Coin Game](Quantum-Coin-Game.ipynb) - A quantum coin game to illustrate the power of quantum superposition and interference.
 
 ## Contributing
 

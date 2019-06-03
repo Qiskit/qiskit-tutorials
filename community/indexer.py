@@ -1,3 +1,5 @@
+# run this to scrape the notebooks for keywords and create and index
+
 import os
 import json
 
