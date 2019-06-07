@@ -5,5 +5,6 @@ dependencies:
 - matplotlib
 - notebook
 - ipywidgets
+- rise
 - pip:
   - qiskit
