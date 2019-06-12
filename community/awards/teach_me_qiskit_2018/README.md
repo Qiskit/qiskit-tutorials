@@ -5,11 +5,11 @@ Most of the tutorials were written and tested with [qiskit-terra](https://github
 version 0.4.15.
 
 
-Thanks to the awesome community these tutorials are updated to work with the Qiskit 0.8.1
+Thanks to the awesome community these tutorials are updated to work with the Qiskit (0.8.1).
 - [CHSH Game](chsh_game/CHSH%20game-tutorial.ipynb) by Mirko Amico - get used to the quantum weirdness by playing a quantum game.
 - [Cryptography with BB84](cryptography/Cryptography.ipynb) by Costantino Carugno - implementation of the famous BB84 protocol.
 
-The following work with Qiskit (0.6.0) from time of submission.
+The following work with Qiskit (0.6.0).
 - [W State](w_state) by Pierre Decoodt - W states and interesting games using them.
 - [State Distribution in Qubit Chains](state_distribution_in_qubit_chains/index.ipynb) by Alexander Yu. Vlasov  - state transport in quantum chains.
 - [E91 Quantum Key Distribution Protocol](e91_qkd/e91_quantum_key_distribution_protocol.ipynb) by Andrey Kardashin  - a tutorial on quantum key distribution based on the protocol by Ekert in 1991.
