@@ -4,10 +4,9 @@ In this folder we have a collection of great tutorials from our fantastic Qiskit
 
 * [Introductory Quantum Information Science](qis_intro)
 * [Advanced Quantum Information Science](qis_adv)
-* [Quantum Error Correction](qec)
 
 Load up [index.ipynb](index.ipynb) to start exploring quantum information science with Qiskit Terra!
 
 ## Contributing
 
-Quantum information science is such an interesting topic and we have by no means covered everything! We welcome additional notebooks in the relevant folder. The [quantum error correction](qec) folder is currently looking particularly empty...
+Quantum information science is such an interesting topic and we have by no means covered everything! We welcome additional notebooks in the relevant folder.
