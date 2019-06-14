@@ -16,10 +16,12 @@ The following lists show notebooks in the Qiskit tutorials that are relevant for
 * [random terrain generation](community/creative/random_terrain_generation.ipynb)
 
 ### `cx`
+* [Hello Qiskit](community/games/Hello_Qiskit.ipynb)
 * [quantum awesomeness](community/games/quantum_awesomeness.ipynb)
 
 ### `h`
 * [pqcm win basic superposition](community/creative/pqcm_win_basic_superposition.ipynb)
+* [Hello Qiskit](community/games/Hello_Qiskit.ipynb)
 * [quantum counterfeit coin problem](community/games/quantum_counterfeit_coin_problem.ipynb)
 * [quantum slot machine](community/games/quantum_slot_machine.ipynb)
 
@@ -49,8 +51,17 @@ The following lists show notebooks in the Qiskit tutorials that are relevant for
 ### `u3`
 * [battleships with partial NOT gates](community/games/battleships_with_partial_NOT_gates.ipynb)
 
+### `x`
+* [Hello Qiskit](community/games/Hello_Qiskit.ipynb)
+
+### `z`
+* [Hello Qiskit](community/games/Hello_Qiskit.ipynb)
+
 
 ## Index by Topics
+
+### Bell inequality
+* [Hello Qiskit](community/games/Hello_Qiskit.ipynb)
 
 ### Counterfeit coin problem
 * [quantum counterfeit coin problem](community/games/quantum_counterfeit_coin_problem.ipynb)
@@ -62,11 +73,13 @@ The following lists show notebooks in the Qiskit tutorials that are relevant for
 
 ### Entanglement
 * [random terrain generation](community/creative/random_terrain_generation.ipynb)
+* [Hello Qiskit](community/games/Hello_Qiskit.ipynb)
 * [quantum awesomeness](community/games/quantum_awesomeness.ipynb)
 * [quantum tic tac toe](community/games/quantum_tic_tac_toe.ipynb)
 
 ### Games
 * [random terrain generation](community/creative/random_terrain_generation.ipynb)
+* [Hello Qiskit](community/games/Hello_Qiskit.ipynb)
 * [battleships with partial NOT gates](community/games/battleships_with_partial_NOT_gates.ipynb)
 * [quantum awesomeness](community/games/quantum_awesomeness.ipynb)
 * [quantum slot machine](community/games/quantum_slot_machine.ipynb)
