@@ -14,6 +14,8 @@ In this folder we have a collection of great tutorials from our fantastic Qiskit
 
 * [Randomized Benchmarking](RB_overview.ipynb): Introduction to randomized benchmarking (RB), which is a scalable technique for measuring the average gate error. 
 
+* [Repetition Code](repetition_code.ipynb): A guide to compiling repetition code circuits to run on real devices.
+
 ## Contributing
 
 Quantum characterization is such an interesting topic and we have by no means covered everything! We welcome additional notebooks in the relevant folder. 
