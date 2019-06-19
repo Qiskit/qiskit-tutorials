@@ -45,7 +45,7 @@ To go through the community-driven tutorials, load up the [index.ipynb](communit
 
 ## Index
 
-An index of everything in this folder, as well as the rest of the tutorials, can be found [here](../index.md)
+An index of everything in this folder, as well as the rest of the tutorials, can be found [here](index.md)
 
 ## Contribution Guidelines
 
