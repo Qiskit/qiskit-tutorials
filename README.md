@@ -43,6 +43,10 @@ Quantum computing and Qiskit have many different paths of learning. We love our 
 
 To go through the community-driven tutorials, load up the [index.ipynb](community/index.ipynb) notebook and start learning.
 
+## Index
+
+An index of everything in this folder, as well as the rest of the tutorials, can be found [here](../index.md)
+
 ## Contribution Guidelines
 
 If you'd like to contribute to Qiskit Tutorials, please take a look at our
