@@ -4,7 +4,9 @@
 
 Welcome to the [Qiskit](https://www.qiskit.org/) tutorials!
 
-In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use Qiskit for writing quantum computing programs, and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors are the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
+In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use Qiskit for writing quantum computing programs, and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors are the [IBM Q](https://quantum-computing.ibm.com) devices.
+
+For our community-contributed tutorials, please check out the [qiskit-community-tutorials](https://github.com/Qiskit/qiskit-tutorials-community) repository.
 
 ## Installation
 
@@ -16,10 +18,6 @@ Please refer to this [installation guide](INSTALL.md) for setting up Qiskit and 
 
 ## Contents
 
-We have organized the tutorials into two sections:
-
-### 1. [Qiskit notebooks](qiskit/)<a id='qiskit'></a>
-
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version.  
 - [Basics](qiskit/basics) is meant for those who are getting started.
 - [Terra](qiskit/terra) is meant for those who want to study circuits.
@@ -28,20 +26,7 @@ We've collected a core reference set of notebooks in this section outlining the 
 - [Aqua](qiskit/aqua) is meant for those who want to develop applications on NISQ computers.
 - [Jupyter](qiskit/jupyter) is meant to highlight some cool Juypter features.
 
-To go through the official Qiskit examples, load up the [start_here.ipynb](qiskit/start_here.ipynb) notebook and start seeing how qiskit works.
-
-### 2. [Community notebooks](community/)<a id='community'></a>
-
-Quantum computing and Qiskit have many different paths of learning. We love our community, and we love the contributions, so keep them coming. Because Qiskit is changing so much, at the moment we can't keep this updated, but there are some great notebooks in here. See for example:
-- [Hello, Quantum World](community/hello_world/) - learn from the community how to write your first quantum program.
-- [Quantum Games](community/games/) - learn quantum computing by having fun.
-- [Quantum Information Science with Terra](community/terra/) - learn about quantum information science with Qiskit Terra.
-- [Investigate Quantum Noise with Ignis](community/ignis/) - learn about quantum noise  with Qiskit Ignis.
-- [Textbook Quantum Algorithms](community/algorithms/) - learn Qiskit from the textbook algorithms.
-- [Quantum Algorithms](community/aqua/) - learn about quantum algorithms for noisy near-term devices with Qiskit Aqua.
-- [IBM Q Awards](community/awards/) - learn from the great contributions to the [IBM Q Awards](https://qe-awards.mybluemix.net/), [Teach Me Qiskit 2018](community/awards/teach_me_qiskit_2018/index.ipynb) and [Teach Me Quantum 2018](community/awards/teach_me_quantum_2018/index.ipynb).
-
-To go through the community-driven tutorials, load up the [index.ipynb](community/index.ipynb) notebook and start learning.
+To go through the Qiskit examples, load up the [start_here.ipynb](qiskit/start_here.ipynb) notebook and start seeing how Qiskit works.
 
 ## Contribution Guidelines
 
