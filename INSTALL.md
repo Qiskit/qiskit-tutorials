@@ -15,7 +15,7 @@ To properly view and run the tutorials, you will need to install [Jupyter Notebo
 
 ## 2. Install Qiskit, Qiskit Aqua and Qiskit Aqua Chemistry
 
-At least [Python 3.5 or later](https://www.python.org/downloads/) is required to install and use Qiskit. If you have multiple Python versions installed (and particularly if the command `python --version` returns an incompatble version), you will need to ensure that your versions are [managed correctly](https://conda.io/docs/user-guide/tasks/manage-python.html). This can be done using the `environment.yml` file, as detailed below.
+At least [Python 3.5 or later](https://www.python.org/downloads/) is required to install and use Qiskit. If you have multiple Python versions installed (and particularly if the command `python --version` returns an incompatble version), you will need to ensure that your versions are [managed correctly](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-python). This can be done using the `environment.yml` file, as detailed below.
 
 When there are no issues with dependencies, Qiskit can be installed using
 
