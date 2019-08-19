@@ -52,11 +52,11 @@ from nbconvert.preprocessors import ExecutePreprocessor
 # List of manual exclusion (for example, ["reference/foo/problematic.ipynb"]).
 EXCLUDED_NOTEBOOKS = []
 # Timeout (in seconds) for a single notebook.
-TIMEOUT = 6000
+TIMEOUT = os.getenv('TIMEOUT', 6000)
 # Jupyter kernel to execute the notebook in.
-JUPYTER_KERNEL = 'python3'
+JUPYTER_KERNEL = os.getenv('JUPYTER_KERNEL', 'python3')
 # Glob expression for discovering the notebooks.
-NOTEBOOK_PATH = 'reference/**/*.ipynb'
+NOTEBOOK_PATH = os.getenv('NOTEBOOK_PATH', 'qiskit/**/*.ipynb')
 
 
 # Retrieve the notebooks recursively.
