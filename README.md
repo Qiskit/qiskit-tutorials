@@ -19,14 +19,13 @@ Please refer to this [installation guide](INSTALL.md) for setting up Qiskit and 
 ## Contents
 
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version.  
-- [Basics](qiskit/basics) is meant for those who are getting started.
-- [Terra](qiskit/terra) is meant for those who want to study circuits.
-- [Aer](qiskit/aer) is meant for those who want to simulate quantum circuits.
-- [Ignis](qiskit/ignis) is meant for those who want to study noise.
-- [Aqua](qiskit/aqua) is meant for those who want to develop applications on NISQ computers.
-- [Jupyter](qiskit/jupyter) is meant to highlight some cool Juypter features.
+- [Basics](qiskit/fundamentals) is meant for those who are getting started.
+- [Terra](qiskit/advanced/terra) is meant for those who want to study circuits.
+- [Aer](qiskit/advanced/aer) is meant for those who want to simulate quantum circuits.
+- [Ignis](qiskit/advanced/ignis) is meant for those who want to study noise.
+- [Aqua](qiskit/advanced/aqua) is meant for those who want to develop applications on NISQ computers.
 
-To go through the Qiskit examples, load up the [start_here.ipynb](qiskit/start_here.ipynb) notebook and start seeing how Qiskit works.
+To go through the Qiskit examples, load up the [start_here.ipynb](qiskit/1_start_here.ipynb) notebook and start seeing how Qiskit works.
 
 ## Contribution Guidelines
 
@@ -42,4 +41,4 @@ to the project at different levels. If you use Qiskit, please cite as per the in
 
 ## License
 
-[Apache License 2.0](LICENSE.txt)
+[Apache License 2.0](LICENSE)
