@@ -33,6 +33,7 @@ from qiskit.quantum_info import state_fidelity
 
 from qiskit.aqua.algorithms import QuantumAlgorithm
 from qiskit.aqua import AquaError, Pluggable, PluggableType, get_pluggable_class
+from qiskit.aqua.operators import op_converter
 
 logger = logging.getLogger(__name__)
 
@@ -137,12 +138,13 @@ class EvolutionFidelity(QuantumAlgorithm):
     def _run(self):
         evo_time = 1
         # get the groundtruth via simple matrix * vector
-        state_out_exact = self._operator.evolve(self._initial_state.construct_circuit('vector'), evo_time, 'matrix', 0)
+        state_out_exact = op_converter.to_matrix_operator(self._operator).evolve(
+            self._initial_state.construct_circuit('vector'), evo_time, None, 0)
 
         qr = QuantumRegister(self._operator.num_qubits, name='q')
         circuit = self._initial_state.construct_circuit('circuit', qr)
         circuit += self._operator.evolve(
-            None, evo_time, 'circuit', 1,
+            None, evo_time, None, 1,
             quantum_registers=qr,
             expansion_mode='suzuki',
             expansion_order=self._expansion_order
