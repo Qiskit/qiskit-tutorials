@@ -12,7 +12,7 @@ For our community-contributed tutorials, please check out the [qiskit-community-
 
 The notebooks for these tutorials can be viewed here on GitHub...but for the full experience, you'll want to interact with them!
 
-The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/qiskit/qiskit-tutorials/master?filepath=./qiskit/start_here.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but it also means that you should not insert any private information into the notebooks (such as your API key). We recommend, as pointed out in [issue #231](https://github.com/Qiskit/qiskit-tutorials/issues/231), that after you are done using mybinder that you regenerate your token.
+The easiest way to do this is using [the Binder image](https://mybinder.org/v2/gh/omarcostahamido/qiskit-tutorials/master?filepath=./qiskit/1_start_here.ipynb), which lets you use the notebooks via the web. This means that you don't need to download or install anything, but it also means that you should not insert any private information into the notebooks (such as your API key). We recommend, as pointed out in [issue #231](https://github.com/Qiskit/qiskit-tutorials/issues/231), that after you are done using mybinder that you regenerate your token.
 
 Please refer to this [installation guide](INSTALL.md) for setting up Qiskit and the tutorials on your own machine (this is the recommended way).
 
