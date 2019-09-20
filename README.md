@@ -1,8 +1,8 @@
-# Qiskit Tutorials
+# Qiskit IQX Tutorials
 
 [![License](https://img.shields.io/github/license/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)[![](https://img.shields.io/github/release/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://github.com/Qiskit/qiskit-tutorials/releases)
 
-Welcome to the [Qiskit](https://www.qiskit.org/) tutorials!
+Welcome to the [Qiskit](https://www.qiskit.org/) IQX Tutorials!
 
 In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use Qiskit for writing quantum computing programs, and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors are the [IBM Q](https://quantum-computing.ibm.com) devices.
 
@@ -10,7 +10,7 @@ For our community-contributed tutorials, please check out the [qiskit-community-
 
 ## Installation
 
-The notebooks for these tutorials can be viewed here on GitHub...but for the full experience, you'll want to interact with them!  The easiest way to do this is by logging into the [IBM Q experience](https://quantum-computing.ibm.com/), which lets you use Jupyter notebooks, including these tutorials, via the web.
+The notebooks for these tutorials can be viewed here on GitHub...but for the full experience, you'll want to interact with them!  The easiest way to do this is by logging into the [IBM Q Experience](https://quantum-computing.ibm.com/), which lets you use Jupyter notebooks, including these tutorials, via the web.
 
 Please refer to this [installation guide](INSTALL.md) for setting up Qiskit and the tutorials on your own machine (this is the recommended way).
 
