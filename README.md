@@ -17,11 +17,11 @@ Please refer to this [installation guide](INSTALL.md) for setting up Qiskit and 
 ## Contents
 
 We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version.  
-- [Basics](qiskit/fundamentals) is meant for those who are getting started.
-- [Terra](qiskit/advanced/terra) is meant for those who want to study circuits.
-- [Aer](qiskit/advanced/aer) is meant for those who want to simulate quantum circuits.
-- [Ignis](qiskit/advanced/ignis) is meant for those who want to study noise.
-- [Aqua](qiskit/advanced/aqua) is meant for those who want to develop applications on NISQ computers.
+- [Basics](qiskit/fundamentals) is for those who are getting started.
+- [Terra](qiskit/advanced/terra) is for those who want to study circuits.
+- [Aer](qiskit/advanced/aer) is for those who want to simulate quantum circuits.
+- [Ignis](qiskit/advanced/ignis) is for those who want to study noise.
+- [Aqua](qiskit/advanced/aqua) is for those who want to develop applications on NISQ computers.
 
 To go through the Qiskit examples, load up the [start_here.ipynb](qiskit/1_start_here.ipynb) notebook and start seeing how Qiskit works.
 
@@ -30,7 +30,7 @@ To go through the Qiskit examples, load up the [start_here.ipynb](qiskit/1_start
 If you'd like to contribute to Qiskit IQX Tutorials, please take a look at our
 [contribution guidelines](.github/CONTRIBUTING.md). This project adheres to Qiskit's [code of conduct](.github/CODE_OF_CONDUCT.md). By participating, you are expect to uphold to this code.
 
-We use [GitHub issues](https://github.com/Qiskit/qiskit-tutorials/issues) for tracking requests and bugs. Please use our [slack](https://qiskit.slack.com) for discussion and simple questions. To join our Slack community, use the [link](https://join.slack.com/t/qiskit/shared_invite/enQtNDc2NjUzMjE4Mzc0LTMwZmE0YTM4ZThiNGJmODkzN2Y2NTNlMDIwYWNjYzA2ZmM1YTRlZGQ3OGM0NjcwMjZkZGE0MTA4MGQ1ZTVmYzk). For questions that are more suited for a forum, we use the Qiskit tag in the [Stack Exchange](https://quantumcomputing.stackexchange.com/questions/tagged/qiskit).
+We use [GitHub issues](https://github.com/Qiskit/qiskit-tutorials/issues) for tracking requests and bugs. Please use our [Slack](https://qiskit.slack.com) for discussion and simple questions. To join our Slack community, use the [link](https://join.slack.com/t/qiskit/shared_invite/enQtNDc2NjUzMjE4Mzc0LTMwZmE0YTM4ZThiNGJmODkzN2Y2NTNlMDIwYWNjYzA2ZmM1YTRlZGQ3OGM0NjcwMjZkZGE0MTA4MGQ1ZTVmYzk). For questions that are more suited for a forum, we use the Qiskit tag in the [Stack Exchange](https://quantumcomputing.stackexchange.com/questions/tagged/qiskit).
 
 ## Authors and Citation
 
