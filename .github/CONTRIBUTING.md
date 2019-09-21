@@ -1,6 +1,6 @@
 # Contributing
 
-If you would like to contribute to the Qiskit tutorials, there are a number of ways to 
+If you would like to contribute to the Qiskit IQX tutorials, there are a number of ways to 
 get involved:
 
 * **Issues**: Issues can be reported with GitHub [issue
