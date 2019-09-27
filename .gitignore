@@ -2,13 +2,8 @@
 __pycache__/
 .cache/
 
-.ipynb_checkpoints/*
-
-qiskit/*/.ipynb_checkpoints/*
-qiskit/*/*/.ipynb_checkpoints/*
-community/*/.ipynb_checkpoints/*
-community/*/*/.ipynb_checkpoints/*
-community/*/*/*/.ipynb_checkpoints/*
+# ignores any checkpoints folder anywhere
+.ipynb_checkpoints/
 
 Qconfig.py
 qiskit/basics/Qconfig_IBMQ_experience.py
@@ -31,4 +26,4 @@ qiskit/basics/Qconfig_IBMQ_experience_staging.py
 qiskit/basics/Qconfig_IBMQ_network-dev.py
 .DS_Store
 
-qiskit/.ipynb_checkpoints/start_here-checkpoint.ipynb
+.stestr/
