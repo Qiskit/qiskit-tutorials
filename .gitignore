@@ -1,11 +1,29 @@
 
-.ipynb_checkpoints/*
+__pycache__/
+.cache/
 
-1_introduction/.ipynb_*
-2_quantum_information/.ipynb_*
-3_qcvv/.ipynb_*
-4_applications/.ipynb_*
+# ignores any checkpoints folder anywhere
+.ipynb_checkpoints/
 
 Qconfig.py
+qiskit/basics/Qconfig_IBMQ_experience.py
+qiskit/basics/Qconfig_IBMQ_network.py
+qiskit/basics/Qconfig_IBMQ_experience_public.py
 
-__pycache__/Qconfig.cpython-36.pyc
+# editor files
+.vscode/
+.idea/
+
+# Distribution / packaging
+*.egg-info/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+qiskit/basics/Qconfig_IBMQ_experience_staging.py
+
+qiskit/basics/Qconfig_IBMQ_network-dev.py
+.DS_Store
+
+.stestr/
