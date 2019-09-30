@@ -11,7 +11,7 @@ processors, online simulators, and local simulators). The online quantum
 processors are the [IBM Q](https://quantum-computing.ibm.com) devices.
 
 For our community-contributed tutorials, please check out the
-[qiskit-community-tutorials](https://github.com/Qiskit/qiskit-tutorials-community)
+[qiskit-community-tutorials](https://github.com/Qiskit/qiskit-community-tutorials)
 repository.
 
 ## Installation
