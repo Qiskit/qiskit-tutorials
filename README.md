@@ -1,6 +1,6 @@
 # Qiskit IQX Tutorials
 
-[![License](https://img.shields.io/github/license/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)[![](https://img.shields.io/github/release/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://github.com/Qiskit/qiskit-tutorials/releases)
+[![License](https://img.shields.io/github/license/Qiskit/qiskit-iqx-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)[![](https://img.shields.io/github/release/Qiskit/qiskit-iqx-tutorials.svg?style=popout-square)](https://github.com/Qiskit/qiskit-iqx-tutorials/releases)
 
 Welcome to the [Qiskit](https://www.qiskit.org/) IQX Tutorials!
 
@@ -48,7 +48,7 @@ If you'd like to contribute to Qiskit IQX Tutorials, please take a look at our
 Qiskit's [code of conduct](.github/CODE_OF_CONDUCT.md). By participating, you
 are expect to uphold to this code.
 
-We use [GitHub issues](https://github.com/Qiskit/qiskit-tutorials/issues) for
+We use [GitHub issues](https://github.com/Qiskit/qiskit-iqx-tutorials/issues) for
 tracking requests and bugs. Please use our [Slack](https://qiskit.slack.com)
 for discussion and simple questions. To join our Slack community, use the
 [link](https://join.slack.com/t/qiskit/shared_invite/enQtNDc2NjUzMjE4Mzc0LTMwZmE0YTM4ZThiNGJmODkzN2Y2NTNlMDIwYWNjYzA2ZmM1YTRlZGQ3OGM0NjcwMjZkZGE0MTA4MGQ1ZTVmYzk).
@@ -59,7 +59,7 @@ Exchange](https://quantumcomputing.stackexchange.com/questions/tagged/qiskit).
 ## Authors and Citation
 
 Qiskit IQX Tutorials is the work of [many
-people](https://github.com/Qiskit/qiskit-tutorials/graphs/contributors) who
+people](https://github.com/Qiskit/qiskit-iqx-tutorials/graphs/contributors) who
 contribute to the project at different levels. If you use Qiskit, please cite
 as per the included [BibTeX
 file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
