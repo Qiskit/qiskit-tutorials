@@ -8,4 +8,4 @@ The examples are ordered in the standard steps to calibrate and characterize
 a system. Advanced examples are in the advanced folder.
 
 Further examples and in-depth explanations can be found in the community repo
-[Ignis Community](https://github.com/Qiskit/qiskit-tutorials-community/tree/master/ignis).
+[Ignis Community](https://github.com/Qiskit/qiskit-community-tutorials/tree/master/ignis).
