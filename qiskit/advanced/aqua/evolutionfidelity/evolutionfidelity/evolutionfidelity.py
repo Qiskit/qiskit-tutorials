@@ -17,12 +17,7 @@
 """
 The Fidelity of Quantum Evolution.
 This is a simple tutorial example to show how to build an algorithm to extend
-Qiskit Aqua library. Algorithms are designed to be dynamically discovered within
-Qiskit Aqua. For this the entire parent directory 'evolutionfidelity' should
-be moved under the 'qiskit/aqua' directory. The current demonstration notebook
-shows how to explicitly register the algorithm and works without re-locating this
-code. The former automatic discovery does however allow the algorithm to be found
-and seen in the UI browser, and selected from the GUI when choosing an algorithm.
+Qiskit Aqua library.
 """
 
 import logging
@@ -30,65 +25,16 @@ import logging
 import numpy as np
 from qiskit import QuantumRegister
 from qiskit.quantum_info import state_fidelity
-
 from qiskit.aqua.algorithms import QuantumAlgorithm
-from qiskit.aqua import AquaError, Pluggable, PluggableType, get_pluggable_class
 from qiskit.aqua.operators import op_converter
 
 logger = logging.getLogger(__name__)
 
 
 class EvolutionFidelity(QuantumAlgorithm):
-    """The Tutorial Sample EvolutionFidelity algorithm."""
-    PROP_EXPANSION_ORDER = 'expansion_order'
 
-    """
-    A configuration dictionary defines the algorithm to QISKIt Aqua. It can contain
-    the following though this sample does not have them all.
-
-    name: Is the registered name and will be used as the case-sensitive key to load an instance
-    description: As it implies a brief description of algorithm
-    classical: True if purely a classical algorithm that does not need a quantum backend
-    input_schema: A json schema detailing the configuration variables of this entity.
-                  Each variable as a type, and can be given default, minimum etc. This conforms
-                  to JSON Schema which can be consulted for for detail. The existing algorithms
-                  and other pluggable entities may also be helpful to refer to.
-    problems: A list of problems the algorithm can solve
-    depends: A list of dependent object types
-    defaults: A list of configurations for the dependent objects. May just list names if the
-              dependent's defaults are acceptable
-    """
     CONFIGURATION = {
-        'name': 'EvolutionFidelity',
-        'description': 'Sample Demo EvolutionFidelity Algorithm for Quantum Systems',
-        'input_schema': {
-            '$schema': 'http://json-schema.org/schema#',
-            'id': 'evolution_fidelity_schema',
-            'type': 'object',
-            'properties': {
-                PROP_EXPANSION_ORDER: {
-                    'type': 'integer',
-                    'default': 1,
-                    'minimum': 1
-                },
-            },
-            'additionalProperties': False
-        },
-        'problems': ['eoh'],
-        'depends': [
-            {
-                'pluggable_type': 'initial_state',
-                'default': {
-                    'name': 'ZERO',
-                }
-            },
-        ]
     }
-
-    """
-    If directly use these objects programmatically then the constructor is more convenient to call
-    than init_params. init_params itself uses this to do the actual object initialization.
-    """
 
     def __init__(self, operator, initial_state, expansion_order=1):
         self.validate(locals())
@@ -97,36 +43,6 @@ class EvolutionFidelity(QuantumAlgorithm):
         self._initial_state = initial_state
         self._expansion_order = expansion_order
         self._ret = {}
-
-    """
-    init_params is called via run_algorithm. The params contain all the configuration settings
-    of the objects. algo_input contains data computed from above for the algorithm. A simple
-    algorithm may have all its data in configuration params such that algo_input is None
-    """
-    @classmethod
-    def init_params(cls, params, algo_input):
-        """
-        Initialize via parameters dictionary and algorithm input instance.
-
-        Args:
-            params: parameters dictionary
-            algo_input: EnergyInput instance
-        """
-        if algo_input is None:
-            raise AquaError("EnergyInput instance is required.")
-
-        operator = algo_input.qubit_op
-
-        evolution_fidelity_params = params.get(Pluggable.SECTION_KEY_ALGORITHM)
-        expansion_order = evolution_fidelity_params.get(EvolutionFidelity.PROP_EXPANSION_ORDER)
-
-        # Set up initial state, we need to add computed num qubits to params
-        initial_state_params = params.get(Pluggable.SECTION_KEY_INITIAL_STATE)
-        initial_state_params['num_qubits'] = operator.num_qubits
-        initial_state = get_pluggable_class(PluggableType.INITIAL_STATE,
-                                            initial_state_params['name']).init_params(params)
-
-        return cls(operator, initial_state, expansion_order)
 
     """
     Once the algorithm has been initialized then run is called to carry out the computation
@@ -139,17 +55,16 @@ class EvolutionFidelity(QuantumAlgorithm):
         evo_time = 1
         # get the groundtruth via simple matrix * vector
         state_out_exact = op_converter.to_matrix_operator(self._operator).evolve(
-            self._initial_state.construct_circuit('vector'), evo_time, None, 0)
+            self._initial_state.construct_circuit('vector'), evo_time, num_time_slices=1)
 
         qr = QuantumRegister(self._operator.num_qubits, name='q')
         circuit = self._initial_state.construct_circuit('circuit', qr)
         circuit += self._operator.evolve(
-            None, evo_time, None, 1,
+            None, evo_time, 1,
             quantum_registers=qr,
             expansion_mode='suzuki',
             expansion_order=self._expansion_order
         )
-
         result = self._quantum_instance.execute(circuit)
         state_out_dynamics = np.asarray(result.get_statevector(circuit))
 
