@@ -51,7 +51,7 @@ are expect to uphold to this code.
 We use [GitHub issues](https://github.com/Qiskit/qiskit-iqx-tutorials/issues) for
 tracking requests and bugs. Please use our [Slack](https://qiskit.slack.com)
 for discussion and simple questions. To join our Slack community, use the
-[link](https://join.slack.com/t/qiskit/shared_invite/enQtNDc2NjUzMjE4Mzc0LTMwZmE0YTM4ZThiNGJmODkzN2Y2NTNlMDIwYWNjYzA2ZmM1YTRlZGQ3OGM0NjcwMjZkZGE0MTA4MGQ1ZTVmYzk).
+[link](https://join.slack.com/t/qiskit/shared_invite/enQtODQ2NTIyOTgwMTQ3LTI0NzM2NzkzZjJhNDgzZjY5MTQzNDY3MGNiZGQzNTNkZTE4Nzg1MjMwMmFjY2UwZTgyNDlmYWQwYmZjMjE1ZTM).
 For questions that are more suited for a forum, we use the Qiskit tag in the
 [Stack
 Exchange](https://quantumcomputing.stackexchange.com/questions/tagged/qiskit).
