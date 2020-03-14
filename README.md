@@ -35,7 +35,7 @@ version.
 - [Terra](qiskit/advanced/terra) is for those who want to study circuits.
 - [Aer](qiskit/advanced/aer) is for those who want to simulate quantum circuits.
 - [Ignis](qiskit/advanced/ignis) is for those who want to study noise.
-- [Aqua](qiskit/advanced/aqua) is for those who want to develop applications on NISQ computers.
+- [Aqua](qiskit/advanced/aqua) is for those who want to develop applications on noisy quantum devices.
 
 To go through the Qiskit examples, load up the
 [start_here.ipynb](qiskit/1_start_here.ipynb) notebook and start seeing how
