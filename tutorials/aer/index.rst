@@ -1,13 +1,13 @@
-.. _tutorials-terra:
+.. _tutorials-aer:
 
-######################
-Qiskit Terra Tutorials
-######################
+####################
+Qiskit Aer Tutorials
+####################
 
 
 .. nbgallery::
     :caption: Fundamentals
-    :name: Terra - Fundamentals
+    :name: Aer - Fundamentals
     :glob:
 
     fundamentals/*
@@ -15,7 +15,7 @@ Qiskit Terra Tutorials
 
 .. nbgallery::
     :caption: Advanced
-    :name: Terra - Advanced
+    :name: Aer - Advanced
     :glob:
 
     advanced/*

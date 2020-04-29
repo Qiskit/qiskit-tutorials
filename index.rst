@@ -7,6 +7,7 @@ Qiskit Tutorials
   :caption: Tutorials
 
   Terra Tutorials <tutorials/terra/index.rst>
+  Aer Tutorials <tutorials/aer/index.rst>
 
 
 .. Hiding - Indices and tables
