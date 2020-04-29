@@ -59,16 +59,9 @@ release = '0.14.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.napoleon',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
     'sphinx.ext.mathjax',
-    'sphinx.ext.viewcode',
     'sphinx.ext.extlinks',
-    'sphinx_tabs.tabs',
     'jupyter_sphinx.execute',
-    'sphinx_autodoc_typehints',
-    'reno.sphinxext',
     'nbsphinx',
 ]
 html_static_path = ['_static']
