@@ -71,7 +71,8 @@ templates_path = ['_templates']
 html_css_files = ['style.css', 'custom.css', 'gallery.css']
 
 html_sourcelink_suffix = ''
-exclude_patterns = ['*.ipynb', '_build', '**.ipynb_checkpoints']
+exclude_patterns = ['*.ipynb', '_build', 'legacy_tutorials',
+                    '**.ipynb_checkpoints']
 
 nbsphinx_timeout = 120
 nbsphinx_execute = 'always'
@@ -79,21 +80,6 @@ nbsphinx_execute_arguments = [
     "--InlineBackend.figure_formats={'svg', 'pdf'}",
     "--InlineBackend.rc={'figure.dpi': 96}",
 ]
-
-# -----------------------------------------------------------------------------
-# Autosummary
-# -----------------------------------------------------------------------------
-
-autosummary_generate = True
-
-# -----------------------------------------------------------------------------
-# Autodoc
-# -----------------------------------------------------------------------------
-
-autodoc_default_options = {
-    'inherited-members': None,
-}
-
 
 # If true, figures, tables and code-blocks are automatically numbered if they
 # have a caption.
@@ -120,11 +106,6 @@ pygments_style = 'colorful'
 # py:function directives.
 add_module_names = False
 
-# A list of prefixes that are ignored for sorting the Python module index
-# (e.g., if this is set to ['foo.'], then foo.bar is shown under B, not F).
-# This can be handy if you document a project that consists of a single
-# package. Works only for the HTML builder currently.
-modindex_common_prefix = ['qiskit.']
 
 # -- Configuration for extlinks extension ------------------------------------
 # Refer to https://www.sphinx-doc.org/en/master/usage/extensions/extlinks.html
