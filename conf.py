@@ -34,20 +34,22 @@ Sphinx documentation builder
 """
 
 import os
-import sphinx_nbexamples
+import sys
 # Set env flag so that we can doc functions that may otherwise not be loaded
 # see for example interactive visualizations in qiskit.visualization.
 os.environ['QISKIT_DOCS'] = 'TRUE'
+if sys.platform == 'darwin':
+    os.environ['QISKIT_IN_PARALLEL'] = 'TRUE'
 
 # -- Project information -----------------------------------------------------
 project = 'Qiskit Tutorials'
-copyright = '2019, Qiskit Development Team'  # pylint: disable=redefined-builtin
+copyright = '2020, Qiskit Development Team'  # pylint: disable=redefined-builtin
 author = 'Qiskit Development Team'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '0.14.0'
+release = '0.18.0'
 
 # -- General configuration ---------------------------------------------------
 
