@@ -77,7 +77,7 @@ templates_path = ['_templates']
 html_css_files = ['style.css', 'custom.css']
 
 html_sourcelink_suffix = ''
-exclude_patterns = ['_build', '**.ipynb_checkpoints']
+exclude_patterns = ['*.ipynb', '_build', '**.ipynb_checkpoints']
 
 nbsphinx_timeout = 120
 nbsphinx_execute = 'always'
