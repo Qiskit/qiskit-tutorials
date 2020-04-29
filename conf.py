@@ -70,11 +70,10 @@ extensions = [
     'sphinx_autodoc_typehints',
     'reno.sphinxext',
     'nbsphinx',
-    'sphinx_gallery.load_style',
 ]
 html_static_path = ['_static']
 templates_path = ['_templates']
-html_css_files = ['style.css', 'custom.css']
+html_css_files = ['style.css', 'custom.css', 'gallery.css']
 
 html_sourcelink_suffix = ''
 exclude_patterns = ['*.ipynb', '_build', '**.ipynb_checkpoints']
