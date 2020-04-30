@@ -63,7 +63,6 @@ release = '0.18.0'
 extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.extlinks',
-    'jupyter_sphinx.execute',
     'nbsphinx',
 ]
 html_static_path = ['_static']

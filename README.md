@@ -32,6 +32,16 @@ We've collected a core reference set of notebooks in this section outlining the 
 
 To go through the Qiskit examples, load up the [start_here.ipynb](start_here.ipynb) notebook and start seeing how Qiskit works.
 
+## Building documentation
+
+In addition to serving up standalone notebooks, this repository also includes the infrastructure needed to build the tutorials into HTML documentation using [Sphinx](https://www.sphinx-doc.org/).  Along with the Qiskit dependencies, building the documentation requires the following:
+
+```bash
+pip install Sphinx
+pip install sphinx-rtd-theme
+pip install nbsphinx
+```
+
 ## Contribution Guidelines
 
 If you'd like to contribute to Qiskit IQX Tutorials, please take a look at our [contribution guidelines](.github/CONTRIBUTING.md). This project adheres to Qiskit's [code of conduct](.github/CODE_OF_CONDUCT.md). By participating, you are expect to uphold to this code.
