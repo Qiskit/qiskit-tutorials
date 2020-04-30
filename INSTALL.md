@@ -1,13 +1,8 @@
+# Qiskit Tutorials
 
-<img src="images/qiskit-heading.gif" >
+## Installation and setup
 
-***
-
-# Guide for Installation and Setup
-
-## 1. Download the Qiskit Tutorials
-
-**Get the tutorials**<BR>
+### Get the tutorials
 
 For the full experience, you can start by downloading the latest release of the
 tutorials from [here](https://github.com/Qiskit/qiskit-iqx-tutorials/releases).
@@ -17,9 +12,9 @@ way).
 To properly view and run the tutorials, you will need to install [Jupyter
 Notebook](https://jupyter.readthedocs.io/en/latest/install.html).
 
-## 2. Install Qiskit, Qiskit Aqua and Qiskit Aqua Chemistry
+### Install Qiskit
 
-At least [Python 3.5 or later](https://www.python.org/downloads/) is required
+At least [Python 3.6 or later](https://www.python.org/downloads/) is required
 to install and use Qiskit. If you have multiple Python versions installed (and
 particularly if the command `python --version` returns an incompatible
 version), you will need to ensure that your versions are [managed
