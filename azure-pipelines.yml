@@ -1,0 +1,48 @@
+trigger:
+ branches:
+  include:
+    - master
+    - stable/*
+pr:
+  autoCancel: true
+  branches:
+    include:
+    - '*'
+
+pool:
+  vmImage: 'ubuntu-latest'
+strategy:
+  matrix:
+    Python38:
+      python.version: '3.8'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '$(python.version)'
+  displayName: 'Use Python $(python.version)'
+
+- bash: |
+    set -e
+    python -m pip install --upgrade pip
+    pip install -U qiskit jupyter sphinx nbsphinx
+    pip install -U qiskit-terra[visualization]
+  displayName: 'Install dependencies'
+
+- bash: |
+    set -e
+    sphinx-build -b html . _build/html
+  displayName: 'Build Docs'
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '_build/html'
+    archiveType: tar
+    archiveFile: '$(Build.ArtifactStagingDirectory)/html_docs.tar.gz'
+    verbose: true
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish docs'
+  inputs:
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: 'html_docs'
+    Parallel: true
+    ParallelCount: 8
