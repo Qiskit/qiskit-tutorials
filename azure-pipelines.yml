@@ -15,20 +15,28 @@ strategy:
   matrix:
     Python38:
       python.version: '3.8'
-
+variables:
+  PIP_CACHE_DIR: $(Pipeline.Workspace)/.pip
 steps:
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
-
+- task: Cache@2
+  inputs:
+    key: 'pip | "$(Agent.OS)" | "$(python.version)" | "$(Build.BuildNumber)"'
+    restoreKeys: |
+      pip | "$(Agent.OS)" | "$(python.version)"
+      pip | "$(Agent.OS)"
+      pip
+    path: $(PIP_CACHE_DIR)
+  displayName: Cache pip
 - bash: |
     set -e
-    python -m pip install --upgrade pip
-    pip install -U qiskit jupyter sphinx nbsphinx
+    python -m pip install --upgrade pip setuptools wheel
+    pip install -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme
     pip install -U qiskit-terra[visualization]
   displayName: 'Install dependencies'
-
 - bash: |
     set -e
     sphinx-build -b html . _build/html
