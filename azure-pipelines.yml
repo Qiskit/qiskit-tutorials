@@ -35,7 +35,7 @@ steps:
     set -e
     python -m pip install --upgrade pip setuptools wheel
     pip install -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme
-    pip install -U qiskit-terra[visualization]
+    pip install -U qiskit-terra[visualization] cvxpy
     sudo apt-get install -y pandoc graphviz
   displayName: 'Install dependencies'
 - bash: |
