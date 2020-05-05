@@ -39,7 +39,7 @@ steps:
     sudo apt-get install -y pandoc graphviz texlive poppler-utils xzdec wget
     tlmgr init-usertree
     wget mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh
-    sudo update-tlmgr-latest.sh --upgrade
+    sudo ./update-tlmgr-latest.sh --upgrade
     sudo tlmgr update --self --all
     sudo tlmgr install qcircuit
   displayName: 'Install dependencies'
