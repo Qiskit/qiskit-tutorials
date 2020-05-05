@@ -36,8 +36,9 @@ steps:
     python -m pip install --upgrade pip setuptools wheel
     pip install -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme
     pip install -U qiskit-terra[visualization] cvxpy
-    sudo apt-get install -y pandoc graphviz texlive-full poppler-utils wget
-    wget http://mirrors.ctan.org/graphics/qcircuit/qcircuit.sty
+    sudo apt-get install -y pandoc graphviz texlive-full poppler-utils xzdec
+    tlmgr init-usertree
+    sudo tlmgr update --all
   displayName: 'Install dependencies'
 - bash: |
     set -e
