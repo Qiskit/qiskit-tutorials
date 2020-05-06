@@ -33,18 +33,18 @@ steps:
   displayName: Cache pip
 - bash: |
     set -e
-    python -m pip install --upgrade pip setuptools wheel
+    python -m pip install --upgrade pip setuptools wheel virtualenv
+    virtualenv /tmp/docs_build
+    source /tmp/docs_build/bin/activate
     pip install -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme
     pip install -U qiskit-terra[visualization] cvxpy
-    sudo apt-get install -y pandoc graphviz texlive poppler-utils xzdec wget
-    tlmgr init-usertree
-    wget mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh
-    sudo bash update-tlmgr-latest.sh --nox11
-    sudo tlmgr update --self --all
-    sudo tlmgr install qcircuit
+    sudo apt-get install -y pandoc graphviz texlive-full poppler-utils xzdec wget
+    wget http://mirrors.ctan.org/graphics/qcircuit/qcircuit.sty
+    cp qcircuit.sty /tmp/docs_build//lib/python3.8/site-packages/qiskit/visualization/.
   displayName: 'Install dependencies'
 - bash: |
     set -e
+    source /tmp/docs_build/activate
     sphinx-build -b html . _build/html
   displayName: 'Build Docs'
 - task: ArchiveFiles@2
