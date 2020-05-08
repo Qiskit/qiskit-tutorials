@@ -38,9 +38,7 @@ steps:
     source /tmp/docs_build/bin/activate
     pip install -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme
     pip install -U qiskit-terra[visualization] cvxpy
-    sudo apt-get install -y pandoc graphviz texlive-full poppler-utils xzdec wget
-    wget http://mirrors.ctan.org/graphics/qcircuit/qcircuit.sty
-    cp qcircuit.sty /tmp/docs_build//lib/python3.8/site-packages/qiskit/visualization/.
+    sudo apt-get install -y pandoc graphviz
   displayName: 'Install dependencies'
 - bash: |
     set -e
