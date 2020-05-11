@@ -22,15 +22,8 @@ the tutorials on your own machine (this is the recommended way).
 
 ## Contents
 
-We've collected a core reference set of notebooks in this section outlining the features of Qiskit. We will be keeping them up to date with the latest Qiskit version.
-
-- [Terra fundamentals](tutorials/terra/fundamentals) is for those who are just getting started.
-- [Terra advanced](tutorials/terra/advanced) is for those who want to study circuits.
-- [Aer](tutorials/aer) is for those who want to simulate quantum circuits.
-- [Ignis](tutorials/ignis) is for those who want to study noise.
-- [Aqua](tutorials/aqua) is for those who want to develop applications on noisy quantum devices.
-
-To go through the Qiskit examples, load up the [start_here.ipynb](start_here.ipynb) notebook and start seeing how Qiskit works.
+To start seeing how Qiskit works, load up the [start_here.ipynb](start_here.ipynb) notebook
+or view the tutorials in the [Qiskit documentation](https://qiskit.org/documentation/).
 
 ## Building documentation
 
