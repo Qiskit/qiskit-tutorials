@@ -1,8 +1,8 @@
-.. _tutorials-aer:
+.. _tutorials-circuits-advanced:
 
-####################
-Qiskit Aer Tutorials
-####################
+##########################
+Advanced Circuit Tutorials
+##########################
 
 
 .. nbgallery::
