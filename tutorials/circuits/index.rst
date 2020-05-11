@@ -1,8 +1,9 @@
-.. _tutorials-ignis:
+.. _tutorials-circuits:
 
-######################
-Qiskit Ignis Tutorials
-######################
+#################
+Circuit Tutorials
+#################
+
 
 .. nbgallery::
     :glob:

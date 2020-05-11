@@ -6,10 +6,11 @@ Qiskit Tutorials
   :maxdepth: 1
   :caption: Tutorials
 
-  Terra Tutorials <tutorials/terra/index.rst>
-  Aer Tutorials <tutorials/aer/index.rst>
-  Ignis Tutorials <tutorials/ignis/index.rst>
-  Aqua Tutorials <tutorials/aqua/index.rst>
+  Circuits <tutorials/circuits/index.rst>
+  Advanced Circuits <tutorials/circuits_advanced/index.rst>
+  High-Performance Simulators <tutorials/simulators/index.rst>
+  Quantum System Error Analysis <tutorials/noise/index.rst>
+  Optimization <tutorials/optimization/index.rst>
 
 
 .. Hiding - Indices and tables
