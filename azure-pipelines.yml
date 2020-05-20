@@ -43,7 +43,7 @@ steps:
 - bash: |
     set -e
     source /tmp/docs_build/bin/activate
-    sphinx-build -b html . _build/html
+    sphinx-build -b html . _build/html -j auto
   displayName: 'Build Docs'
 - task: ArchiveFiles@2
   inputs:
