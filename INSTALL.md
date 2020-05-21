@@ -42,7 +42,7 @@ installation procedure:
    accompanying `environment.yml` file)
 
 ```
-cd qiskit-iqx-tutorials
+cd qiskit-tutorials
 conda env create -f environment.yml
 ```
 
