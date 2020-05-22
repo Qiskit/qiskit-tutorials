@@ -73,7 +73,7 @@ html_sourcelink_suffix = ''
 exclude_patterns = ['*.ipynb', '_build', 'legacy_tutorials',
                     '**.ipynb_checkpoints']
 
-nbsphinx_timeout = 120
+nbsphinx_timeout = 180
 nbsphinx_execute = 'always'
 nbsphinx_execute_arguments = [
     "--InlineBackend.figure_formats={'svg', 'pdf'}",
