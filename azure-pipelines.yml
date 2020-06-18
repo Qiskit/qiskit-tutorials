@@ -36,7 +36,7 @@ steps:
     python -m pip install --upgrade pip setuptools wheel virtualenv
     virtualenv /tmp/docs_build
     source /tmp/docs_build/bin/activate
-    pip install -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme
+    pip install -U qiskit jupyter sphinx==3.0.4 nbsphinx sphinx_rtd_theme
     pip install -U qiskit-terra[visualization] cvxpy
     sudo apt-get install -y pandoc graphviz
   displayName: 'Install dependencies'
