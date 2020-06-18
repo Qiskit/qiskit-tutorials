@@ -14,7 +14,7 @@ pool:
 strategy:
   matrix:
     Python38:
-      python.version: '3.8'
+      python.version: '3.7'
 variables:
   PIP_CACHE_DIR: $(Pipeline.Workspace)/.pip
 steps:
@@ -36,7 +36,7 @@ steps:
     python -m pip install --upgrade pip setuptools wheel virtualenv
     virtualenv /tmp/docs_build
     source /tmp/docs_build/bin/activate
-    pip install -U qiskit jupyter sphinx==3.0.4 nbsphinx sphinx_rtd_theme
+    pip install -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme
     pip install -U qiskit-terra[visualization] cvxpy
     sudo apt-get install -y pandoc graphviz
   displayName: 'Install dependencies'
