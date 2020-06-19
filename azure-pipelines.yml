@@ -14,7 +14,7 @@ pool:
 strategy:
   matrix:
     Python38:
-      python.version: '3.8'
+      python.version: '3.7'
 variables:
   PIP_CACHE_DIR: $(Pipeline.Workspace)/.pip
 steps:
