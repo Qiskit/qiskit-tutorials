@@ -11,6 +11,7 @@ Qiskit Tutorials
   High-Performance Simulators <tutorials/simulators/index.rst>
   Quantum System Error Analysis <tutorials/noise/index.rst>
   Optimization <tutorials/optimization/index.rst>
+  Finance <tutorials/finance/index.rst>
 
 
 .. Hiding - Indices and tables
