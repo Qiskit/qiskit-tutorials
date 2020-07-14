@@ -24,7 +24,7 @@ Because the tutorials are executed as part of the build process, and eventually 
 
   1. There is currently a three minute per cell execution time limit.  Cells that go over this limit will raise an exception.
 
-  2. It is important to maintain stict header compliance.  All notebooks should start with, and contain only one, top level (h1) header:
+  2. It is important to maintain strict header compliance.  All notebooks should start with, and contain only one, top level (h1) header:
   
       ```
       # I am a top level header
