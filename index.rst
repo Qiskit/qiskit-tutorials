@@ -13,6 +13,7 @@ Qiskit Tutorials
   Quantum System Error Analysis <tutorials/noise/index.rst>
   Optimization <tutorials/optimization/index.rst>
   Finance <tutorials/finance/index.rst>
+  Chemistry <tutorials/chemistry/index.rst>
 
 
 .. Hiding - Indices and tables
