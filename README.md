@@ -43,6 +43,8 @@ Because the tutorials are executed as part of the build process, and eventually 
       
       ## I am another secondary header
       ```
+     
+   3.  In order for a tutorial to show up in the Qiskit documentation, after successful merging, an additional PR needs to be made in the [Qiskit meta-repo](https://github.com/Qiskit/qiskit) to trigger the rebuilding of the documentation.
 
 ### Adding a gallery image
 
