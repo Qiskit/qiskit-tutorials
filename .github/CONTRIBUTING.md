@@ -12,8 +12,6 @@ get involved:
   create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository 
   from the `master` branch and create a 
   [pull request](https://help.github.com/articles/about-pull-requests) for your change.
-  Note that new notebooks should be placed in the relevant part of the 
-  [Community](./community/) section.
 
 ## Contributor License Agreement
 
