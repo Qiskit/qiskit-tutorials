@@ -23,8 +23,10 @@ If you'd like to contribute to Qiskit Tutorials, please take a look at our [cont
 Because the tutorials are executed as part of the build process, and eventually turned into RST documentation, there are several limitations to be aware of:
 
   1. There is currently a three minute per cell execution time limit.  Cells that go over this limit will raise an exception.
+  
+  2. Tutorials cannot make calls to the IBM Quantum Experience, e.g. no `IBMQ.load_account()`.
 
-  2. It is important to maintain strict header compliance.  All notebooks should start with, and contain only one, top level (h1) header:
+  3. It is important to maintain strict header compliance.  All notebooks should start with, and contain only one, top level (h1) header:
   
       ```
       # I am a top level header
@@ -44,7 +46,7 @@ Because the tutorials are executed as part of the build process, and eventually 
       ## I am another secondary header
       ```
      
-   3.  In order for a tutorial to show up in the Qiskit documentation, after successful merging, an additional PR needs to be made in the [Qiskit meta-repo](https://github.com/Qiskit/qiskit) to trigger the rebuilding of the documentation.
+   4.  In order for a tutorial to show up in the Qiskit documentation, after successful merging, an additional PR needs to be made in the [Qiskit meta-repo](https://github.com/Qiskit/qiskit) to trigger the rebuilding of the documentation.
 
 ### Adding a gallery image
 
