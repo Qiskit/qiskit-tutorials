@@ -94,6 +94,23 @@ nbsphinx_thumbnails = {
 }
 
 
+nbsphinx_prolog = """
+{% set docname = env.doc2path(env.docname, base=None) %}
+
+.. only:: html
+    
+    .. role:: raw-html(raw)
+        :format: html
+    
+    .. note::
+        This page was generated from `{{ docname }}`__.
+
+
+    __ https://github.com/Qiskit/qiskit-tutorials/blob/master/{{ docname }}
+
+"""
+
+
 # If true, figures, tables and code-blocks are automatically numbered if they
 # have a caption.
 numfig = True
