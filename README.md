@@ -22,7 +22,7 @@ If you'd like to contribute to Qiskit Tutorials, please take a look at our [cont
 ### Tutorial limitations
 Because the tutorials are executed as part of the build process, and eventually turned into RST documentation, there are several limitations to be aware of:
 
-  1. There is currently a 3min/cell execution time limit.  Cells that go over this limit will raise an exception.
+  1. There is currently a three minute per cell execution time limit.  Cells that go over this limit will raise an exception.
 
   2. It is important to maintain stict header compliance.  All notebooks should start with, and contain only one, top level (h1) header:
   
@@ -47,6 +47,7 @@ Because the tutorials are executed as part of the build process, and eventually 
 ### Adding a gallery image
 
 To add a gallery image to a notebook, select a cell with an output image and add `nbsphinx-thumbnail` as a cell tag.  To see the cell tags go to: `View -> Cell Toolbar -> Tags` in the notebook menu.  Adding gallery images from images not generated inside of the notebooks themselves should be avoided if possible as this gets messy in the present build system.
+
 
 ## Building documentation
 
