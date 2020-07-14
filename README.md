@@ -4,8 +4,7 @@
 
 These tutorials are rendered as part of the:
 
-### [>>Qiskit Documentation<<](Qiskit documentation](https://qiskit.org/documentation/)
-
+### [>>Qiskit Documentation<<](https://qiskit.org/documentation/)
 
 
 ## Contents
