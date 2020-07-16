@@ -46,7 +46,9 @@ Because the tutorials are executed as part of the build process, and eventually 
       ## I am another secondary header
       ```
      
-   4.  In order for a tutorial to show up in the Qiskit documentation, after successful merging, an additional PR needs to be made in the [Qiskit meta-repo](https://github.com/Qiskit/qiskit) to trigger the rebuilding of the documentation.
+   4. All math equations expressed using `$$ ... $$` need to be surrounded on top and bottom by white space.
+   
+   5.  In order for a tutorial to show up in the Qiskit documentation, after successful merging, an additional PR needs to be made in the [Qiskit meta-repo](https://github.com/Qiskit/qiskit) to trigger the rebuilding of the documentation.
 
 ### Adding a gallery image
 
