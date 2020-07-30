@@ -1,8 +1,13 @@
-<img src="images/qiskit_header.png" >
-
 # Qiskit Tutorials
 
 [![License](https://img.shields.io/github/license/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)
+
+These tutorials are rendered as part of the:
+
+### [>>Qiskit Documentation<<](https://qiskit.org/documentation/)
+
+
+## Contents
 
 Welcome to the [Qiskit](https://www.qiskit.org/) Tutorials!
 
@@ -10,20 +15,45 @@ In this repository, we've put together a collection of Jupyter notebooks aimed a
 
 For our community-contributed tutorials, please check out the [qiskit-community-tutorials](https://github.com/Qiskit/qiskit-community-tutorials) repository.
 
-## Installation
+## Contribution Guidelines
 
-The notebooks for these tutorials can be viewed here on GitHub.  However,  for the
-full experience, you will want to interact with them.  The easiest way to do this
-is by logging into the [IBM Quantum Experience](https://quantum-computing.ibm.com/), 
-which lets you use Jupyter notebooks, including these tutorials, via the web.
+If you'd like to contribute to Qiskit Tutorials, please take a look at our [contribution guidelines](.github/CONTRIBUTING.md). This project adheres to Qiskit's [code of conduct](.github/CODE_OF_CONDUCT.md). By participating, you are expect to uphold to this code.
 
-Please refer to this [installation guide](INSTALL.md) for setting up Qiskit and
-the tutorials on your own machine (this is the recommended way).
+### Tutorial limitations
+Because the tutorials are executed as part of the build process, and eventually turned into RST documentation, there are several limitations to be aware of:
 
-## Contents
+  1. There is currently a three minute per cell execution time limit.  Cells that go over this limit will raise an exception.
+  
+  2. Tutorials cannot make calls to the IBM Quantum Experience, e.g. no `IBMQ.load_account()`.
 
-To start seeing how Qiskit works, load up the [start_here.ipynb](start_here.ipynb) notebook
-or view the tutorials in the [Qiskit documentation](https://qiskit.org/documentation/).
+  3. It is important to maintain strict header compliance.  All notebooks should start with, and contain only one, top level (h1) header:
+  
+      ```
+      # I am a top level header
+      ```
+     
+     Additionally, the nesting of headers should make sense:
+     
+      ```
+      # I am a top level header
+      
+      ## I am a secondary header
+      
+      ### I am a tertiary header
+      
+      ## I am another secondary header
+      
+      ## I am another secondary header
+      ```
+     
+   4. All math equations expressed using `$$ ... $$` need to be surrounded on top and bottom by white space.
+   
+   5.  In order for a tutorial to show up in the Qiskit documentation, after successful merging, an additional PR needs to be made in the [Qiskit meta-repo](https://github.com/Qiskit/qiskit) to trigger the rebuilding of the documentation.
+
+### Adding a gallery image
+
+To add a gallery image to a notebook, select a cell with an output image and add `nbsphinx-thumbnail` as a cell tag.  To see the cell tags go to: `View -> Cell Toolbar -> Tags` in the notebook menu.  Adding gallery images from images not generated inside of the notebooks themselves should be avoided if possible as this gets messy in the present build system.
+
 
 ## Building documentation
 
@@ -35,17 +65,9 @@ pip install sphinx-rtd-theme
 pip install nbsphinx
 ```
 
-## Contribution Guidelines
-
-If you'd like to contribute to Qiskit IQX Tutorials, please take a look at our [contribution guidelines](.github/CONTRIBUTING.md). This project adheres to Qiskit's [code of conduct](.github/CODE_OF_CONDUCT.md). By participating, you are expect to uphold to this code.
-
-We use [GitHub issues](https://github.com/Qiskit/qiskit-iqx-tutorials/issues) for tracking requests and bugs. Please use our [Slack](https://qiskit.slack.com) for discussion and simple questions. To join our Slack community, use the
-[link](https://join.slack.com/t/qiskit/shared_invite/enQtODQ2NTIyOTgwMTQ3LTI0NzM2NzkzZjJhNDgzZjY5MTQzNDY3MGNiZGQzNTNkZTE4Nzg1MjMwMmFjY2UwZTgyNDlmYWQwYmZjMjE1ZTM).
-For questions that are more suited for a forum, we use the Qiskit tag in the [Stack Exchange](https://quantumcomputing.stackexchange.com/questions/tagged/qiskit).
-
 ## Authors and Citation
 
-Qiskit IQX Tutorials is the work of [many people](https://github.com/Qiskit/qiskit-iqx-tutorials/graphs/contributors) who contribute to the project at different levels. If you use Qiskit, please cite as per the included [BibTeX
+Qiskit Tutorials is the work of [many people](https://github.com/Qiskit/qiskit-tutorials/graphs/contributors) who contribute to the project at different levels. If you use Qiskit, please cite as per the included [BibTeX
 file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
 
 ## License
