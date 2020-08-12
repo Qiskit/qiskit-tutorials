@@ -39,6 +39,7 @@ steps:
     pip install -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme
     pip install 'matplotlib<3.3'
     pip install -U qiskit[visualization] cvxpy
+    pip install pyscf
     sudo apt-get install -y pandoc graphviz
   displayName: 'Install dependencies'
 - bash: |
