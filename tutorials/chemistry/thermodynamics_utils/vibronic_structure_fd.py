@@ -52,9 +52,8 @@ class VibronicStructure1DFD(VibronicStructureBase):
 
     def initialize(self):
         self.potential = self.get_centered_potential(self.energy_surface)
-        print('la')
         self.left, self.right = self.find_bounds(self.potential)
-        print('lala')
+        
         bounds = self.energy_surface.get_trust_region()
         bound_left = (bounds[0] -
                       self.energy_surface.get_equilibrium_geometry())
@@ -67,9 +66,7 @@ class VibronicStructure1DFD(VibronicStructureBase):
                 "Attempting to compute eigenvalues in a fairly small trusted"
                 "region ({},{})".format(self.left, self.right),
                 RuntimeWarning)
-            
-        print('l ', self.left, bound_left)
-        print('r ', self.right, bound_right)
+        
         self.energy_levels = self._solve()
 
     def _get_discrete_potential(self):
