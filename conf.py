@@ -73,7 +73,7 @@ html_sourcelink_suffix = ''
 exclude_patterns = ['*.ipynb', '_build', 'legacy_tutorials',
                     '**.ipynb_checkpoints']
 
-cell_timeout = os.getenv('QISKIT_CELL_TIMEOUT', 180)
+cell_timeout = int(os.getenv('QISKIT_CELL_TIMEOUT', 180))
 nbsphinx_timeout = cell_timeout
 nbsphinx_execute = 'always'
 nbsphinx_execute_arguments = [
