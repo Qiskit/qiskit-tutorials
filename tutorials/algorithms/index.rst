@@ -1,8 +1,8 @@
-.. _tutorials-machine_learning:
+.. _tutorials-alorithms:
 
-##########################
-Machine Learning Tutorials
-##########################
+####################
+Algorithms Tutorials
+####################
 
 .. nbgallery::
     :glob:
