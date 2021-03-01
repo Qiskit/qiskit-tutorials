@@ -7,7 +7,7 @@ Machine Learning Tutorials
 .. nbgallery::
     :glob:
 
-    *
+    *.ipynb
 
 .. Hiding - Indices and tables
    :ref:`genindex`
