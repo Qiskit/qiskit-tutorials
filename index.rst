@@ -11,6 +11,7 @@ Qiskit Tutorials
   High-Performance Simulators <tutorials/simulators/index.rst>
   Quantum System Error Analysis <tutorials/noise/index.rst>
   Algorithms <tutorials/algorithms/index.rst>
+  Operators <tutorials/operators/index.rst>
   Optimization <tutorials/optimization/index.rst>
   Finance <tutorials/finance/index.rst>
   Chemistry <tutorials/chemistry/index.rst>
