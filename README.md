@@ -17,7 +17,7 @@ For our community-contributed tutorials, please check out the [qiskit-community-
 
 ## Contribution Guidelines
 
-If you'd like to contribute to Qiskit Tutorials, please take a look at our [contribution guidelines](.github/CONTRIBUTING.md). This project adheres to Qiskit's [code of conduct](.github/CODE_OF_CONDUCT.md). By participating, you are expect to uphold to this code.
+If you'd like to contribute to Qiskit Tutorials, please take a look at our [contribution guidelines](.github/CONTRIBUTING.md). This project adheres to Qiskit's [code of conduct](.github/CODE_OF_CONDUCT.md). By participating you are expected to uphold this code.
 
 ### Tutorial limitations
 Because the tutorials are executed as part of the build process, and eventually turned into RST documentation, there are several limitations to be aware of:

@@ -73,7 +73,8 @@ html_sourcelink_suffix = ''
 exclude_patterns = ['*.ipynb', '_build', 'legacy_tutorials',
                     '**.ipynb_checkpoints']
 
-nbsphinx_timeout = 180
+cell_timeout = int(os.getenv('QISKIT_CELL_TIMEOUT', 180))
+nbsphinx_timeout = cell_timeout
 nbsphinx_execute = 'always'
 nbsphinx_execute_arguments = [
     "--InlineBackend.figure_formats={'png', 'pdf'}",
@@ -105,6 +106,7 @@ nbsphinx_prolog = """
     .. note::
         This page was generated from `{{ docname }}`__.
 
+        Run interactively in the `IBM Quantum lab <https://quantum-computing.ibm.com/jupyter/tutorial/{{ env.doc2path(env.docname, base=None)|replace("tutorials/", "") }}>`_.
 
     __ https://github.com/Qiskit/qiskit-tutorials/blob/master/{{ docname }}
 
