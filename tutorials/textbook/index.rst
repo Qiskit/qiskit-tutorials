@@ -1,15 +1,13 @@
-.. _tutorials-optim:
+.. _tutorials-textbook:
 
-######################
-Optimization Tutorials
-######################
-
+#############################
+Textbook algorithms in Qiskit
+#############################
 
 .. nbgallery::
     :glob:
 
     *
-
 
 .. Hiding - Indices and tables
    :ref:`genindex`
