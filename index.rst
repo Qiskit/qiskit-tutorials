@@ -12,6 +12,7 @@ Qiskit Tutorials
   Quantum System Error Analysis <tutorials/noise/index.rst>
   Algorithms <tutorials/algorithms/index.rst>
   Operators <tutorials/operators/index.rst>
+  Textbook algorithms <tutorials/textbook/index.rst>
 
 .. Hiding - Indices and tables
    :ref:`genindex`
