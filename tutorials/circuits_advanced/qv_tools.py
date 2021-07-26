@@ -2,23 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from qiskit.quantum_info import Statevector
-from qiskit.circuit import QuantumRegister
-from qiskit.circuit.library import XGate
-from qiskit.transpiler import PassManager, Layout
-from qiskit.transpiler.passes import (BIPMapping,
-                                      Depth, 
-                                      FixedPoint,
-                                      Collect2qBlocks, 
-                                      ConsolidateBlocks,
-                                      UnitarySynthesis, 
-                                      Optimize1qGatesDecomposition, 
-                                      CommutativeCancellation, 
-                                      SetLayout, 
-                                      FullAncillaAllocation, 
-                                      EnlargeWithAncilla, 
-                                      ApplyLayout,
-                                      ALAPSchedule,
-                                      DynamicalDecoupling)
 
 # a custom passmanager that does the compilation of QV circuits
 def qv_passmanager(basis_gates, coupling_map, qubit_subset, backend_props,
