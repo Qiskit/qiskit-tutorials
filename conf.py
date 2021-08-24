@@ -82,16 +82,6 @@ nbsphinx_execute_arguments = [
 ]
 
 nbsphinx_thumbnails = {
-    'tutorials/optimization/1_quadratic_program': 
-    '_static/optimization/1_quadratic_program.png',
-    'tutorials/optimization/2_converters_for_quadratic_programs': 
-    '_static/optimization/2_converters.png',
-    'tutorials/optimization/3_minimum_eigen_optimizer': 
-    '_static/optimization/3_min_eig_opt.png',
-    'tutorials/optimization/4_grover_optimizer': 
-    '_static/optimization/4_grover.png',
-    'tutorials/optimization/5_admm_optimizer': 
-    '_static/optimization/5_ADMM.png',
 }
 
 
