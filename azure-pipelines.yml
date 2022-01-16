@@ -38,6 +38,8 @@ steps:
     source /tmp/docs_build/bin/activate
     pip install -c constraints.txt -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme networkx
     pip install -c constraints.txt 'matplotlib<3.3'
+    # cvxpy 1.1 is not compatible with the last version of scs. Once updated, the scs dependecy can be removed
+    pip install -c constraints.txt -U 'scs<3' scikit-learn
     pip install -c constraints.txt -U qiskit[visualization] cvxpy
     pip install -c constraints.txt pyscf
     sudo apt-get install -y pandoc graphviz
