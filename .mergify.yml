@@ -1,0 +1,17 @@
+queue_rules:
+  - name: automerge
+    conditions:
+      - check-success=Qiskit.qiskit-tutorials
+
+pull_request_rules:
+  - name: automatic merge on CI success and review
+    conditions:
+      - base=master
+      - "#approved-reviews-by>=1"
+      - label=automerge
+      - label!=on hold
+      - check-success=Qiskit.qiskit-tutorials
+    actions:
+      queue:
+        name: automerge
+        method: squash
