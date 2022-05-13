@@ -36,7 +36,7 @@ steps:
     python -m pip install --upgrade pip setuptools wheel virtualenv
     virtualenv /tmp/docs_build
     source /tmp/docs_build/bin/activate
-    pip install -c constraints.txt -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme networkx
+    pip install -c constraints.txt -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme networkx scikit-learn
     pip install -c constraints.txt 'matplotlib<3.3'
     pip install -c constraints.txt -U qiskit[visualization] cvxpy
     pip install -c constraints.txt pyscf
