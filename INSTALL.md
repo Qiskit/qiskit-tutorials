@@ -14,7 +14,7 @@ Notebook](https://jupyter.readthedocs.io/en/latest/install.html).
 
 ### Install Qiskit
 
-At least [Python 3.6 or later](https://www.python.org/downloads/) is required
+At least [Python 3.7 or later](https://www.python.org/downloads/) is required
 to install and use Qiskit. If you have multiple Python versions installed (and
 particularly if the command `python --version` returns an incompatible
 version), you will need to ensure that your versions are [managed
