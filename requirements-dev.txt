@@ -1,0 +1,11 @@
+qiskit
+jupyter
+sphinx
+nbsphinx
+sphinx_rtd_theme
+networkx
+scikit-learn
+matplotlib
+qiskit[visualization]
+cvxpy
+pyscf
