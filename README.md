@@ -75,7 +75,7 @@ Git:
 3) ```bash
     pip install -r requirements-dev.txt
    ```
-4) ```
+4) ```bash
     sphinx-build -b html . _build
    ``` 
 
