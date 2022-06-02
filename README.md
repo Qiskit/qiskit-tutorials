@@ -64,6 +64,20 @@ pip install Sphinx
 pip install sphinx-rtd-theme
 pip install nbsphinx
 ```
+The Qiskit Textbook includes some extra tools and packages that are unique to the textbook and tutorials. Some of them are not included with Qiskit, but it is available through the requirements-dev.txt file. The following is the quickest way to install this with pip and
+Git:
+
+1) Fork the repository 
+
+2) ```bash
+    git clone <forked-repo>
+   ```
+3) ```bash
+    pip install -r requirements-dev.txt
+   ```
+4) ```
+    sphinx-build -b html . _build
+   ``` 
 
 ## Authors and Citation
 
