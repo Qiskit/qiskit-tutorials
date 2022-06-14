@@ -2,7 +2,7 @@ qiskit
 jupyter
 sphinx
 nbsphinx
-sphinx_rtd_theme
+qiskit_sphnix_theme
 networkx
 scikit-learn
 matplotlib
