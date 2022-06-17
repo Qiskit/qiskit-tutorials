@@ -81,10 +81,10 @@ Git:
    ```bash
     pip install -r requirements-dev.txt
    ```
-5) ```
+5) ```bash
     sphinx-build -b html . _build
    ``` 
-6) ```
+6) ```bash
     conda install pandoc graphviz
    ```
 
