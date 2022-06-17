@@ -67,17 +67,26 @@ pip install nbsphinx
 The Qiskit Textbook includes some extra tools and packages that are unique to the textbook and tutorials. Some of them are not included with Qiskit, but it is available through the requirements-dev.txt file. The following is the quickest way to install this with pip and
 Git:
 
-1) Fork the repository 
+1) Fork and clone the repository 
 
-2) ```bash
-    git clone <forked-repo>
+2) Create a new virtual environment and install pip
+   ```bash
+    conda create -n qiskit-tutorials-dev pip
    ```
-3) ```bash
+3) Activate virtual environment
+   ```bash
+    conda activate qiskit-tutorials-dev
+   ```
+4) Install the necessary packages in your new virtual environment
+   ```bash
     pip install -r requirements-dev.txt
    ```
-4) ```bash
+5) ```
     sphinx-build -b html . _build
    ``` 
+6) ```
+    conda install pandoc graphviz
+   ```
 
 ## Authors and Citation
 
