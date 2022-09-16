@@ -1,4 +1,5 @@
 qiskit
+qiskit-aer>=0.11
 jupyter
 sphinx
 nbsphinx
