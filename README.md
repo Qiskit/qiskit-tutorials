@@ -59,19 +59,29 @@ To add a gallery image to a notebook, select a cell with an output image and add
 
 In addition to serving up standalone notebooks, this repository also includes the infrastructure needed to build the tutorials into HTML documentation using [Sphinx](https://www.sphinx-doc.org/).  Along with the Qiskit dependencies, building the documentation requires the following:
 
-1) Set up a new virtual development environment
-  `https://qiskit.org/documentation/contributing_to_qiskit.html#set-up-the-virtual-development-environment`
-  
-2) Install the requirements-dev.txt file
-   ```bash
+1) Fork and clone the repository. 
+
+2) Create a new virtual environment and install pip:
+      ```bash
+      conda create -n qiskit-tutorials-dev pip
+      ```
+3) Activate virtual environment:
+     ```bash
+     conda activate qiskit-tutorials-dev
+     ```
+4) Install python dependencies in your new virtual environment:
+    ```bash
     pip install -r requirements-dev.txt
-   ```
-3) ```bash
-    pip install pandoc graphviz
-   ``` 
-4) ```bash
+    ```
+
+5) Install non-python dependencies:
+    ```bash
+    conda install pandoc graphviz
+    ```
+6) Create a local build:
+    ```bash
     sphinx-build -b html . _build
-   ```
+    ```
 
 ## Authors and Citation
 
