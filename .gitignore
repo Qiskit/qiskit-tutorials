@@ -1,7 +1,6 @@
 
 __pycache__/
 .cache/
-.venv/
 
 # ignores any checkpoints folder anywhere
 .ipynb_checkpoints/
