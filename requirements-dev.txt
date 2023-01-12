@@ -1,4 +1,4 @@
-qiskit
+qiskit>=0.38.0
 jupyter
 sphinx
 nbsphinx
