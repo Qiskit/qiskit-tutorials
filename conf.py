@@ -89,10 +89,10 @@ nbsphinx_prolog = """
 {% set docname = env.doc2path(env.docname, base=None) %}
 
 .. only:: html
-    
+
     .. role:: raw-html(raw)
         :format: html
-    
+
     .. note::
         This page was generated from `{{ docname }}`__.
 
@@ -138,7 +138,7 @@ add_module_names = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'  # use the theme in subdir 'theme'
+html_theme = 'qiskit_sphinx_theme'  # use the theme in subdir 'theme'
 
 html_logo = 'images/logo.png'
 #html_sidebars = {'**': ['globaltoc.html']}
