@@ -9,3 +9,6 @@ matplotlib
 qiskit[visualization]
 cvxpy
 pyscf
+nbqa
+pylint
+black

@@ -1,0 +1,33 @@
+[MESSAGES CONTROL]
+
+# Try to add sparingly. If unsure, side with
+# github.com/Qiskit/qiskit-terra/blob/main/.pylintrc
+
+disable=
+    wrong-import-order,
+    wrong-import-position,
+    ungrouped-imports,
+    reimported,
+    import-outside-toplevel,
+    pointless-statement,
+    expression-not-assigned,
+    missing-module-docstring,
+    redefined-outer-name
+
+good-names=
+    a,b,i,j,k,d,n,m,ex,v,w,x,y,
+    z,,logger,q,c,r,qr,cr,qc,
+    nd,pi,op,b,ar,br,p,cp,dt
+
+additional-builtins=
+    _,
+    Out,
+    display
+
+[FORMAT]
+max-line-length=105
+module-naming-style=any
+
+[TYPECHECK]
+ignored-classes=
+    QuantumCircuit
