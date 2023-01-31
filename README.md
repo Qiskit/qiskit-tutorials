@@ -55,6 +55,42 @@ Because the tutorials are executed as part of the build process, and eventually 
 To add a gallery image to a notebook, select a cell with an output image and add `nbsphinx-thumbnail` as a cell tag.  To see the cell tags go to: `View -> Cell Toolbar -> Tags` in the notebook menu.  Adding gallery images from images not generated inside of the notebooks themselves should be avoided if possible as this gets messy in the present build system.
 
 
+### Testing
+
+This repo uses some automated tests to keep the content to a high standard.
+
+- [Black](https://black.readthedocs.io/en/stable/) keeps formatting consistent, and can automatically fix some problems. To fix a notebook after editing it, run:
+
+  ```bash
+  nbqa black <path-to-notebook>
+  ```
+
+- [Pylint](https://github.com/PyCQA/pylint) checks for potential errors and enforces some coding styles. To test a notebook after editing it, run:
+
+  ```bash
+  nbqa pylint <path-to-notebook>
+  ```
+
+  You can disable Pylint rules for each notebook by adding a new code cell containing
+
+  ```python
+  # pylint: disable=<rule>
+  ```
+  and you can stop this cell appearing on the tutorials website by adding
+  ```JSON
+  {
+    "nbsphinx": "hidden"
+  }
+  ```
+  to the cell metadata.
+
+To run these tests as they would in CI, run:
+
+```bash
+./tests/code.sh
+```
+
+
 ## Building documentation
 
 In addition to serving up standalone notebooks, this repository also includes the infrastructure needed to build the tutorials into HTML documentation using [Sphinx](https://www.sphinx-doc.org/).  Along with the Qiskit dependencies, building the documentation requires the following:
