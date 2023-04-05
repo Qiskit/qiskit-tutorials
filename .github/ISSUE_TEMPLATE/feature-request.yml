@@ -1,0 +1,24 @@
+name: 🚀 Feature request
+description: Suggest an idea for this project🌟.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ If you do not respect this template, your issue will be closed
+        ⚠️ Make sure to browse the opened and closed issues before submitting your issue
+  - type: textarea
+    id: enhancement
+    attributes:
+      label: Describe the feature or improvement
+      description: Please describe the new feature or improvement you would like to see.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Qiskit/qiskit-tutorials/blob/master/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

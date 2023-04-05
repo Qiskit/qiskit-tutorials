@@ -1,0 +1,19 @@
+name: 📚 Documentation
+description: Create a report to help us improve our documentation 📖.
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: documentation
+    attributes:
+      label: Documentation Issue or Improvement
+      description: Please describe the issue or improvement related to the documentation.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Qiskit/qiskit-tutorials/blob/master/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
