@@ -64,6 +64,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.extlinks',
     'nbsphinx',
+    "qiskit_sphinx_theme",
 ]
 html_static_path = ['_static']
 templates_path = ['_templates']
@@ -141,7 +142,6 @@ add_module_names = False
 html_theme = 'qiskit_sphinx_theme'  # use the theme in subdir 'theme'
 
 html_logo = 'images/logo.png'
-#html_sidebars = {'**': ['globaltoc.html']}
 html_last_updated_fmt = '%Y/%m/%d'
 
 html_theme_options = {
