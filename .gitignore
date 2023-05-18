@@ -21,3 +21,4 @@ __pycache__/
 .stestr/
 
 _build/
+.tox/
