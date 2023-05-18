@@ -13,7 +13,7 @@ pool:
   vmImage: 'ubuntu-latest'
 strategy:
   matrix:
-    Python38:
+    Python39:
       python.version: '3.9'
 variables:
   PIP_CACHE_DIR: $(Pipeline.Workspace)/.pip
