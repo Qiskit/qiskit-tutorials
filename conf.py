@@ -36,7 +36,6 @@ extensions = [
     "qiskit_sphinx_theme",
 ]
 html_static_path = ['_static']
-templates_path = ['_templates']
 
 exclude_patterns = ['*.ipynb', '_build', 'legacy_tutorials',
                     '**.ipynb_checkpoints', '.tox']
