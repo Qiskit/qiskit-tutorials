@@ -6,16 +6,24 @@
 
 | previous location | new location | tracking issue/PR |
 | --------  | -------- |  -------- |
-|  [qiskit intro](https://github.com/Qiskit/qiskit-metapackage/blob/master/docs/intro_tutorial1.rst) <br/> [circuit basics](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits/01_circuit_basics.ipynb) <br/> [getting started with qiskit](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits/1_getting_started_with_qiskit.ipynb) | TBD | https://github.com/Qiskit/qiskit-terra/issues/10315 |
+|  [Circuit Basics](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits/01_circuit_basics.ipynb) <br/> [Getting started with Qiskit](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits/1_getting_started_with_qiskit.ipynb) | TBD | https://github.com/Qiskit/qiskit-terra/issues/10315 |
 | [Qiskit Visualizations](https://qiskit.org/documentation/tutorials/circuits/2_plotting_data_in_qiskit.html) | https://qiskit.org/documentation/apidoc/visualization.html | https://github.com/Qiskit/qiskit-terra/issues/8567 |
 | [Summary of Quantum Operations](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits/3_summary_of_quantum_operations.ipynb) | https://qiskit.org/documentation/apidoc/circuit_library.html | https://github.com/Qiskit/qiskit-terra/pull/7354 |
 | [Advanced Circuits](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/01_advanced_circuits.ipynb) | | |
 | [Advanced Circuits - Operators](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/02_operators_overview.ipynb) | | |
 | [Advanced Circuits - Visualization](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/03_advanced_circuit_visualization.ipynb) | TBD | https://github.com/Qiskit/qiskit-terra/pull/8624 |
 | [Advanced Circuits - Transpiler](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/04_transpiler_passes_and_passmanager.ipynb) |  | |
-| [Advanced Circuits - Pulse gates](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/05_pulse_gates.ipynb) | move as is | |
-| [Advanced Circuits - Obtaining information about backend](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/08_gathering_system_information.ipynb) | move as is | |
-
+| [Advanced Circuits - Pulse gates](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/05_pulse_gates.ipynb) |  | |
+| [Advanced Circuits - Building Pulse Schedules](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/06_building_pulse_schedules.ipynb) |  | |
+| [Advanced Circuits - Using the Scheduler](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/07_pulse_scheduler.ipynb) |  | |
+| [Advanced Circuits - Obtaining information about backend](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/08_gathering_system_information.ipynb) |  | |
+|  [Simulators](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/simulators/1_aer_provider.ipynb) | https://github.com/Qiskit/qiskit-aer/blob/main/docs/tutorials/1_aer_provider.ipynb | https://github.com/Qiskit/qiskit-aer/pull/1768 |
+|  [Device backend noise model simulations](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/simulators/2_device_noise_simulation.ipynb) | https://github.com/Qiskit/qiskit-aer/blob/main/docs/tutorials/2_device_noise_simulation.ipynb | https://github.com/Qiskit/qiskit-aer/pull/1768 |
+|  [Building Noise Models](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/simulators/3_building_noise_models.ipynb) | https://github.com/Qiskit/qiskit-aer/blob/main/docs/tutorials/3_building_noise_models.ipynb | https://github.com/Qiskit/qiskit-aer/pull/1768 |
+|  [Applying noise to custom unitary gates](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/simulators/4_custom_gate_noise.ipynb) | https://github.com/Qiskit/qiskit-aer/blob/main/docs/tutorials/4_custom_gate_noise.ipynb | https://github.com/Qiskit/qiskit-aer/pull/1768 |
+|  [Noise Transformation](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/simulators/5_noise_transformation.ipynb) | https://github.com/Qiskit/qiskit-aer/blob/main/docs/tutorials/5_noise_transformation.ipynb | https://github.com/Qiskit/qiskit-aer/pull/1768 |
+|  [Extended Stabilizer Simulator](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/simulators/6_extended_stabilizer_tutorial.ipynb) | https://github.com/Qiskit/qiskit-aer/blob/main/docs/tutorials/6_extended_stabilizer_tutorial.ipynb | https://github.com/Qiskit/qiskit-aer/pull/1768 |
+|  [Matrix product state simulation method](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/simulators/7_matrix_product_state_method.ipynb) | https://github.com/Qiskit/qiskit-aer/blob/main/docs/tutorials/7_matrix_product_state_method.ipynb | https://github.com/Qiskit/qiskit-aer/pull/1768 |
 
 
 ## Contents
