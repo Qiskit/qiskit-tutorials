@@ -11,7 +11,6 @@ Qiskit Tutorials
   High-Performance Simulators <tutorials/simulators/index.rst>
   Algorithms <tutorials/algorithms/index.rst>
   Operators <tutorials/operators/index.rst>
-  Textbook algorithms <tutorials/textbook/index.rst>
 
 .. Hiding - Indices and tables
    :ref:`genindex`
