@@ -2,9 +2,20 @@
 
 [![License](https://img.shields.io/github/license/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)
 
-These tutorials are rendered as part of the:
+> :warning: **This repository will be soon archived**: The content in this repository [is being moved to other locations](https://github.com/Qiskit/qiskit-tutorials/issues/1473). If you have issues or PR, consider submitting the to their new location. 
 
-### [>>Qiskit Documentation<<](https://qiskit.org/documentation/)
+| previous location | new location | tracking issue/PR |
+| --------  | -------- |  -------- |
+|  [qiskit intro](https://github.com/Qiskit/qiskit-metapackage/blob/master/docs/intro_tutorial1.rst) <br/> [circuit basics](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits/01_circuit_basics.ipynb) <br/> [getting started with qiskit](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits/1_getting_started_with_qiskit.ipynb) | TBD | https://github.com/Qiskit/qiskit-terra/issues/10315 |
+| [Qiskit Visualizations](https://qiskit.org/documentation/tutorials/circuits/2_plotting_data_in_qiskit.html) | https://qiskit.org/documentation/apidoc/visualization.html | https://github.com/Qiskit/qiskit-terra/issues/8567 |
+| [Summary of Quantum Operations](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits/3_summary_of_quantum_operations.ipynb) | https://qiskit.org/documentation/apidoc/circuit_library.html | https://github.com/Qiskit/qiskit-terra/pull/7354 |
+| [Advanced Circuits](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/01_advanced_circuits.ipynb) | | |
+| [Advanced Circuits - Operators](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/02_operators_overview.ipynb) | | |
+| [Advanced Circuits - Visualization](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/03_advanced_circuit_visualization.ipynb) | TBD | https://github.com/Qiskit/qiskit-terra/pull/8624 |
+| [Advanced Circuits - Transpiler](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/04_transpiler_passes_and_passmanager.ipynb) |  | |
+| [Advanced Circuits - Pulse gates](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/05_pulse_gates.ipynb) | move as is | |
+| [Advanced Circuits - Obtaining information about backend](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits_advanced/08_gathering_system_information.ipynb) | move as is | |
+
 
 
 ## Contents
