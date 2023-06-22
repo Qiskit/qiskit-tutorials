@@ -24,7 +24,7 @@
 |  [Noise Transformation](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/simulators/5_noise_transformation.ipynb) | https://github.com/Qiskit/qiskit-aer/blob/main/docs/tutorials/5_noise_transformation.ipynb | https://github.com/Qiskit/qiskit-aer/pull/1768 |
 |  [Extended Stabilizer Simulator](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/simulators/6_extended_stabilizer_tutorial.ipynb) | https://github.com/Qiskit/qiskit-aer/blob/main/docs/tutorials/6_extended_stabilizer_tutorial.ipynb | https://github.com/Qiskit/qiskit-aer/pull/1768 |
 |  [Matrix product state simulation method](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/simulators/7_matrix_product_state_method.ipynb) | https://github.com/Qiskit/qiskit-aer/blob/main/docs/tutorials/7_matrix_product_state_method.ipynb | https://github.com/Qiskit/qiskit-aer/pull/1768 |
-
+| [An Introduction to Algorithms in Qiskit](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/algorithms/01_algorithms_introduction.ipynb) | | |
 
 ## Contents
 
