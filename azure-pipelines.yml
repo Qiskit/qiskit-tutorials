@@ -13,8 +13,8 @@ pool:
   vmImage: 'ubuntu-latest'
 strategy:
   matrix:
-    Python38:
-      python.version: '3.7'
+    Python39:
+      python.version: '3.9'
 variables:
   PIP_CACHE_DIR: $(Pipeline.Workspace)/.pip
 steps:
@@ -33,19 +33,10 @@ steps:
   displayName: Cache pip
 - bash: |
     set -e
-    python -m pip install --upgrade pip setuptools wheel virtualenv
-    virtualenv /tmp/docs_build
-    source /tmp/docs_build/bin/activate
-    pip install -c constraints.txt -U qiskit jupyter sphinx nbsphinx sphinx_rtd_theme networkx scikit-learn
-    pip install -c constraints.txt 'matplotlib<3.3'
-    pip install -c constraints.txt -U qiskit[visualization] cvxpy
-    pip install -c constraints.txt pyscf
     sudo apt-get install -y pandoc graphviz
-  displayName: 'Install dependencies'
-- bash: |
-    set -e
-    source /tmp/docs_build/bin/activate
-    sphinx-build -b html . _build/html
+    python -m pip install -U tox
+  displayName: 'Install system dependencies and tox'
+- bash: tox -e docs
   displayName: 'Build Docs'
 - task: ArchiveFiles@2
   inputs:

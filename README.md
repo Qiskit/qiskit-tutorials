@@ -54,21 +54,21 @@ Because the tutorials are executed as part of the build process, and eventually 
 
 To add a gallery image to a notebook, select a cell with an output image and add `nbsphinx-thumbnail` as a cell tag.  To see the cell tags go to: `View -> Cell Toolbar -> Tags` in the notebook menu.  Adding gallery images from images not generated inside of the notebooks themselves should be avoided if possible as this gets messy in the present build system.
 
-
 ## Building documentation
 
-In addition to serving up standalone notebooks, this repository also includes the infrastructure needed to build the tutorials into HTML documentation using [Sphinx](https://www.sphinx-doc.org/).  Along with the Qiskit dependencies, building the documentation requires the following:
+In addition to serving up standalone notebooks, this repository also includes the infrastructure needed to build the tutorials into HTML documentation using [Sphinx](https://www.sphinx-doc.org/).
 
-```bash
-pip install Sphinx
-pip install sphinx-rtd-theme
-pip install nbsphinx
-```
+We use [Tox](https://tox.wiki/en/latest/), which you will need to install globally (e.g. using [`pipx`](https://pypa.github.io/pipx/)).
+
+1. Fork and clone the forked repository.
+2. `tox -e docs`
+
+Sometimes Sphinx's caching can get in a bad state. First, try running `tox -e docs-clean`, which will remove Sphinx's cache. If you are still having issues, try running `tox -e docs -r`. `-r` tells Tox to reinstall the dependencies.
 
 ## Authors and Citation
 
 Qiskit Tutorials is the work of [many people](https://github.com/Qiskit/qiskit-tutorials/graphs/contributors) who contribute to the project at different levels. If you use Qiskit, please cite as per the included [BibTeX
-file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
+file](https://github.com/Qiskit/qiskit-terra/blob/main/CITATION.bib).
 
 ## License
 
