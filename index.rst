@@ -2,15 +2,45 @@
 Qiskit Tutorials
 ================
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Tutorials
+Quantum circuits
+================
 
-  Circuits <tutorials/circuits/index.rst>
-  Advanced Circuits <tutorials/circuits_advanced/index.rst>
-  High-Performance Simulators <tutorials/simulators/index.rst>
-  Algorithms <tutorials/algorithms/index.rst>
-  Operators <tutorials/operators/index.rst>
+.. nbgallery::
+   :glob:
+
+   tutorials/circuits/*
+
+Advanced circuits
+=================
+
+.. nbgallery::
+   :glob:
+
+   tutorials/circuits_advanced/*
+
+Classical simulators
+====================
+
+.. nbgallery::
+   :glob:
+
+   tutorials/simulators/*
+
+Algorithms
+==========
+
+.. nbgallery::
+   :glob:
+
+   tutorials/algorithms/*
+
+Operators
+=========
+
+.. nbgallery::
+   :glob:
+
+   tutorials/operators/*
 
 .. Hiding - Indices and tables
    :ref:`genindex`
