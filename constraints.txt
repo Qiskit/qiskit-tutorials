@@ -1,3 +1,2 @@
 docplex==2.15.194
-cvxpy<1.1.8
 decorator==4.4.2
