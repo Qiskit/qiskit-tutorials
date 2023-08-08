@@ -7,5 +7,6 @@ networkx
 scikit-learn
 matplotlib
 qiskit[visualization]
+qiskit_aer
 cvxpy
 pyscf
