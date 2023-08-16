@@ -1,0 +1,60 @@
+name: 🐛Bug Report
+description: Create a report to help us improve 🤔.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ If you do not respect this template, your issue will be closed
+        ⚠️ Make sure to browse the opened and closed issues before submitting your issue
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What is the current behavior?
+      description: Please describe the current behavior.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Information
+      description: |
+        examples:
+          - **Qiskit version**: 0.36.2
+          - **Python version**: 3.10.10
+          - **Operating system**: Ubuntu 20.04
+      value: |
+          - Qiskit version:
+          - Python version:
+          - Operating System:
+      render: Markdown
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce the problem
+      description: Please provide the steps to reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: exptected
+    attributes:
+      label: What is the expected behavior?
+      description: Please describe the expected behavior.
+    validations:
+      required: false
+  - type: textarea
+    id: solutions
+    attributes:
+      label: Suggested solutions
+      description: Please provide any suggested solutions, if possible.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Qiskit/qiskit-tutorials/blob/master/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
