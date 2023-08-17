@@ -2,10 +2,13 @@
 
 [![License](https://img.shields.io/github/license/Qiskit/qiskit-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)
 
-These tutorials are rendered as part of the:
+> :warning: **This repository will be soon archived**: The content in this repository [is being moved to other locations](https://github.com/Qiskit/qiskit-tutorials/issues/1473). If you have issues or PR, please submit them to their new location. 
 
-### [>>Qiskit Documentation<<](https://qiskit.org/documentation/)
-
+* `algorithms` folder -> [`qiskit-algorithms`](https://qiskit.org/ecosystem/algorithms/tutorials/index.html) ([GitHub](https://github.com/qiskit-community/qiskit-algorithms/tree/main/docs/tutorials))
+* `circuits` folder -> [Qiskit](https://qiskit.org/documentation/tutorials.html) ([GitHub](https://github.com/Qiskit/qiskit-terra/tree/main/docs/tutorials/circuits))
+* `circuits_advanced` folder -> [Qiskit](https://qiskit.org/documentation/tutorials.html) ([GitHub](https://github.com/Qiskit/qiskit-terra/tree/main/docs/tutorials/circuits_advanced))
+* `simulators` folder -> [`qiskit-aer`](https://qiskit.org/ecosystem/aer/tutorials/index.html) ([GitHub](https://github.com/qiskit/qiskit-aer/tree/main/docs/tutorials))
+* `textbook` folder -> removed in favor of https://www.qiskit.org/learn
 
 ## Contents
 
