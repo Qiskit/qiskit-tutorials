@@ -1,0 +1,12 @@
+qiskit>=0.38.0
+jupyter
+sphinx
+nbsphinx
+qiskit_sphinx_theme
+networkx
+scikit-learn
+matplotlib
+qiskit[visualization]
+qiskit_aer
+cvxpy
+pyscf
